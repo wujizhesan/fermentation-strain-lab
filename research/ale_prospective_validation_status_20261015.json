@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "recorded_at_utc": "2026-10-15T02:54:10Z",
+  "status": "preparation_only_blocked",
+  "strict_external_validation_allowed": false,
+  "new_model_fit": false,
+  "new_model_prediction": false,
+  "new_chemical_assay": false,
+  "wet_lab_gain_validated": false,
+  "previous_protocols_and_results_modified": false,
+  "development_task": {
+    "species": "Saccharomyces cerevisiae",
+    "product": "fumarate",
+    "target": "released endpoint titer_g_L",
+    "target_collection_time_h": null,
+    "target_time_status": "not_recorded_in_screen_endpoint_table",
+    "independent_population_groups": 3,
+    "screen_isolates": 9,
+    "features": [
+      "initial_od600",
+      "log_early_od_fold"
+    ],
+    "early_cutoff_h": 18.0,
+    "ridge_penalty": 1.0,
+    "preprocessing": "development-data mean and population standard deviation (ddof=0); replace constant scale with 1"
+  },
+  "internal_grouped_replay": {
+    "fixed_ridge_expected_selected_titer_g_L": 0.11076665426284699,
+    "uniform_random_expected_selected_titer_g_L": 0.13797251667950813,
+    "fixed_ridge_top1_hit_probability": 0.0,
+    "uniform_random_top1_hit_probability": 0.3333333333333333,
+    "independent_groups": 3,
+    "interpretation": "exploratory internal replay; fixed ridge did not outperform random expectation"
+  },
+  "blockers": [
+    {
+      "id": "source_endpoint_time",
+      "state": "unresolved",
+      "detail": "The source isolate endpoint table does not report the collection time for each titer label; do not infer it from the OD trajectory."
+    },
+    {
+      "id": "eligible_external_cohort",
+      "state": "not_found_in_current_candidate_set",
+      "detail": "Previously replayed public panels use different organisms/products or different features and are not a strict test of the locked original model."
+    },
+    {
+      "id": "strain_stock_and_assay_capacity",
+      "state": "not_confirmed",
+      "detail": "Availability of the corresponding parental strain, HPLC/UPLC capacity and prospective culture capacity has not been documented."
+    },
+    {
+      "id": "confirmatory_power_and_minimum_effect",
+      "state": "not_set",
+      "detail": "Requires pilot estimates of biological variance, assay precision and a predeclared practically meaningful titer gain."
+    }
+  ],
+  "next_gates": [
+    "Verify the source endpoint collection time and culture/assay definition from the primary source or authors.",
+    "If endpoint semantics cannot be resolved, define a new fixed-time target and a new model protocol; do not call it validation of the original model.",
+    "Freeze an all-development-data ridge artifact and hashes before opening any external endpoint labels.",
+    "Run a powered independent-lineage validation and blinded, independent-culture retest against parent and random-selection controls."
+  ],
+  "artifacts": {
+    "plan": "research/ale_prospective_validation_plan_20261015.md",
+    "candidate_template": "research/templates/ale_prospective_candidates.csv",
+    "measurement_template": "research/templates/ale_prospective_measurements.csv",
+    "omics_link_template": "research/templates/ale_prospective_omics_links.csv",
+    "source_audit": "research/results/ale_chassis_audit/report.json",
+    "internal_model_replay": "research/results/ale_lineage_screen_v1/report.json"
+  }
+}

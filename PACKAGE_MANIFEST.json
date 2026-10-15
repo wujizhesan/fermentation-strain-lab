@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "version": "0.1.0",
+  "version": "0.1.1",
   "mode": "source",
   "files": {
     ".github/workflows/ci.yml": {
@@ -10,22 +10,6 @@
     ".gitignore": {
       "bytes": 1596,
       "sha256": "5a6711e14f0a72b02bd42551b9b2c4007485705a25c9a1cef1180cf6600b9cf9"
-    },
-    "README.md": {
-      "bytes": 6845,
-      "sha256": "55dc38d9784a90155a206932d5ec4d6052670a2f23c9a01cf92a87aad35dfdc1"
-    },
-    "RELEASE_SOURCES.json": {
-      "bytes": 10497,
-      "sha256": "7df1a31eb4dfa7738193af9cc7f84d2127d2119ea0f22f725a69c9f3961c065a"
-    },
-    "THIRD_PARTY.md": {
-      "bytes": 1900,
-      "sha256": "4a4d2b1d8b4815bf470bab0825ff327999ea5f4ac94fb9f818712ea13294e394"
-    },
-    "VALIDATION.json": {
-      "bytes": 3982,
-      "sha256": "c4c0fa8ff27cff1698cd05785ec0f793db1c1b6f8e74813f51dd26e195cc65ac"
     },
     "ale_lineage_screen.py": {
       "bytes": 12609,
@@ -127,6 +111,14 @@
       "bytes": 27759,
       "sha256": "d1f780ea47b3c2892bc24807f5e67fe5a5afe94e67e4709c16ed242ae600c752"
     },
+    "README.md": {
+      "bytes": 7289,
+      "sha256": "333b6d7af8471a9ad4285afe503b161fc5fd8e68f81441ec77b4e5eb330e281b"
+    },
+    "RELEASE_SOURCES.json": {
+      "bytes": 10497,
+      "sha256": "eb8d83628f31ae7c74cb1c1a893c8df429774d264f719cafd7aeb60321594362"
+    },
     "requirements-ambr.txt": {
       "bytes": 47,
       "sha256": "cf8436e1fce2ad35ebcd95b429f32a962f8f9e7b4cb17f73ce45c63b37820baf"
@@ -166,6 +158,14 @@
     "research/ale_omics_model_protocol.json": {
       "bytes": 5845,
       "sha256": "5773498e0e261e7e55160c6c5ad8fe8e574dc5cfc92c4b31f5b701ef395848c5"
+    },
+    "research/ale_prospective_validation_plan_20261015.md": {
+      "bytes": 7582,
+      "sha256": "05a99bdd14d60b2be9bbb0731649f313e12a42ab0685c2b61837900811d454e4"
+    },
+    "research/ale_prospective_validation_status_20261015.json": {
+      "bytes": 3319,
+      "sha256": "0d44b10a679b5e2f44350990723a5e1b1d275c44b76f596f56baceae67d7296b"
     },
     "research/ambr_dynamic_protocol.json": {
       "bytes": 5691,
@@ -315,6 +315,10 @@
       "bytes": 617,
       "sha256": "80eb11cc8ea0c7f6a64b90059de130506d365456ce7b1c6021f7320e197eb6a2"
     },
+    "research/results/ale_marge_balancefix_v1/input_gene_ratios.csv": {
+      "bytes": 372848,
+      "sha256": "a6ba4638e939936958ab62450dc4551f72a323f742091ce48d8c7ad3eb7c7ba1"
+    },
     "research/results/ale_marge_balancefix_v1/Mz_protein_neutral_ratio/flux_ranges.csv": {
       "bytes": 615,
       "sha256": "820ecaec00e2a0f154d7b5943cd6670619e9bd7291008a01efba7dc589ed4504"
@@ -331,6 +335,18 @@
       "bytes": 630,
       "sha256": "59684bb60541cd305365173a5a1967ee0efcaa0dd29428e9a7a7b98263832b64"
     },
+    "research/results/ale_marge_balancefix_v1/report.json": {
+      "bytes": 33423,
+      "sha256": "e93f5a3e9a376205bdd72408a62fccaf53d98ecead88eb49c1eca7c068eeaf36"
+    },
+    "research/results/ale_marge_balancefix_v1/source_audit.json": {
+      "bytes": 815,
+      "sha256": "2b9c737af5742ce99b38789fdf6f5e2db6d804fddfd4be1f98d08d3f68b411d1"
+    },
+    "research/results/ale_marge_balancefix_v1/strict_reproduction_status.json": {
+      "bytes": 750,
+      "sha256": "5dbaf57ec261810ff606badc09e2fee5468f69106a6f82eca791fd8ad0d1bd7b"
+    },
     "research/results/ale_marge_balancefix_v1/Sz_protein_neutral_ratio/flux_ranges.csv": {
       "bytes": 586,
       "sha256": "9ddd4226343ec4bc31f16483ffd8fa9689b2c7e7d63d39c5a9d8952b2c1f856a"
@@ -346,22 +362,6 @@
     "research/results/ale_marge_balancefix_v1/Sz_rna_released_ratio/flux_ranges.csv": {
       "bytes": 615,
       "sha256": "c214253c7b2e5f071a833bdaa2699fc8ccaa9e1dd59f7b6d5d27119f8d084845"
-    },
-    "research/results/ale_marge_balancefix_v1/input_gene_ratios.csv": {
-      "bytes": 372848,
-      "sha256": "a6ba4638e939936958ab62450dc4551f72a323f742091ce48d8c7ad3eb7c7ba1"
-    },
-    "research/results/ale_marge_balancefix_v1/report.json": {
-      "bytes": 33423,
-      "sha256": "e93f5a3e9a376205bdd72408a62fccaf53d98ecead88eb49c1eca7c068eeaf36"
-    },
-    "research/results/ale_marge_balancefix_v1/source_audit.json": {
-      "bytes": 815,
-      "sha256": "2b9c737af5742ce99b38789fdf6f5e2db6d804fddfd4be1f98d08d3f68b411d1"
-    },
-    "research/results/ale_marge_balancefix_v1/strict_reproduction_status.json": {
-      "bytes": 750,
-      "sha256": "5dbaf57ec261810ff606badc09e2fee5468f69106a6f82eca791fd8ad0d1bd7b"
     },
     "research/results/ale_marge_balancefix_v1/verification.json": {
       "bytes": 6343,
@@ -383,6 +383,10 @@
       "bytes": 637,
       "sha256": "4a0dc55d0578c702adc14936bd335c0da45f6b9c0381b18802843ce9d80eabc0"
     },
+    "research/results/ale_marge_demo_v1/input_gene_ratios.csv": {
+      "bytes": 372848,
+      "sha256": "a6ba4638e939936958ab62450dc4551f72a323f742091ce48d8c7ad3eb7c7ba1"
+    },
     "research/results/ale_marge_demo_v1/Mz_protein_neutral_ratio/flux_ranges.csv": {
       "bytes": 625,
       "sha256": "61ee1b443c6116a9128042decd4d2f23b8ca5ee2eacaa87ec0342bdbc663f1a6"
@@ -399,6 +403,18 @@
       "bytes": 627,
       "sha256": "de16cb45bce11b5dd94a266eac6a3c4c1ed5ef1d469358866ab007a8c8c13189"
     },
+    "research/results/ale_marge_demo_v1/report.json": {
+      "bytes": 33431,
+      "sha256": "cc80bc5347256ad85f9b90576283484489ffce703364b1cbadd1aa798b913a03"
+    },
+    "research/results/ale_marge_demo_v1/source_audit.json": {
+      "bytes": 815,
+      "sha256": "2b9c737af5742ce99b38789fdf6f5e2db6d804fddfd4be1f98d08d3f68b411d1"
+    },
+    "research/results/ale_marge_demo_v1/strict_reproduction_status.json": {
+      "bytes": 750,
+      "sha256": "5dbaf57ec261810ff606badc09e2fee5468f69106a6f82eca791fd8ad0d1bd7b"
+    },
     "research/results/ale_marge_demo_v1/Sz_protein_neutral_ratio/flux_ranges.csv": {
       "bytes": 626,
       "sha256": "2086e119ac2b6c5efecfe94954d99e7c9fdd198f71876d67cd0aae94f70c3871"
@@ -414,22 +430,6 @@
     "research/results/ale_marge_demo_v1/Sz_rna_released_ratio/flux_ranges.csv": {
       "bytes": 616,
       "sha256": "c91a31a4cb3fab24558b991a03d93360c2eb66abf836e7302a3e2a1a1fd8eaaf"
-    },
-    "research/results/ale_marge_demo_v1/input_gene_ratios.csv": {
-      "bytes": 372848,
-      "sha256": "a6ba4638e939936958ab62450dc4551f72a323f742091ce48d8c7ad3eb7c7ba1"
-    },
-    "research/results/ale_marge_demo_v1/report.json": {
-      "bytes": 33431,
-      "sha256": "cc80bc5347256ad85f9b90576283484489ffce703364b1cbadd1aa798b913a03"
-    },
-    "research/results/ale_marge_demo_v1/source_audit.json": {
-      "bytes": 815,
-      "sha256": "2b9c737af5742ce99b38789fdf6f5e2db6d804fddfd4be1f98d08d3f68b411d1"
-    },
-    "research/results/ale_marge_demo_v1/strict_reproduction_status.json": {
-      "bytes": 750,
-      "sha256": "5dbaf57ec261810ff606badc09e2fee5468f69106a6f82eca791fd8ad0d1bd7b"
     },
     "research/results/ale_marge_demo_v1/verification.json": {
       "bytes": 5811,
@@ -511,6 +511,18 @@
       "bytes": 2914,
       "sha256": "28256ec81755029734d7e3ddbb6b0f748d9edf5add462ba1d9d2cef47639981b"
     },
+    "research/templates/ale_prospective_candidates.csv": {
+      "bytes": 193,
+      "sha256": "ec33f7ab9b4476da75b738283d0a6034b4b7fd6ef402686f805fc438c47a2036"
+    },
+    "research/templates/ale_prospective_measurements.csv": {
+      "bytes": 236,
+      "sha256": "e556615608eba507c09f02e56012f478d632058c9b67d99c8edb3f10d49b68c5"
+    },
+    "research/templates/ale_prospective_omics_links.csv": {
+      "bytes": 206,
+      "sha256": "a86bad497d6bae031941d49fd76861c823e546d0450a33cb57357cb6501c9216"
+    },
     "run_marge_demo.py": {
       "bytes": 5464,
       "sha256": "8b3a195ec3cc650f9edf6a7002b4886fd2d250eeb24ce4b5481ab450cad83c50"
@@ -534,6 +546,10 @@
     "tests/test_project_entry.py": {
       "bytes": 7767,
       "sha256": "999222d0176e78604a6ab3773712040e565bee106253fb7015c95dc3692f7552"
+    },
+    "THIRD_PARTY.md": {
+      "bytes": 1900,
+      "sha256": "4a4d2b1d8b4815bf470bab0825ff327999ea5f4ac94fb9f818712ea13294e394"
     },
     "verify_ale_lineage_screen.py": {
       "bytes": 8976,
