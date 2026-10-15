@@ -53,14 +53,14 @@
     "research/ale_endpoint_time_recovery_20261015.csv"
   ],
   "github_actions": {
-    "status": "pending",
+    "status": "completed_success",
     "workflow": "research-prototype",
-    "run_id": null,
-    "run_url": null,
-    "validated_commit": null,
+    "run_id": 38675978334,
+    "run_url": "https://github.com/wujizhesan/fermentation-strain-lab/actions/runs/38675978334",
+    "validated_commit": "95318b29e41ad7f4811916f07b48c33255b74659",
     "jobs": {
-      "windows-latest": "pending",
-      "ubuntu-latest": "pending"
+      "windows-latest": "success",
+      "ubuntu-latest": "success"
     }
   },
   "scientific_scope": {
