@@ -1,0 +1,17 @@
+{
+  "article_url": "https://link.springer.com/article/10.15252/msb.202110253",
+  "author_repository_commit": "ca00a264a604efb610ddf544cd4c321b2c2df072",
+  "repository_marge_or_python_files_found": 0,
+  "pride_project": "PXD020611",
+  "pride_files_listed": 82,
+  "pride_processed_protein_tables_available": 3,
+  "pride_differential_q_tables_identified": 0,
+  "pride_metadata_unresolved_labels": [
+    "11D",
+    "Chssis_Mz"
+  ],
+  "appendix_growth_table": "Appendix S10, PDF page15, shake-flask means; batch-fermenter rows excluded",
+  "latest_prepublication_release": "1.2.1, 2021-04-19; exact author version unconfirmed",
+  "concept_doi_resolves_to": "1.5.0, 2023-11-08",
+  "upstream_marge_formulation": "continuous LP with GPR transformation; gene-use pseudo-flux is not protein concentration"
+}

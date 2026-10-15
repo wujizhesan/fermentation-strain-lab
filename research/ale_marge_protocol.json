@@ -1,0 +1,159 @@
+{
+  "version": "1.0",
+  "reframed_version": "1.2.1",
+  "reframed_commit": "a26051a254baef521086c435db1ac2231e22d3c1",
+  "upstream_module_sha256": {
+    "cobra/transcriptomics.py": "6de5463799f639c8db57501f34a5af63f340e9118cf79cf97515a3204311e1e2",
+    "core/transformation.py": "2b743707fbec937c8c25b5a8a4d1f10a13aca3ecda7d5e572dc86ff54bec14d9",
+    "solvers/optlang_solver.py": "55e4ab05a47a80d9c1ef8aeb37a1b2f0a1795f1342f193ac4cf3baf0de1e60c1",
+    "io/sbml.py": "16a9325a1e9b6b7f11ea7b66e3a5a780017cb3c930559e099f3b8792e8685caa"
+  },
+  "input_sha256": {
+    "data/raw/ale_chassis_2021/all_supplementary.zip": "4ec7524cd956928f371e9e8e6384e1060e1ab4be8d533f0d1703525f17112156",
+    "data/raw/ale_chassis_2021/RNA_study.json": "dc00168bce2f7bd3832072a74c6c563195868ccf1cd13b01b446294463a522f7",
+    "data/raw/ale_chassis_2021/author/data/models/iMM904_peroxisome_fbc2.xml": "68c2e6de806af9123c27a32585c8b72282f4ab8fb02a6679664c30431c9ef0cd",
+    "data/raw/ale_chassis_2021/author/data/models/iMM904_peroxisome_gpd1-updated_fbc2.xml": "5a2d4fad9849e3fd6f89055e97834560e2280e837d85fbaecbbc54848ddee116",
+    "data/raw/ale_omics_model_20261012/GIDS.csv": "d9736060d1b2e37bcf8a8a1dca0a3bbc89a1e8b4677b451953a5171849f04bae",
+    "data/raw/ale_omics_model_20261012/sgd.tsv": "32586247249690e9051b8dec9de264388c3ef59981ac6527038abafda80bf568",
+    "data/raw/ale_omics_model_20261012/Saccharomyces_cerevisiae_cen_pk113_7d_gca_000269885.ASM26988v1.52.gff3.gz": "2dbdad90828b45b5ee4a2fbb443a286dceb0b108a010b3d616cdd7459922cdcf",
+    "research/ale_omics_model_protocol.json": "5773498e0e261e7e55160c6c5ad8fe8e574dc5cfc92c4b31f5b701ef395848c5",
+    "research/results/ale_omics_model_v1/abundance_contrasts.csv": "c9d422eb1412c8ebf84c9c04a96ec4f4892c5500d283bad9f9080452afbe033a",
+    "research/results/ale_omics_model_v1/feature_mapping.csv": "7cc64779bfda6b6b6fbc4f11079436ea0f7a4e91be118748db034b24df53baf2",
+    "data/raw/ale_candidates_20261010/yeastchassis_tree.json": "9feddf5c8abb41681cf2e2bf3bb195e35be6244518dd986f83afc45e93fe5dd7",
+    "data/raw/ale_marge_20261012/MSB-17-e10253-s002.pdf": "4fe3278607167ffe499b64e6fb4dd557208a5f1ab3408f67fda255e93294163f",
+    "data/raw/ale_marge_20261012/pride_files.json": "6e1966369a592ddf75afacf924ce9c1e67b41ee98cf3b7689eaeeeacec08cd71",
+    "data/raw/ale_marge_20261012/metadata_Filipa.csv": "700adfb6998a7b2a23a3c363253c54bf06484ed0cc60eb23aa592ac9b85d054d",
+    "data/raw/ale_marge_20261012/zenodo_versions.json": "c697ab5b09c8111089ed372969b07311218bc56313c98769a86862f20c35e619"
+  },
+  "model_path": "data/raw/ale_chassis_2021/author/data/models/iMM904_peroxisome_gpd1-updated_fbc2.xml",
+  "gene_name_table": "data/raw/ale_omics_model_20261012/GIDS.csv",
+  "abundance_path": "research/results/ale_omics_model_v1/abundance_contrasts.csv",
+  "designs": [
+    "F",
+    "Sz",
+    "Mz"
+  ],
+  "layers": [
+    "protein",
+    "rna"
+  ],
+  "modes": [
+    "released_ratio",
+    "neutral_ratio"
+  ],
+  "knockouts": {
+    "F": [
+      "SER3",
+      "SER33",
+      "FUM1"
+    ],
+    "Sz": [
+      "SER3",
+      "SER33",
+      "ZWF1",
+      "SDH3"
+    ],
+    "Mz": [
+      "SER3",
+      "SER33",
+      "ZWF1",
+      "MAE1",
+      "MDH1",
+      "MDH2"
+    ]
+  },
+  "growth_rates_h_inverse": {
+    "WT": 0.332,
+    "F": {
+      "parental": 0.039,
+      "evolved": 0.182
+    },
+    "Sz": {
+      "parental": 0.024,
+      "evolved": 0.147
+    },
+    "Mz": {
+      "parental": 0.088,
+      "evolved": 0.127
+    }
+  },
+  "growth_fraction_rule": "published shake-flask mu divided by WT0.332, then multiplied by condition-specific model maximum; explicit demo interpretation, not confirmed author fit",
+  "parental_glycine_uptake_cap": 1.0,
+  "evolved_glycine_uptake_cap": 0.0,
+  "glucose_uptake_cap": 1.15,
+  "source_atpm_bounds": [
+    1,
+    1
+  ],
+  "source_fumarate_exchange": "open",
+  "step2_relax": 0.1,
+  "proteome_balance_override": {
+    "expected": true,
+    "row_ids": ["proteome_a", "proteome_b"],
+    "expected_terms_per_row": 1,
+    "expected_single_term": ["proteome_synth_a", "proteome_synth_b"],
+    "gene_usage_mass_balance_rows": "G_<gene>_a and G_<gene>_b remain balanced",
+    "consequence": "proteome_synth is decoupled from gene usage, the reference proteome ceilings never bind and the stage2 objective collapses to zero"
+  },
+  "tracked_reactions": {
+    "F": [
+      "R_MDHp",
+      "R_G3PD1irp",
+      "R_AGTi",
+      "R_THRAi",
+      "R_EX_fum_e_"
+    ],
+    "Sz": [
+      "R_MDHp",
+      "R_G3PD1irp",
+      "R_AGTi",
+      "R_THRAi",
+      "R_EX_succ_e_"
+    ],
+    "Mz": [
+      "R_MDHp",
+      "R_G3PD1irp",
+      "R_AGTi",
+      "R_THRAi",
+      "R_EX_mal_L_e_"
+    ]
+  },
+  "missing_paper_inputs": [
+    "original q<0.1 RNA differential lists and coefficients for all paper contrasts",
+    "original q<0.1 protein differential lists and coefficients",
+    "exact RNA/protein fusion rule for the MARGE relative-expression dictionary",
+    "extracellular constraint conversion to uptake/secretion bounds",
+    "exact fitted growth_frac values, software version and invocation scripts; Fig2E reference flux vectors"
+  ],
+  "source_audit": {
+    "article_url": "https://link.springer.com/article/10.15252/msb.202110253",
+    "author_repository_commit": "ca00a264a604efb610ddf544cd4c321b2c2df072",
+    "repository_marge_or_python_files_found": 0,
+    "pride_project": "PXD020611",
+    "pride_files_listed": 82,
+    "pride_processed_protein_tables_available": 3,
+    "pride_differential_q_tables_identified": 0,
+    "pride_metadata_unresolved_labels": [
+      "11D",
+      "Chssis_Mz"
+    ],
+    "appendix_growth_table": "Appendix S10, PDF page15, shake-flask means; batch-fermenter rows excluded",
+    "latest_prepublication_release": "1.2.1, 2021-04-19; exact author version unconfirmed",
+    "concept_doi_resolves_to": "1.5.0, 2023-11-08",
+    "upstream_marge_formulation": "continuous LP with GPR transformation; gene-use pseudo-flux is not protein concentration"
+  },
+  "limitations": [
+    "descriptive ratios used without original q<0.1 filter; exact-paper gate closed",
+    "RNA and protein fitted separately; no arbitrary fusion",
+    "glycine cap1 is hypothetical, not inferred from 500mg/L; media differ",
+    "growth fractions are assumptions based on mu ratios; measured absolute growth not calibrated",
+    "same parental genotype used for both conditions; ALE mutations not encoded",
+    "gene usage is a stoichiometric allocation proxy without kcat or measured proteome mass",
+    "source finite bounds retained; ReFramed use_infinity=True disabled",
+    "ranges fix stage1 error cap and reaction bounds only; solution need not be unique",
+    "upstream ReFramed 1.2.1 builds the proteome pseudo-metabolite mass balance as row proteome_a/proteome_b and then adds the capacity row under the same name, which replaces the balance; gene usage therefore stays mass-balanced per gene but is decoupled from proteome_synth",
+    "consequence of that override: the reference proteome ceilings never bind, the proteome budget does not constrain fluxes, and the second-stage minimum of proteome_synth collapses to its lower bound of zero, so stage2 carries no information and fluxes are only constrained by the stage1 relaxation",
+    "wrapper rejects nonoptimal second stage despite upstream status-check bug",
+    "no experimental flux, strain gain or superiority to paper demonstrated"
+  ]
+}

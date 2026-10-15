@@ -1,0 +1,75 @@
+{
+  "protocol_sha256": "7da7eaaf87a979741db7170d2b66ab7a8a7a3c0f5907ee33af761aaf68c9adcb",
+  "input_sha256": {
+    "research/results/ale_chassis_audit/isolate_observations.csv": "c32e3be7b3f055f77784e6498471ef53b91b80db5dbcf1f6f2f1830cf54b0965",
+    "research/results/ale_chassis_audit/isolate_endpoints.csv": "f9470b866916f22debc4ac9696231087aa650ff0327a175d57e6591e3d9dca3e",
+    "research/results/ale_chassis_audit/report.json": "554d637e9fb7b2af8314ea5d831e33124a7eca9a5422ff3f659e0bdc604d054e",
+    "research/results/ale_chassis_audit/verification.json": "0d3ca8d832a4b533937be61d56cd5f4d29dde55ad6cc2a56c48a2f340c6bbf5c"
+  },
+  "species": "Saccharomyces cerevisiae",
+  "design": "F",
+  "product": "fumarate",
+  "endpoint": "released titer_g_L",
+  "isolates": 9,
+  "population_groups": 3,
+  "early_source_points_used": 27,
+  "actual_ridge_fits": 3,
+  "fold_method_comparisons": 12,
+  "test_candidate_score_rows": 36,
+  "summary": {
+    "uniform_random_expectation": {
+      "expected_selected_titer_g_L": 0.13797251667950813,
+      "fraction_of_heldout_best": 0.8878564553514727,
+      "absolute_regret_g_L": 0.027176614167126207,
+      "top1_hit_probability": 0.3333333333333333,
+      "independent_population_groups": 3
+    },
+    "early_density": {
+      "expected_selected_titer_g_L": 0.1478557030137012,
+      "fraction_of_heldout_best": 0.8987242251236408,
+      "absolute_regret_g_L": 0.01729342783293314,
+      "top1_hit_probability": 0.3333333333333333,
+      "independent_population_groups": 3
+    },
+    "early_density_fold": {
+      "expected_selected_titer_g_L": 0.137993065175988,
+      "fraction_of_heldout_best": 0.8883669198403825,
+      "absolute_regret_g_L": 0.027156065670646354,
+      "top1_hit_probability": 0.0,
+      "independent_population_groups": 3
+    },
+    "fixed_ridge": {
+      "expected_selected_titer_g_L": 0.11076665426284699,
+      "fraction_of_heldout_best": 0.7748187562844603,
+      "absolute_regret_g_L": 0.054382476583787365,
+      "top1_hit_probability": 0.0,
+      "independent_population_groups": 3,
+      "prediction_mae_g_L": 0.30317256802125203,
+      "negative_predictions": 0
+    }
+  },
+  "dataset_seen_before_protocol_lock": true,
+  "new_blind_validation": false,
+  "prospective_selection_validated": false,
+  "productivity_scored": false,
+  "omics_used_as_isolate_features": false,
+  "strain_optimization_gain_validated": false,
+  "selection_expectations_are_retrospective": true,
+  "limitations": [
+    "Only3 population clusters and selected isolates; exploratory replay, no fresh blinded test.",
+    "Endpoint collection and assay return times unknown; no productivity or yield.",
+    "Growth is manual recorded OD, not calibrated biomass or online arrival logs.",
+    "Common6 historical target labels assumed available before candidate selection; chronology unverified.",
+    "Reported isolate genotypes do not all exclude contamination; no mutation-cause claims.",
+    "No reliable same-culture link to omics or MARGE groups; no such features added.",
+    "Confidence intervals, significance, prospective assay savings and superiority to papers not established."
+  ],
+  "comparison_scope": "Within each heldout population of3; not comparable to prior global9-isolate selection ratios.",
+  "artifact_sha256": {
+    "candidate_decisions.csv": "fede0c9da2dc9dc8c603a503e4bda7bbed427b37e547b8115a25268b62af76d5",
+    "features.csv": "8329bb0c3a69acf4ed080940548ff80e7fad7544ccfa1679a8640c6e303aafcb",
+    "fitted_models.json": "6106e6d695ea8c4ce9576532ee636116a6fc358ddd9ababb3818e43c4c5f8136",
+    "lineage_metrics.csv": "142b33132b86fff01d27c87412a5e58ef875b7a3ed53fbc5e5ba091e7050ef0b",
+    "summary.json": "8263e0f1831402dbb761e908f9de8fc1eb8fd875a85107aafafc345b941375c3"
+  }
+}

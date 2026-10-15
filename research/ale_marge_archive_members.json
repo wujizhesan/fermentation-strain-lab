@@ -1,0 +1,116 @@
+{
+  "version": "1.0",
+  "reference_archive_sha256": "4ec7524cd956928f371e9e8e6384e1060e1ab4be8d533f0d1703525f17112156",
+  "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8297383/supplementaryFiles",
+  "validation": "exact outer member names and bytes; outer ZIP metadata may differ",
+  "members": {
+    "MSB-17-e10253-g001.gif": {
+      "sha256": "3fb9d04cda56a5a26dda89d70943c04f81278660a0947e6d2ec43278a64dabad",
+      "bytes": 4045
+    },
+    "MSB-17-e10253-g001.jpg": {
+      "sha256": "6f84ac0d090dec28b61ea9be29a1ddbd2cbcdb2135910e269f911b9ab3621a7b",
+      "bytes": 69692
+    },
+    "MSB-17-e10253-g002.gif": {
+      "sha256": "af6b5ea2def0605a00d9d152c474db43550c9bc0a6c0511a71c36352025d6f3c",
+      "bytes": 4780
+    },
+    "MSB-17-e10253-g002.jpg": {
+      "sha256": "47229998fc62773cc3651eab3547e9d8a24995783d23558df151028912722fc5",
+      "bytes": 108983
+    },
+    "MSB-17-e10253-g003.gif": {
+      "sha256": "768fff6be0713195a6c86df7b5cd19a5d35ea22ab0b687dc0458cf450a4840a2",
+      "bytes": 16715
+    },
+    "MSB-17-e10253-g003.jpg": {
+      "sha256": "ad61c06cae6cc174ca2adf9ffdd625f606493748c40c702115b9600987e89bce",
+      "bytes": 50305
+    },
+    "MSB-17-e10253-g005.gif": {
+      "sha256": "2b2d76505c0bed7aa96196170e50a5c1f29b4a3f9c71cbee04f1c5deceecb3ef",
+      "bytes": 14689
+    },
+    "MSB-17-e10253-g005.jpg": {
+      "sha256": "b8a5a3008b64cbd54d76a9b9711ed8ddd2852099dd2b6960a417a9e1da38297a",
+      "bytes": 100286
+    },
+    "MSB-17-e10253-g006.jpg": {
+      "sha256": "b133bb328f752bf9edd38942eae8d2c962af54788fe03b8f8b44cb91f9f5481d",
+      "bytes": 6559
+    },
+    "MSB-17-e10253-g007.gif": {
+      "sha256": "52a8ece7081576221ac259a4e9dd62fd90caf39670a4621e56ac21fb94ba72f9",
+      "bytes": 5994
+    },
+    "MSB-17-e10253-g007.jpg": {
+      "sha256": "18f50bc50a9d832319d5b256c08ca23cd6bfd4a229c1c5692626e5b5f4bbcb1b",
+      "bytes": 138655
+    },
+    "MSB-17-e10253-g008.gif": {
+      "sha256": "4e6d599a06ab4dc2501fec63fc94667bccb16721490f71e4e2d02247ec2f0512",
+      "bytes": 14612
+    },
+    "MSB-17-e10253-g008.jpg": {
+      "sha256": "66a6c255e0da4959e21eedc8df0168b29027969894b199deedf850b5a83e902f",
+      "bytes": 104367
+    },
+    "MSB-17-e10253-g009.gif": {
+      "sha256": "cfd2432e0a9d575e927f2ddec6caa3aa399757ce716eea43d28397dc52c7e669",
+      "bytes": 11761
+    },
+    "MSB-17-e10253-g009.jpg": {
+      "sha256": "168f2bc7a41e435781f6fea2378bbe83d7656ba6a88fb3e5c6434c9d7a76e653",
+      "bytes": 59249
+    },
+    "MSB-17-e10253-g010.gif": {
+      "sha256": "1ab632baa04698d070588f89408eb5847526367624f6d27cce0fe1a1f86ba275",
+      "bytes": 3479
+    },
+    "MSB-17-e10253-g010.jpg": {
+      "sha256": "6c2920331e0c47cf4659798ae49b3f129ddb3d8a949303cf2157adce361c5375",
+      "bytes": 74791
+    },
+    "MSB-17-e10253-g011.gif": {
+      "sha256": "fc57b85402e2f2a933d38d2b5becd14301223637461def416f3829f31c3a09fc",
+      "bytes": 13541
+    },
+    "MSB-17-e10253-g011.jpg": {
+      "sha256": "bb08b77a1275c6039f5f234617bc1ca633beb3f19e25bd1551527baa6a3e3e7d",
+      "bytes": 90014
+    },
+    "MSB-17-e10253-s001.zip": {
+      "sha256": "fe75eb7e2427c90a92b72fa0b5fedcd5e4eccc9dd556645c64e0cb62ff86f96d",
+      "bytes": 11325
+    },
+    "MSB-17-e10253-s002.pdf": {
+      "sha256": "4fe3278607167ffe499b64e6fb4dd557208a5f1ab3408f67fda255e93294163f",
+      "bytes": 1734819
+    },
+    "MSB-17-e10253-s003.zip": {
+      "sha256": "4bc9ff692253a6c6bce9a822dd152432b6d6b08470bda2067129763d01673eb1",
+      "bytes": 55355
+    },
+    "MSB-17-e10253-s004.zip": {
+      "sha256": "b92702092b2f3c1d1f5a4fe6f4df5c837c6c87f32ccb206c1d5547aedcaf9a40",
+      "bytes": 2524857
+    },
+    "MSB-17-e10253-s005.pdf": {
+      "sha256": "06e55583b434da71e15b37088a3b81c29cb09cac40888bcf5eb8843fe04d4ff8",
+      "bytes": 2092777
+    },
+    "MSB-17-e10253-s006.pdf": {
+      "sha256": "f8064de322470a1aaf7d6ae1295485914cfcbe339255b215cf1dcb266df5a6e3",
+      "bytes": 1438204
+    },
+    "MSB-17-e10253-s007.zip": {
+      "sha256": "8b24efa02b6ade72454748d661b0eb8e8f6277063c53687551c8163c530ce0ab",
+      "bytes": 13179
+    },
+    "MSB-17-e10253-s008.zip": {
+      "sha256": "7171501fee818bca040466471e93aae0edfb2a6e39c7a0c68537a3535faf6b1a",
+      "bytes": 11856
+    }
+  }
+}

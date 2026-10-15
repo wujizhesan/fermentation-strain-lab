@@ -1,0 +1,265 @@
+{
+  "processed_figure_matrices": {
+    "transcriptomics": {
+      "feature_rows": 5446,
+      "sample_columns": 20,
+      "sample_headers": [
+        "E_Chassis_F rep1",
+        "E_Chassis_F rep2",
+        "E_Chassis_F rep3",
+        "E_Chassis_Mz rep1",
+        "E_Chassis_Mz rep2",
+        "E_Chassis_Mz rep3",
+        "E_Chassis_Sz rep1",
+        "E_Chassis_Sz rep2",
+        "E_Chassis_Sz rep3",
+        "Chassis_F rep1",
+        "Chassis_F rep2",
+        "Chassis_F rep3",
+        "Chassis_Mz rep1",
+        "Chassis_Mz rep2",
+        "Chassis_Mz rep3",
+        "Chassis_Sz rep1",
+        "Chassis_Sz rep2",
+        "WT rep1",
+        "WT rep2",
+        "WT rep3"
+      ],
+      "not_same_as_screen_isolate_ids": true,
+      "raw_reads_or_spectra_reprocessed": false
+    },
+    "proteomics": {
+      "feature_rows": 3305,
+      "sample_columns": 21,
+      "sample_headers": [
+        "Chassis_F rep1",
+        "Chassis_F rep2",
+        "Chassis_F rep3",
+        "Chassis_Sz rep1",
+        "Chassis_Sz rep2",
+        "Chassis_Sz rep3",
+        "WT rep1",
+        "WT rep2",
+        "WT rep3",
+        "E_Chassis_F rep1",
+        "E_Chassis_F rep2",
+        "E_Chassis_F rep3",
+        "Chassis_Mz rep1",
+        "Chassis_Mz rep2",
+        "Chassis_Mz rep3",
+        "E_Chassis_Mz rep1",
+        "E_Chassis_Mz rep2",
+        "E_Chassis_Mz rep3",
+        "E_Chassis_Sz rep1",
+        "E_Chassis_Sz rep2",
+        "E_Chassis_Sz rep3"
+      ],
+      "not_same_as_screen_isolate_ids": true,
+      "raw_reads_or_spectra_reprocessed": false
+    },
+    "metabolomics": {
+      "sample_rows": 21,
+      "feature_columns": 18,
+      "units": "normalized chromatographic AUC, not concentration or intracellular flux",
+      "raw_spectra_reprocessed": false
+    }
+  },
+  "rna_metadata_samples": [
+    {
+      "metadata_sample_id": "source_0",
+      "genotype": "MATα URA3 HIS3 LEU2 TRP1 MAL2-8c SUC2 ser3Δ ser33Δ fum1Δ",
+      "strain": "Chassis_F",
+      "phenotype": "fumarate producer",
+      "replicate": "1",
+      "No. of Samples": "1"
+    },
+    {
+      "metadata_sample_id": "source_1",
+      "genotype": "MATα URA3 HIS3 LEU2 TRP1 MAL2-8c SUC2 ser3Δ ser33Δ fum1Δ",
+      "strain": "Chassis_F",
+      "phenotype": "fumarate producer",
+      "replicate": "2",
+      "No. of Samples": "1"
+    },
+    {
+      "metadata_sample_id": "source_2",
+      "genotype": "MATα URA3 HIS3 LEU2 TRP1 MAL2-8c SUC2 ser3Δ ser33Δ fum1Δ",
+      "strain": "Chassis_F",
+      "phenotype": "fumarate producer",
+      "replicate": "3",
+      "No. of Samples": "1"
+    },
+    {
+      "metadata_sample_id": "source_3",
+      "genotype": "MATα URA3 HIS3 LEU2 TRP1 MAL2- 8c SUC2 ser3Δ ser33Δ zwf1Δ mdh1Δ mdh2Δ mae1Δ",
+      "strain": "Chassis_Mz",
+      "phenotype": "malate producer",
+      "replicate": "1",
+      "No. of Samples": "1"
+    },
+    {
+      "metadata_sample_id": "source_4",
+      "genotype": "MATα URA3 HIS3 LEU2 TRP1 MAL2- 8c SUC2 ser3Δ ser33Δ zwf1Δ mdh1Δ mdh2Δ mae1Δ",
+      "strain": "Chassis_Mz",
+      "phenotype": "malate producer",
+      "replicate": "2",
+      "No. of Samples": "1"
+    },
+    {
+      "metadata_sample_id": "source_5",
+      "genotype": "MATα URA3 HIS3 LEU2 TRP1 MAL2- 8c SUC2 ser3Δ ser33Δ zwf1Δ mdh1Δ mdh2Δ mae1Δ",
+      "strain": "Chassis_Mz",
+      "phenotype": "malate producer",
+      "replicate": "3",
+      "No. of Samples": "1"
+    },
+    {
+      "metadata_sample_id": "source_6",
+      "genotype": "MATα URA3 HIS3 LEU2 TRP1 MAL2- 8c SUC2 ser3Δ ser33Δ sdh3Δ zwf1Δ",
+      "strain": "Chassis_Sz",
+      "phenotype": "succinate producer",
+      "replicate": "1",
+      "No. of Samples": "1"
+    },
+    {
+      "metadata_sample_id": "source_7",
+      "genotype": "MATα URA3 HIS3 LEU2 TRP1 MAL2- 8c SUC2 ser3Δ ser33Δ sdh3Δ zwf1Δ",
+      "strain": "Chassis_Sz",
+      "phenotype": "succinate producer",
+      "replicate": "2",
+      "No. of Samples": "1"
+    },
+    {
+      "metadata_sample_id": "source_8",
+      "genotype": "MATα URA3 HIS3 LEU2 TRP1 MAL2-8c SUC2 ser3Δ ser33Δ fum1Δ",
+      "strain": "E_Chassis_F",
+      "phenotype": "fumarate producer",
+      "replicate": "1",
+      "No. of Samples": "1"
+    },
+    {
+      "metadata_sample_id": "source_9",
+      "genotype": "MATα URA3 HIS3 LEU2 TRP1 MAL2-8c SUC2 ser3Δ ser33Δ fum1Δ",
+      "strain": "E_Cassis_F",
+      "phenotype": "fumarate producer",
+      "replicate": "2",
+      "No. of Samples": "1"
+    },
+    {
+      "metadata_sample_id": "source_10",
+      "genotype": "MATα URA3 HIS3 LEU2 TRP1 MAL2-8c SUC2 ser3Δ ser33Δ fum1Δ",
+      "strain": "E_Chassis_F",
+      "phenotype": "fumarate producer",
+      "replicate": "3",
+      "No. of Samples": "1"
+    },
+    {
+      "metadata_sample_id": "source_11",
+      "genotype": "MATα URA3 HIS3 LEU2 TRP1 MAL2- 8c SUC2 ser3Δ ser33Δ zwf1Δ mdh1Δ mdh2Δ mae1Δ",
+      "strain": "E_Chassis_Mz",
+      "phenotype": "malate producer",
+      "replicate": "1",
+      "No. of Samples": "1"
+    },
+    {
+      "metadata_sample_id": "source_12",
+      "genotype": "MATα URA3 HIS3 LEU2 TRP1 MAL2- 8c SUC2 ser3Δ ser33Δ zwf1Δ mdh1Δ mdh2Δ mae1Δ",
+      "strain": "E_Chassis_Mz",
+      "phenotype": "malate producer",
+      "replicate": "2",
+      "No. of Samples": "1"
+    },
+    {
+      "metadata_sample_id": "source_13",
+      "genotype": "MATα URA3 HIS3 LEU2 TRP1 MAL2- 8c SUC2 ser3Δ ser33Δ zwf1Δ mdh1Δ mdh2Δ mae1Δ",
+      "strain": "E_Chassis_Mz",
+      "phenotype": "malate producer",
+      "replicate": "3",
+      "No. of Samples": "1"
+    },
+    {
+      "metadata_sample_id": "source_14",
+      "genotype": "MATα URA3 HIS3 LEU2 TRP1 MAL2- 8c SUC2 ser3Δ ser33Δ sdh3Δ zwf1Δ",
+      "strain": "E_Chassis_Sz",
+      "phenotype": "succinate producer",
+      "replicate": "1",
+      "No. of Samples": "1"
+    },
+    {
+      "metadata_sample_id": "source_15",
+      "genotype": "MATα URA3 HIS3 LEU2 TRP1 MAL2- 8c SUC2 ser3Δ ser33Δ sdh3Δ zwf1Δ",
+      "strain": "E_Chassis_Sz",
+      "phenotype": "succinate producer",
+      "replicate": "2",
+      "No. of Samples": "1"
+    },
+    {
+      "metadata_sample_id": "source_16",
+      "genotype": "MATα URA3 HIS3 LEU2 TRP1 MAL2- 8c SUC2 ser3Δ ser33Δ sdh3Δ zwf1Δ",
+      "strain": "E_Chassis_Sz",
+      "phenotype": "succinate producer",
+      "replicate": "3",
+      "No. of Samples": "1"
+    },
+    {
+      "metadata_sample_id": "source_17",
+      "genotype": "MATa URA3 HIS3 LEU2 TRP1 MAL2-8c SUC2",
+      "strain": "CEN.PK113-7D",
+      "phenotype": "wild-type",
+      "replicate": "1",
+      "No. of Samples": "1"
+    },
+    {
+      "metadata_sample_id": "source_18",
+      "genotype": "MATa URA3 HIS3 LEU2 TRP1 MAL2-8c SUC2",
+      "strain": "CEN.PK113-7D",
+      "phenotype": "wild-type",
+      "replicate": "2",
+      "No. of Samples": "1"
+    },
+    {
+      "metadata_sample_id": "source_19",
+      "genotype": "MATa URA3 HIS3 LEU2 TRP1 MAL2-8c SUC2",
+      "strain": "CEN.PK113-7D",
+      "phenotype": "wild-type",
+      "replicate": "3",
+      "No. of Samples": "1"
+    }
+  ],
+  "rna_metadata_samples_count": 20,
+  "rna_metadata_unresolved_aliases": [
+    "E_Cassis_F"
+  ],
+  "metabolomics_registered_samples": 21,
+  "metabolomics_assays": 21,
+  "metabolomics_MAF_metabolite_rows": 20,
+  "metabolomics_linked_samples": 21,
+  "genomic_runs": 10,
+  "genomic_fastq_files": 20,
+  "genomic_fastq_declared_bytes": 17471977494,
+  "genomic_fastq_downloaded": false,
+  "RNA_raw_reads_downloaded": false,
+  "replicate_numbers_joined_across_omics_as_same_culture": false,
+  "screen_isolates_joined_to_omics_as_same_strain_or_culture": false,
+  "new_flux_estimate_performed": false,
+  "author_model_schemas": {
+    "model_original": {
+      "reactions": 1581,
+      "species": 1392,
+      "gene_products": 0,
+      "solver_executed": false
+    },
+    "model_fbc2": {
+      "reactions": 1581,
+      "species": 1228,
+      "gene_products": 906,
+      "solver_executed": false
+    },
+    "model_updated_fbc2": {
+      "reactions": 1584,
+      "species": 1230,
+      "gene_products": 906,
+      "solver_executed": false
+    }
+  }
+}

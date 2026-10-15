@@ -1,0 +1,193 @@
+{
+  "schema_version": 1,
+  "locked_at_utc": "2026-10-14T16:12:02.355619+00:00",
+  "task": "独立论文公开数据上的早期筛选规则回顾性压力测试",
+  "source_manifest": "research/ale_external_sources_20261015.json",
+  "source_values_and_targets_seen_before_lock": true,
+  "new_blind_validation": false,
+  "original_18h_fumarate_ridge_external_validation": false,
+  "publication_superiority_claim": false,
+  "same_strain_omics_process_closed_loop": false,
+  "model_training": false,
+  "minimum_replicates_per_candidate": 2,
+  "selection_budget_per_panel": 1,
+  "tie_absolute_tolerance": 1e-12,
+  "tie_policy": "uniform expected selection among tied maximum scores; no endpoint tie-breaking",
+  "random_policy": "exact uniform expectation across candidate strain means",
+  "aggregation": "raw biological replicates averaged within strain; replicates are not new candidate strains; panels not pooled across products or units",
+  "assay_return_times_verified": false,
+  "observation_available_at_sampling_time_is_assumed": true,
+  "methods_can_differ_in_early_assay_cost": true,
+  "prospective_assay_savings_verified": false,
+  "panels": [
+    {
+      "id": "yarrowia_ale_24h_od",
+      "doi": "10.1038/s41467-023-44245-4",
+      "species": "Yarrowia lipolytica",
+      "product": "succinate",
+      "target_unit": "g/L",
+      "source": "data/raw/ale_external_sources_20261015/PMC10733433/41467_2023_44245_MOESM9_ESM.xlsx",
+      "early_sheet": "Fig. 2d",
+      "target_sheet": "Fig. 2e",
+      "time_column": "A",
+      "time_cells": {
+        "initial": "A2",
+        "early": "A3",
+        "target": "A6"
+      },
+      "initial_row": 2,
+      "early_row": 3,
+      "target_row": 6,
+      "initial_h": 0,
+      "cutoff_h": 24,
+      "endpoint_h": 96,
+      "candidates": [
+        {
+          "isolate_id": "PGC91-rTE1-1",
+          "columns": [
+            "E",
+            "F",
+            "G"
+          ]
+        },
+        {
+          "isolate_id": "PGC91-rTE2-1",
+          "columns": [
+            "H",
+            "I",
+            "J"
+          ]
+        },
+        {
+          "isolate_id": "PGC91-rTE3-1",
+          "columns": [
+            "K",
+            "L",
+            "M"
+          ]
+        }
+      ],
+      "methods": [
+        "uniform_random_expectation",
+        "early_density",
+        "early_density_fold"
+      ],
+      "condition": "YPD; 40 g/L initial glucose; 30 C; 120 rpm; released matched Fig.2d/e panel",
+      "limitations": [
+        "仅三株作者预先选出的进化代表株，非完整待筛库；每个进化群体只一株，不能留一谱系后在该谱系选株",
+        "跨菌种、跨产物且窗口24h；不验证原18h富马酸岭回归",
+        "重复编号只用于株内均值，不假定不同表重复序号就是同一个发酵瓶"
+      ]
+    },
+    {
+      "id": "ecoli_ale_24h_product",
+      "doi": "10.1038/s41589-025-01911-6",
+      "species": "Escherichia coli",
+      "product": "flaviolin",
+      "target_unit": "released source value; no conversion to g/L",
+      "source": "data/raw/ale_external_sources_20261015/PMC12303837/41589_2025_1911_MOESM8_ESM.xlsx",
+      "early_sheet": "Sheet1",
+      "target_sheet": "Sheet1",
+      "time_column": "B",
+      "time_cells": {
+        "early": "B17",
+        "target": "B18"
+      },
+      "initial_row": null,
+      "early_row": 17,
+      "target_row": 18,
+      "cutoff_h": 24,
+      "endpoint_h": 96,
+      "header_row": 16,
+      "candidates": [
+        {
+          "isolate_id": "E1_S2",
+          "columns": [
+            "G",
+            "H",
+            "I",
+            "J"
+          ]
+        },
+        {
+          "isolate_id": "E2_S3",
+          "columns": [
+            "K",
+            "L",
+            "M",
+            "N"
+          ]
+        },
+        {
+          "isolate_id": "E2_S7",
+          "columns": [
+            "O",
+            "P",
+            "Q",
+            "R"
+          ]
+        },
+        {
+          "isolate_id": "E2_S17",
+          "columns": [
+            "S",
+            "T",
+            "U",
+            "V"
+          ]
+        }
+      ],
+      "methods": [
+        "uniform_random_expectation",
+        "early_product"
+      ],
+      "condition": "M9; 2% glucose; 10 mM malonate; 0.2% L-arabinose; pBADT-RppA-NT; 37 C; 200 rpm; Fig.5c",
+      "limitations": [
+        "四株代表株来自两个进化系列，四个遗传分支不计为四个独立进化谱系",
+        "早期产物需化验，不等价于只用在线OD，成本不能混同",
+        "Fig.5a生长测试后引入生产质粒；不拼接其OD与Fig.5c产物作为同一培养轨迹",
+        "保留作者表的数值与背景扣除后负值，不推定g/L单位或进行未核实换算"
+      ]
+    }
+  ],
+  "excluded_panels": [
+    {
+      "id": "yarrowia_20_isolates",
+      "doi": "10.1038/s41467-023-44245-4",
+      "source": "data/raw/ale_external_sources_20261015/PMC10733433/41467_2023_44245_MOESM9_ESM.xlsx",
+      "sheet": "Supplementary Fig. 3",
+      "released_isolate_count": 20,
+      "reason": "只有匿名编号的终点滴度/得率/副产物，无可核查的早期曲线及谱系对应；60g/L底物也不同于Fig2d/e的40g/L，禁止拼接"
+    },
+    {
+      "id": "ogataea_growth_trajectory",
+      "doi": "10.1038/s41467-025-65793-x",
+      "source": "data/raw/ale_external_sources_20261015/PMC12663439/41467_2025_65793_MOESM14_ESM.xlsx",
+      "sheet": "Fig. S5",
+      "reason": "HpLA05-2/3原始轨迹缺失；HpLA13虽在表中但补充图5说明未覆盖；不能构造完整同条件候选库"
+    },
+    {
+      "id": "ogataea_ale_endpoint",
+      "doi": "10.1038/s41467-025-65793-x",
+      "reason": "正文/补充图8的ALE前后OD与产物均为终点比较，不能视为早期预测；工作簿标为Fig.S7a/b，保留图表编号不一致"
+    }
+  ],
+  "input_sha256": {
+    "research/ale_external_sources_20261015.json": "2d9c9fab668101a77172bef86dbeca22233bf8efe8e0cdbd9138af937812e160",
+    "data/raw/ale_external_sources_20261015/PMC10733433/41467_2023_44245_MOESM1_ESM.pdf": "2cf3f315e4371cc725e487baef618fbd3f61762b72adcac7f988ebd22dd6687c",
+    "data/raw/ale_external_sources_20261015/PMC10733433/41467_2023_44245_MOESM4_ESM.xlsx": "ae661ab1e10a6c823b26314ed8437280345d0750dc4d9c5f26f0bb5a9170bc59",
+    "data/raw/ale_external_sources_20261015/PMC10733433/41467_2023_44245_MOESM9_ESM.xlsx": "495d84112140dc780af88c7344754c13bb5bf55fa8e423bf1a94bfdff3fda207",
+    "data/raw/ale_external_sources_20261015/PMC12303837/41589_2025_1911_MOESM1_ESM.pdf": "99e48ac81d91ebdb43abefa276e4521e459836fbcebc7d75df6c4c9ae94602b3",
+    "data/raw/ale_external_sources_20261015/PMC12303837/41589_2025_1911_MOESM4_ESM.xlsx": "1c367a58142540cfd36a7ef6a01e4a67d548048ea48817b2b92c9d4847209a66",
+    "data/raw/ale_external_sources_20261015/PMC12303837/41589_2025_1911_MOESM8_ESM.xlsx": "6727fa5f862a37045f1147b55458c31c10a75af6c7009684217eda88c8edd6f2",
+    "data/raw/ale_external_sources_20261015/PMC12663439/41467_2025_65793_MOESM14_ESM.xlsx": "fb08723fe82aca8bd522159d8d87f8b816551978f8a9c649a8a2a932dd656f53",
+    "data/raw/ale_external_sources_20261015/PMC12663439/41467_2025_65793_MOESM1_ESM.pdf": "f4fbc06dd807fad335f8919b300707eaea4ca30344d0e3b9ceab74aa72de1a0c",
+    "data/raw/ale_external_sources_20261015/PMC12663439/41467_2025_65793_MOESM5_ESM.xlsx": "5e41b783bc7ecbe243d421c420a8c779c65fb891141264bb436c53dcf951e785",
+    "research/results/external_data_acquisition_20261014/PMC10733433.1.json": "2edf056130f0c8e4d4cd529344f5b35d9887b1246774d5a2e88fecf39a99e83d",
+    "research/results/external_data_acquisition_20261014/PMC12303837.1.json": "7259fbed603422aacb1e822d1edc60d0d45d8ddaebaa7adcfe86dd2622a4c978",
+    "research/results/external_data_acquisition_20261014/PMC12663439.1.json": "28256ec81755029734d7e3ddbb6b0f748d9edf5add462ba1d9d2cef47639981b",
+    "data/raw/ale_external_sources_20261013/PMC10733433.xml": "4e438c66e28b35cf011aadfd5c36b4c6a18509d0e3ae35bac714fd60b45b8d5d",
+    "data/raw/ale_external_sources_20261013/PMC12303837.xml": "ab95d08502b2d713bb97833259666f85fbb95b0c435baba019b4c66bab97283f",
+    "data/raw/ale_external_sources_20261013/PMC12663439.xml": "54b6afb55c2482109b13b899e80ee493ea2598c056eacf7b12c1db9e7535643e"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "created_at_utc": "2026-10-07T14:40:12.802378+00:00",
+  "plotter_sha256": "ae6d7a3756dc503aa9e04275e3d52a0f6731405f5396fa47d74e7b1500072fa9",
+  "report_sha256": "1009235402fd821571d6fcdd65d077b829cb6b8fbbe198cbf2592843b041ad3a",
+  "verification_sha256": "8babae63a62490333adba8cee3df6b0ab2fb57a6ce87b3f91a8375c8d54a2faa",
+  "input_sha256": {
+    "paired_batches.csv": "ad19914bf5e9f494bd2614c6728dca8a9079291bef80c41677b52c3cc9884475",
+    "summary.csv": "683d7b77aba7ab665278850c022b02b4b87d40b7051d15b1171214bc7a59616f"
+  },
+  "output_sha256": {
+    "biomass_round_holdout.png": "adbc9663c8bb505d0a41d9a77dcb15202c850be38ef94cc2274aa593bda33354"
+  },
+  "matplotlib_version": "3.11.2",
+  "no_scientific_refitting": true
+}

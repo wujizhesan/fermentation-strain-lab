@@ -1,0 +1,2625 @@
+[{
+  "projectAccessions" : [ "PXD020611" ],
+  "accession" : "98b4e1f40b1b7ff1efee7bfda20505fc380c318127a5269298545239a85f486e",
+  "fileCategory" : {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000404",
+    "name" : "Associated raw file URI",
+    "value" : "RAW"
+  },
+  "checksum" : "e62f9d91a2815e5c025fbd2093da21f23f545189",
+  "publicFileLocations" : [ {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000468",
+    "name" : "Aspera Protocol",
+    "value" : "prd_ascp@fasp.ebi.ac.uk:pride/data/archive/2021/07/PXD020611/Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep3_fr8.raw"
+  }, {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000469",
+    "name" : "FTP Protocol",
+    "value" : "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2021/07/PXD020611/Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep3_fr8.raw"
+  } ],
+  "fileSizeBytes" : 1288067007,
+  "fileName" : "Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep3_fr8.raw",
+  "compress" : false,
+  "submissionDate" : "2020-07-28T13:00:14.000+00:00",
+  "publicationDate" : "2021-07-20T04:59:52.984+00:00",
+  "updatedDate" : "2020-07-28T13:00:14.000+00:00",
+  "additionalAttributes" : [ ],
+  "totalDownloads" : 63
+},{
+  "projectAccessions" : [ "PXD020611" ],
+  "accession" : "ad1c11b5665dd68ce04e4e36222be934bf347f880d7fec70b69a891d96b2b5b3",
+  "fileCategory" : {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000410",
+    "name" : "Other type file URI",
+    "value" : "OTHER"
+  },
+  "checksum" : "6f7c0bd37c623759e13a0dd229d26aa60569ea2d",
+  "publicFileLocations" : [ {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000468",
+    "name" : "Aspera Protocol",
+    "value" : "prd_ascp@fasp.ebi.ac.uk:pride/data/archive/2021/07/PXD020611/rep2_merged_results_20180116_1332_summary.txt"
+  }, {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000469",
+    "name" : "FTP Protocol",
+    "value" : "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2021/07/PXD020611/rep2_merged_results_20180116_1332_summary.txt"
+  } ],
+  "fileSizeBytes" : 3344,
+  "fileName" : "rep2_merged_results_20180116_1332_summary.txt",
+  "compress" : false,
+  "submissionDate" : "2020-07-28T13:00:14.000+00:00",
+  "publicationDate" : "2021-07-20T04:59:52.984+00:00",
+  "updatedDate" : "2020-07-28T13:00:14.000+00:00",
+  "additionalAttributes" : [ ],
+  "totalDownloads" : 69
+},{
+  "projectAccessions" : [ "PXD020611" ],
+  "accession" : "bc366c8ca386be5f3e4a03c3c36b5d4c7a2c0ca54bbf84948fe828c739ec11c5",
+  "fileCategory" : {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000408",
+    "name" : "Search engine output file URI",
+    "value" : "SEARCH"
+  },
+  "checksum" : "38215a79412b5d9916fac42cd96681ebc0319780",
+  "publicFileLocations" : [ {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000469",
+    "name" : "FTP Protocol",
+    "value" : "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2021/07/PXD020611/F063454.dat"
+  }, {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000468",
+    "name" : "Aspera Protocol",
+    "value" : "prd_ascp@fasp.ebi.ac.uk:pride/data/archive/2021/07/PXD020611/F063454.dat"
+  } ],
+  "fileSizeBytes" : 107048592,
+  "fileName" : "F063454.dat",
+  "compress" : false,
+  "submissionDate" : "2020-07-28T13:00:14.000+00:00",
+  "publicationDate" : "2021-07-20T04:59:52.984+00:00",
+  "updatedDate" : "2020-07-28T13:00:14.000+00:00",
+  "additionalAttributes" : [ ],
+  "totalDownloads" : 79
+},{
+  "projectAccessions" : [ "PXD020611" ],
+  "accession" : "83420feb29cd3eea280c6a6918738b0175b736b6eb333a021f23fe372de2e75b",
+  "fileCategory" : {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000408",
+    "name" : "Search engine output file URI",
+    "value" : "SEARCH"
+  },
+  "checksum" : "a3b88c8114aa1511ae1fb999ca9f22792f895c75",
+  "publicFileLocations" : [ {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000469",
+    "name" : "FTP Protocol",
+    "value" : "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2021/07/PXD020611/F063442.dat"
+  }, {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000468",
+    "name" : "Aspera Protocol",
+    "value" : "prd_ascp@fasp.ebi.ac.uk:pride/data/archive/2021/07/PXD020611/F063442.dat"
+  } ],
+  "fileSizeBytes" : 162258610,
+  "fileName" : "F063442.dat",
+  "compress" : false,
+  "submissionDate" : "2020-07-28T13:00:14.000+00:00",
+  "publicationDate" : "2021-07-20T04:59:52.984+00:00",
+  "updatedDate" : "2020-07-28T13:00:14.000+00:00",
+  "additionalAttributes" : [ ],
+  "totalDownloads" : 77
+},{
+  "projectAccessions" : [ "PXD020611" ],
+  "accession" : "89f4c807522c203de0cf9549138d810fb44af1a6998028c2a61eac2126c017ae",
+  "fileCategory" : {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000404",
+    "name" : "Associated raw file URI",
+    "value" : "RAW"
+  },
+  "checksum" : "2beb4c5acd096aaa076b74d0ed23a64039a071dc",
+  "publicFileLocations" : [ {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000469",
+    "name" : "FTP Protocol",
+    "value" : "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2021/07/PXD020611/Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep2_fr12.raw"
+  }, {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000468",
+    "name" : "Aspera Protocol",
+    "value" : "prd_ascp@fasp.ebi.ac.uk:pride/data/archive/2021/07/PXD020611/Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep2_fr12.raw"
+  } ],
+  "fileSizeBytes" : 1149954183,
+  "fileName" : "Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep2_fr12.raw",
+  "compress" : false,
+  "submissionDate" : "2020-07-28T13:00:14.000+00:00",
+  "publicationDate" : "2021-07-20T04:59:52.984+00:00",
+  "updatedDate" : "2020-07-28T13:00:14.000+00:00",
+  "additionalAttributes" : [ ],
+  "totalDownloads" : 59
+},{
+  "projectAccessions" : [ "PXD020611" ],
+  "accession" : "2ee2098a87ad3f110946814dfb60ee367a77a289805cc2da2a8224d5769fb36e",
+  "fileCategory" : {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000404",
+    "name" : "Associated raw file URI",
+    "value" : "RAW"
+  },
+  "checksum" : "8495213c7bf0fe5fe1912cea5ff987dff19a0de6",
+  "publicFileLocations" : [ {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000469",
+    "name" : "FTP Protocol",
+    "value" : "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2021/07/PXD020611/Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep1_fr1.raw"
+  }, {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000468",
+    "name" : "Aspera Protocol",
+    "value" : "prd_ascp@fasp.ebi.ac.uk:pride/data/archive/2021/07/PXD020611/Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep1_fr1.raw"
+  } ],
+  "fileSizeBytes" : 1206227406,
+  "fileName" : "Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep1_fr1.raw",
+  "compress" : false,
+  "submissionDate" : "2020-07-28T13:00:14.000+00:00",
+  "publicationDate" : "2021-07-20T04:59:52.984+00:00",
+  "updatedDate" : "2020-07-28T13:00:14.000+00:00",
+  "additionalAttributes" : [ ],
+  "totalDownloads" : 51
+},{
+  "projectAccessions" : [ "PXD020611" ],
+  "accession" : "81d3531e7aba9d913f3843b6bff5e95173af680b5664270e41204ca6b8d505b5",
+  "fileCategory" : {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000408",
+    "name" : "Search engine output file URI",
+    "value" : "SEARCH"
+  },
+  "checksum" : "b703a1258e83e2dab49aaf2f1876fbee84293b54",
+  "publicFileLocations" : [ {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000468",
+    "name" : "Aspera Protocol",
+    "value" : "prd_ascp@fasp.ebi.ac.uk:pride/data/archive/2021/07/PXD020611/F063448.dat"
+  }, {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000469",
+    "name" : "FTP Protocol",
+    "value" : "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2021/07/PXD020611/F063448.dat"
+  } ],
+  "fileSizeBytes" : 185878548,
+  "fileName" : "F063448.dat",
+  "compress" : false,
+  "submissionDate" : "2020-07-28T13:00:14.000+00:00",
+  "publicationDate" : "2021-07-20T04:59:52.984+00:00",
+  "updatedDate" : "2020-07-28T13:00:14.000+00:00",
+  "additionalAttributes" : [ ],
+  "totalDownloads" : 63
+},{
+  "projectAccessions" : [ "PXD020611" ],
+  "accession" : "bfc3dafb758e2d2c640f39f7eab3e5df452462a37eefc2225026a8bdc373dad1",
+  "fileCategory" : {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000404",
+    "name" : "Associated raw file URI",
+    "value" : "RAW"
+  },
+  "checksum" : "95acfe47d7910789eb5ce6e7ff207ef8ce34a8b2",
+  "publicFileLocations" : [ {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000469",
+    "name" : "FTP Protocol",
+    "value" : "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2021/07/PXD020611/Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep1_fr7.raw"
+  }, {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000468",
+    "name" : "Aspera Protocol",
+    "value" : "prd_ascp@fasp.ebi.ac.uk:pride/data/archive/2021/07/PXD020611/Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep1_fr7.raw"
+  } ],
+  "fileSizeBytes" : 1169817255,
+  "fileName" : "Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep1_fr7.raw",
+  "compress" : false,
+  "submissionDate" : "2020-07-28T13:00:14.000+00:00",
+  "publicationDate" : "2021-07-20T04:59:52.984+00:00",
+  "updatedDate" : "2020-07-28T13:00:14.000+00:00",
+  "additionalAttributes" : [ ],
+  "totalDownloads" : 60
+},{
+  "projectAccessions" : [ "PXD020611" ],
+  "accession" : "6990850b2aa11b06b290dd63c59693502c07e042d6cceec4471c6fbbf20aa0ef",
+  "fileCategory" : {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000404",
+    "name" : "Associated raw file URI",
+    "value" : "RAW"
+  },
+  "checksum" : "b1bc4a2cbce77ef33b47f706afd09e974b7c0bf0",
+  "publicFileLocations" : [ {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000468",
+    "name" : "Aspera Protocol",
+    "value" : "prd_ascp@fasp.ebi.ac.uk:pride/data/archive/2021/07/PXD020611/Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep2_fr2.raw"
+  }, {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000469",
+    "name" : "FTP Protocol",
+    "value" : "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2021/07/PXD020611/Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep2_fr2.raw"
+  } ],
+  "fileSizeBytes" : 1189277207,
+  "fileName" : "Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep2_fr2.raw",
+  "compress" : false,
+  "submissionDate" : "2020-07-28T13:00:14.000+00:00",
+  "publicationDate" : "2021-07-20T04:59:52.984+00:00",
+  "updatedDate" : "2020-07-28T13:00:14.000+00:00",
+  "additionalAttributes" : [ ],
+  "totalDownloads" : 52
+},{
+  "projectAccessions" : [ "PXD020611" ],
+  "accession" : "d90b9657fb720589b54be52e8fc061dd063f8be32597a757003f98e8f9791bc9",
+  "fileCategory" : {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000404",
+    "name" : "Associated raw file URI",
+    "value" : "RAW"
+  },
+  "checksum" : "213b3cae510b56a202b7a50523f3f537fdbb0f7c",
+  "publicFileLocations" : [ {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000469",
+    "name" : "FTP Protocol",
+    "value" : "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2021/07/PXD020611/Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep3_fr2.raw"
+  }, {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000468",
+    "name" : "Aspera Protocol",
+    "value" : "prd_ascp@fasp.ebi.ac.uk:pride/data/archive/2021/07/PXD020611/Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep3_fr2.raw"
+  } ],
+  "fileSizeBytes" : 1212447096,
+  "fileName" : "Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep3_fr2.raw",
+  "compress" : false,
+  "submissionDate" : "2020-07-28T13:00:14.000+00:00",
+  "publicationDate" : "2021-07-20T04:59:52.984+00:00",
+  "updatedDate" : "2020-07-28T13:00:14.000+00:00",
+  "additionalAttributes" : [ ],
+  "totalDownloads" : 57
+},{
+  "projectAccessions" : [ "PXD020611" ],
+  "accession" : "42561353e1bce7a3b953cbe008232dbadfc0fefdf629225f2e66aaaced01a602",
+  "fileCategory" : {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000408",
+    "name" : "Search engine output file URI",
+    "value" : "SEARCH"
+  },
+  "checksum" : "4978981a34f84381a0b7b6a46b8217afbfc331f3",
+  "publicFileLocations" : [ {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000468",
+    "name" : "Aspera Protocol",
+    "value" : "prd_ascp@fasp.ebi.ac.uk:pride/data/archive/2021/07/PXD020611/F063487.dat"
+  }, {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000469",
+    "name" : "FTP Protocol",
+    "value" : "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2021/07/PXD020611/F063487.dat"
+  } ],
+  "fileSizeBytes" : 182537877,
+  "fileName" : "F063487.dat",
+  "compress" : false,
+  "submissionDate" : "2020-07-28T13:00:14.000+00:00",
+  "publicationDate" : "2021-07-20T04:59:52.984+00:00",
+  "updatedDate" : "2020-07-28T13:00:14.000+00:00",
+  "additionalAttributes" : [ ],
+  "totalDownloads" : 69
+},{
+  "projectAccessions" : [ "PXD020611" ],
+  "accession" : "50cc115ada5ac641d12a186c98aecc6b4f917467e05a56be8a9c4bb0cddfa32d",
+  "fileCategory" : {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000408",
+    "name" : "Search engine output file URI",
+    "value" : "SEARCH"
+  },
+  "checksum" : "27e45b5d49613e6bd605c42b085cf9f245586a1e",
+  "publicFileLocations" : [ {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000468",
+    "name" : "Aspera Protocol",
+    "value" : "prd_ascp@fasp.ebi.ac.uk:pride/data/archive/2021/07/PXD020611/F063421.dat"
+  }, {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000469",
+    "name" : "FTP Protocol",
+    "value" : "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2021/07/PXD020611/F063421.dat"
+  } ],
+  "fileSizeBytes" : 167049450,
+  "fileName" : "F063421.dat",
+  "compress" : false,
+  "submissionDate" : "2020-07-28T13:00:14.000+00:00",
+  "publicationDate" : "2021-07-20T04:59:52.984+00:00",
+  "updatedDate" : "2020-07-28T13:00:14.000+00:00",
+  "additionalAttributes" : [ ],
+  "totalDownloads" : 65
+},{
+  "projectAccessions" : [ "PXD020611" ],
+  "accession" : "57512210862b359d807853e8af879604cdaaa52d3512771a4e3295d27c2e15ba",
+  "fileCategory" : {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000410",
+    "name" : "Other type file URI",
+    "value" : "OTHER"
+  },
+  "checksum" : "6e840df7274f4d7babb6674cca4fdb09d4d0edf6",
+  "publicFileLocations" : [ {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000468",
+    "name" : "Aspera Protocol",
+    "value" : "prd_ascp@fasp.ebi.ac.uk:pride/data/archive/2021/07/PXD020611/rep3_merged_results_20180116_1531_summary.txt"
+  }, {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000469",
+    "name" : "FTP Protocol",
+    "value" : "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2021/07/PXD020611/rep3_merged_results_20180116_1531_summary.txt"
+  } ],
+  "fileSizeBytes" : 3354,
+  "fileName" : "rep3_merged_results_20180116_1531_summary.txt",
+  "compress" : false,
+  "submissionDate" : "2020-07-28T13:00:14.000+00:00",
+  "publicationDate" : "2021-07-20T04:59:52.984+00:00",
+  "updatedDate" : "2020-07-28T13:00:14.000+00:00",
+  "additionalAttributes" : [ ],
+  "totalDownloads" : 55
+},{
+  "projectAccessions" : [ "PXD020611" ],
+  "accession" : "477116038a457168197b9869e8b95704637a5c09629c322869f8d59429ac87ed",
+  "fileCategory" : {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000404",
+    "name" : "Associated raw file URI",
+    "value" : "RAW"
+  },
+  "checksum" : "aa611054382e474a671875cd2faa836493209476",
+  "publicFileLocations" : [ {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000469",
+    "name" : "FTP Protocol",
+    "value" : "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2021/07/PXD020611/Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep1_fr8.raw"
+  }, {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000468",
+    "name" : "Aspera Protocol",
+    "value" : "prd_ascp@fasp.ebi.ac.uk:pride/data/archive/2021/07/PXD020611/Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep1_fr8.raw"
+  } ],
+  "fileSizeBytes" : 1212772170,
+  "fileName" : "Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep1_fr8.raw",
+  "compress" : false,
+  "submissionDate" : "2020-07-28T13:00:14.000+00:00",
+  "publicationDate" : "2021-07-20T04:59:52.984+00:00",
+  "updatedDate" : "2020-07-28T13:00:14.000+00:00",
+  "additionalAttributes" : [ ],
+  "totalDownloads" : 48
+},{
+  "projectAccessions" : [ "PXD020611" ],
+  "accession" : "6e9d149d03122628d7e4e8359638e692641bd59fdfa8b567354c8cc1a43148fd",
+  "fileCategory" : {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000410",
+    "name" : "Other type file URI",
+    "value" : "OTHER"
+  },
+  "checksum" : "481aeff966cb5f5e496cf92e06c58a2c7a95342f",
+  "publicFileLocations" : [ {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000468",
+    "name" : "Aspera Protocol",
+    "value" : "prd_ascp@fasp.ebi.ac.uk:pride/data/archive/2021/07/PXD020611/rep1_merged_results_20180116_1331_summary.txt"
+  }, {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000469",
+    "name" : "FTP Protocol",
+    "value" : "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2021/07/PXD020611/rep1_merged_results_20180116_1331_summary.txt"
+  } ],
+  "fileSizeBytes" : 3357,
+  "fileName" : "rep1_merged_results_20180116_1331_summary.txt",
+  "compress" : false,
+  "submissionDate" : "2020-07-28T13:00:14.000+00:00",
+  "publicationDate" : "2021-07-20T04:59:52.984+00:00",
+  "updatedDate" : "2020-07-28T13:00:14.000+00:00",
+  "additionalAttributes" : [ ],
+  "totalDownloads" : 78
+},{
+  "projectAccessions" : [ "PXD020611" ],
+  "accession" : "0f8dfea66beef7df21d5bf0d06f9aa2661ae990ccf8864459bbce99431acbba9",
+  "fileCategory" : {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000404",
+    "name" : "Associated raw file URI",
+    "value" : "RAW"
+  },
+  "checksum" : "b17ba46033cc14801eb0dcae970c234ceffaacce",
+  "publicFileLocations" : [ {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000468",
+    "name" : "Aspera Protocol",
+    "value" : "prd_ascp@fasp.ebi.ac.uk:pride/data/archive/2021/07/PXD020611/Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep3_fr7.raw"
+  }, {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000469",
+    "name" : "FTP Protocol",
+    "value" : "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2021/07/PXD020611/Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep3_fr7.raw"
+  } ],
+  "fileSizeBytes" : 1244348359,
+  "fileName" : "Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep3_fr7.raw",
+  "compress" : false,
+  "submissionDate" : "2020-07-28T13:00:14.000+00:00",
+  "publicationDate" : "2021-07-20T04:59:52.984+00:00",
+  "updatedDate" : "2020-07-28T13:00:14.000+00:00",
+  "additionalAttributes" : [ ],
+  "totalDownloads" : 47
+},{
+  "projectAccessions" : [ "PXD020611" ],
+  "accession" : "149f96e851ecde079cb016a0210e9ea29f6053d3573d1c76791eb7313bc4c5f4",
+  "fileCategory" : {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000408",
+    "name" : "Search engine output file URI",
+    "value" : "SEARCH"
+  },
+  "checksum" : "f0135b93ecec2f0957ed05789026b7b6bb0b9090",
+  "publicFileLocations" : [ {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000468",
+    "name" : "Aspera Protocol",
+    "value" : "prd_ascp@fasp.ebi.ac.uk:pride/data/archive/2021/07/PXD020611/F063482.dat"
+  }, {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000469",
+    "name" : "FTP Protocol",
+    "value" : "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2021/07/PXD020611/F063482.dat"
+  } ],
+  "fileSizeBytes" : 188122985,
+  "fileName" : "F063482.dat",
+  "compress" : false,
+  "submissionDate" : "2020-07-28T13:00:14.000+00:00",
+  "publicationDate" : "2021-07-20T04:59:52.984+00:00",
+  "updatedDate" : "2020-07-28T13:00:14.000+00:00",
+  "additionalAttributes" : [ ],
+  "totalDownloads" : 75
+},{
+  "projectAccessions" : [ "PXD020611" ],
+  "accession" : "3a2d9d0844d7830cae0dabca64c7ffd7545f2332c78aa081cd69d4e993c4807e",
+  "fileCategory" : {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000404",
+    "name" : "Associated raw file URI",
+    "value" : "RAW"
+  },
+  "checksum" : "084d0254ca498b2a098562e055feccec9a259ec1",
+  "publicFileLocations" : [ {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000468",
+    "name" : "Aspera Protocol",
+    "value" : "prd_ascp@fasp.ebi.ac.uk:pride/data/archive/2021/07/PXD020611/Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep3_fr1.raw"
+  }, {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000469",
+    "name" : "FTP Protocol",
+    "value" : "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2021/07/PXD020611/Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep3_fr1.raw"
+  } ],
+  "fileSizeBytes" : 1164866602,
+  "fileName" : "Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep3_fr1.raw",
+  "compress" : false,
+  "submissionDate" : "2020-07-28T13:00:14.000+00:00",
+  "publicationDate" : "2021-07-20T04:59:52.984+00:00",
+  "updatedDate" : "2020-07-28T13:00:14.000+00:00",
+  "additionalAttributes" : [ ],
+  "totalDownloads" : 50
+},{
+  "projectAccessions" : [ "PXD020611" ],
+  "accession" : "db9f8eb10cd40ee6445a8327ee7077051c7d5471cb10864f3fe76d86c7f42b0b",
+  "fileCategory" : {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000408",
+    "name" : "Search engine output file URI",
+    "value" : "SEARCH"
+  },
+  "checksum" : "5370e552f17e4e44c65be20c6f84f31c76eb04b5",
+  "publicFileLocations" : [ {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000469",
+    "name" : "FTP Protocol",
+    "value" : "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2021/07/PXD020611/F063419.dat"
+  }, {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000468",
+    "name" : "Aspera Protocol",
+    "value" : "prd_ascp@fasp.ebi.ac.uk:pride/data/archive/2021/07/PXD020611/F063419.dat"
+  } ],
+  "fileSizeBytes" : 171978660,
+  "fileName" : "F063419.dat",
+  "compress" : false,
+  "submissionDate" : "2020-07-28T13:00:14.000+00:00",
+  "publicationDate" : "2021-07-20T04:59:52.984+00:00",
+  "updatedDate" : "2020-07-28T13:00:14.000+00:00",
+  "additionalAttributes" : [ ],
+  "totalDownloads" : 72
+},{
+  "projectAccessions" : [ "PXD020611" ],
+  "accession" : "54817f6dff329b4b293c32d19ea4839eaa1c078de299d254fecc155f81555532",
+  "fileCategory" : {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000404",
+    "name" : "Associated raw file URI",
+    "value" : "RAW"
+  },
+  "checksum" : "061cfe718b2cbd87092f69652e6f99b364c7ae4f",
+  "publicFileLocations" : [ {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000469",
+    "name" : "FTP Protocol",
+    "value" : "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2021/07/PXD020611/Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep3_fr3.raw"
+  }, {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000468",
+    "name" : "Aspera Protocol",
+    "value" : "prd_ascp@fasp.ebi.ac.uk:pride/data/archive/2021/07/PXD020611/Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep3_fr3.raw"
+  } ],
+  "fileSizeBytes" : 1221034349,
+  "fileName" : "Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep3_fr3.raw",
+  "compress" : false,
+  "submissionDate" : "2020-07-28T13:00:14.000+00:00",
+  "publicationDate" : "2021-07-20T04:59:52.984+00:00",
+  "updatedDate" : "2020-07-28T13:00:14.000+00:00",
+  "additionalAttributes" : [ ],
+  "totalDownloads" : 61
+},{
+  "projectAccessions" : [ "PXD020611" ],
+  "accession" : "fe8d797641bddd4736bece71e48636b979edf94669ec97db18b634f7f4ee8b59",
+  "fileCategory" : {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000404",
+    "name" : "Associated raw file URI",
+    "value" : "RAW"
+  },
+  "checksum" : "09584ca38ad6414f141da75e7a625e5adb3bd986",
+  "publicFileLocations" : [ {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000469",
+    "name" : "FTP Protocol",
+    "value" : "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2021/07/PXD020611/Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep3_fr11.raw"
+  }, {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000468",
+    "name" : "Aspera Protocol",
+    "value" : "prd_ascp@fasp.ebi.ac.uk:pride/data/archive/2021/07/PXD020611/Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep3_fr11.raw"
+  } ],
+  "fileSizeBytes" : 1249111230,
+  "fileName" : "Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep3_fr11.raw",
+  "compress" : false,
+  "submissionDate" : "2020-07-28T13:00:14.000+00:00",
+  "publicationDate" : "2021-07-20T04:59:52.984+00:00",
+  "updatedDate" : "2020-07-28T13:00:14.000+00:00",
+  "additionalAttributes" : [ ],
+  "totalDownloads" : 49
+},{
+  "projectAccessions" : [ "PXD020611" ],
+  "accession" : "f282699024898208d7409147e91032a93326d93b42d3900e3ad26a8c394b81bf",
+  "fileCategory" : {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000404",
+    "name" : "Associated raw file URI",
+    "value" : "RAW"
+  },
+  "checksum" : "fb254400f52e5b299b6629705e4da9bf6ea61778",
+  "publicFileLocations" : [ {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000469",
+    "name" : "FTP Protocol",
+    "value" : "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2021/07/PXD020611/Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep2_fr6.raw"
+  }, {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000468",
+    "name" : "Aspera Protocol",
+    "value" : "prd_ascp@fasp.ebi.ac.uk:pride/data/archive/2021/07/PXD020611/Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep2_fr6.raw"
+  } ],
+  "fileSizeBytes" : 1228663983,
+  "fileName" : "Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep2_fr6.raw",
+  "compress" : false,
+  "submissionDate" : "2020-07-28T13:00:14.000+00:00",
+  "publicationDate" : "2021-07-20T04:59:52.984+00:00",
+  "updatedDate" : "2020-07-28T13:00:14.000+00:00",
+  "additionalAttributes" : [ ],
+  "totalDownloads" : 63
+},{
+  "projectAccessions" : [ "PXD020611" ],
+  "accession" : "21181f9cdb695c51cf2fded6b1bff5b20d700e7db7e5daf4b6384923d47df381",
+  "fileCategory" : {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000404",
+    "name" : "Associated raw file URI",
+    "value" : "RAW"
+  },
+  "checksum" : "c75e4420a1eb5ece0e38dc2fbedff21ac0b3521b",
+  "publicFileLocations" : [ {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000469",
+    "name" : "FTP Protocol",
+    "value" : "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2021/07/PXD020611/Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep1_fr2.raw"
+  }, {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000468",
+    "name" : "Aspera Protocol",
+    "value" : "prd_ascp@fasp.ebi.ac.uk:pride/data/archive/2021/07/PXD020611/Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep1_fr2.raw"
+  } ],
+  "fileSizeBytes" : 1102725741,
+  "fileName" : "Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep1_fr2.raw",
+  "compress" : false,
+  "submissionDate" : "2020-07-28T13:00:14.000+00:00",
+  "publicationDate" : "2021-07-20T04:59:52.984+00:00",
+  "updatedDate" : "2020-07-28T13:00:14.000+00:00",
+  "additionalAttributes" : [ ],
+  "totalDownloads" : 50
+},{
+  "projectAccessions" : [ "PXD020611" ],
+  "accession" : "7829bcffd67202662abbeb56fdb1ed83696b040026b2371614d8c913a62a143d",
+  "fileCategory" : {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000408",
+    "name" : "Search engine output file URI",
+    "value" : "SEARCH"
+  },
+  "checksum" : "3e9114864748db6d700b36d2cefcd2e51009b44c",
+  "publicFileLocations" : [ {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000469",
+    "name" : "FTP Protocol",
+    "value" : "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2021/07/PXD020611/F063477.dat"
+  }, {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000468",
+    "name" : "Aspera Protocol",
+    "value" : "prd_ascp@fasp.ebi.ac.uk:pride/data/archive/2021/07/PXD020611/F063477.dat"
+  } ],
+  "fileSizeBytes" : 164844544,
+  "fileName" : "F063477.dat",
+  "compress" : false,
+  "submissionDate" : "2020-07-28T13:00:14.000+00:00",
+  "publicationDate" : "2021-07-20T04:59:52.984+00:00",
+  "updatedDate" : "2020-07-28T13:00:14.000+00:00",
+  "additionalAttributes" : [ ],
+  "totalDownloads" : 84
+},{
+  "projectAccessions" : [ "PXD020611" ],
+  "accession" : "6b8dc7f26012474334809689371358359991cb70532330ff1658996ab331b37f",
+  "fileCategory" : {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000404",
+    "name" : "Associated raw file URI",
+    "value" : "RAW"
+  },
+  "checksum" : "4d4afb96e777feaae2a28a6317c02ff23d19657d",
+  "publicFileLocations" : [ {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000468",
+    "name" : "Aspera Protocol",
+    "value" : "prd_ascp@fasp.ebi.ac.uk:pride/data/archive/2021/07/PXD020611/Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep3_fr5.raw"
+  }, {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000469",
+    "name" : "FTP Protocol",
+    "value" : "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2021/07/PXD020611/Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep3_fr5.raw"
+  } ],
+  "fileSizeBytes" : 1267030754,
+  "fileName" : "Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep3_fr5.raw",
+  "compress" : false,
+  "submissionDate" : "2020-07-28T13:00:14.000+00:00",
+  "publicationDate" : "2021-07-20T04:59:52.984+00:00",
+  "updatedDate" : "2020-07-28T13:00:14.000+00:00",
+  "additionalAttributes" : [ ],
+  "totalDownloads" : 61
+},{
+  "projectAccessions" : [ "PXD020611" ],
+  "accession" : "c1138dff88c8b8609350e617bf6e11efec94fe705beef0d38f206c807d8973a7",
+  "fileCategory" : {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000408",
+    "name" : "Search engine output file URI",
+    "value" : "SEARCH"
+  },
+  "checksum" : "e0251ead921035edcbba6d949f68f08550702ef2",
+  "publicFileLocations" : [ {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000468",
+    "name" : "Aspera Protocol",
+    "value" : "prd_ascp@fasp.ebi.ac.uk:pride/data/archive/2021/07/PXD020611/F063488.dat"
+  }, {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000469",
+    "name" : "FTP Protocol",
+    "value" : "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2021/07/PXD020611/F063488.dat"
+  } ],
+  "fileSizeBytes" : 156142305,
+  "fileName" : "F063488.dat",
+  "compress" : false,
+  "submissionDate" : "2020-07-28T13:00:14.000+00:00",
+  "publicationDate" : "2021-07-20T04:59:52.984+00:00",
+  "updatedDate" : "2020-07-28T13:00:14.000+00:00",
+  "additionalAttributes" : [ ],
+  "totalDownloads" : 56
+},{
+  "projectAccessions" : [ "PXD020611" ],
+  "accession" : "1b7349feb51b9053036e602392260835a3937a993ab39b541fc7215ca3a3c0b6",
+  "fileCategory" : {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000410",
+    "name" : "Other type file URI",
+    "value" : "OTHER"
+  },
+  "checksum" : "db106089dd0f35db95b41ebd1d3fbdc3945e3f85",
+  "publicFileLocations" : [ {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000469",
+    "name" : "FTP Protocol",
+    "value" : "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2021/07/PXD020611/rep3_merged_results_20180116_1531_peptides.txt"
+  }, {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000468",
+    "name" : "Aspera Protocol",
+    "value" : "prd_ascp@fasp.ebi.ac.uk:pride/data/archive/2021/07/PXD020611/rep3_merged_results_20180116_1531_peptides.txt"
+  } ],
+  "fileSizeBytes" : 48266507,
+  "fileName" : "rep3_merged_results_20180116_1531_peptides.txt",
+  "compress" : false,
+  "submissionDate" : "2020-07-28T13:00:14.000+00:00",
+  "publicationDate" : "2021-07-20T04:59:52.984+00:00",
+  "updatedDate" : "2020-07-28T13:00:14.000+00:00",
+  "additionalAttributes" : [ ],
+  "totalDownloads" : 110
+},{
+  "projectAccessions" : [ "PXD020611" ],
+  "accession" : "286e7e9d1a27d2ba4a140b0e822a139787b7faa2066bdf6abc6afa3ba058f168",
+  "fileCategory" : {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000404",
+    "name" : "Associated raw file URI",
+    "value" : "RAW"
+  },
+  "checksum" : "a48f808f4b95c36a0b205fccbfab9a1a8347f0fa",
+  "publicFileLocations" : [ {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000468",
+    "name" : "Aspera Protocol",
+    "value" : "prd_ascp@fasp.ebi.ac.uk:pride/data/archive/2021/07/PXD020611/Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep2_fr10.raw"
+  }, {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000469",
+    "name" : "FTP Protocol",
+    "value" : "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2021/07/PXD020611/Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep2_fr10.raw"
+  } ],
+  "fileSizeBytes" : 1386555580,
+  "fileName" : "Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep2_fr10.raw",
+  "compress" : false,
+  "submissionDate" : "2020-07-28T13:00:14.000+00:00",
+  "publicationDate" : "2021-07-20T04:59:52.984+00:00",
+  "updatedDate" : "2020-07-28T13:00:14.000+00:00",
+  "additionalAttributes" : [ ],
+  "totalDownloads" : 45
+},{
+  "projectAccessions" : [ "PXD020611" ],
+  "accession" : "34409253ec0df1e1e3ff1d63a41761bd8a69df721f08ca920d05a37d81b2fad4",
+  "fileCategory" : {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000408",
+    "name" : "Search engine output file URI",
+    "value" : "SEARCH"
+  },
+  "checksum" : "63b7bcf38859368417913303da631dde459fe7ff",
+  "publicFileLocations" : [ {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000469",
+    "name" : "FTP Protocol",
+    "value" : "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2021/07/PXD020611/F063486.dat"
+  }, {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000468",
+    "name" : "Aspera Protocol",
+    "value" : "prd_ascp@fasp.ebi.ac.uk:pride/data/archive/2021/07/PXD020611/F063486.dat"
+  } ],
+  "fileSizeBytes" : 181366347,
+  "fileName" : "F063486.dat",
+  "compress" : false,
+  "submissionDate" : "2020-07-28T13:00:14.000+00:00",
+  "publicationDate" : "2021-07-20T04:59:52.984+00:00",
+  "updatedDate" : "2020-07-28T13:00:14.000+00:00",
+  "additionalAttributes" : [ ],
+  "totalDownloads" : 45
+},{
+  "projectAccessions" : [ "PXD020611" ],
+  "accession" : "716582fbd06cb107c9a1f9b96b13912322fcbcb180fbf07a498e6048b7746bd4",
+  "fileCategory" : {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000410",
+    "name" : "Other type file URI",
+    "value" : "OTHER"
+  },
+  "checksum" : "4338ecc6cab12e9b84eb9ec6a262e65f8cb842be",
+  "publicFileLocations" : [ {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000468",
+    "name" : "Aspera Protocol",
+    "value" : "prd_ascp@fasp.ebi.ac.uk:pride/data/archive/2021/07/PXD020611/rep2_merged_results_20180116_1332_proteins.txt"
+  }, {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000469",
+    "name" : "FTP Protocol",
+    "value" : "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2021/07/PXD020611/rep2_merged_results_20180116_1332_proteins.txt"
+  } ],
+  "fileSizeBytes" : 1740104,
+  "fileName" : "rep2_merged_results_20180116_1332_proteins.txt",
+  "compress" : false,
+  "submissionDate" : "2020-07-28T13:00:14.000+00:00",
+  "publicationDate" : "2021-07-20T04:59:52.984+00:00",
+  "updatedDate" : "2020-07-28T13:00:14.000+00:00",
+  "additionalAttributes" : [ ],
+  "totalDownloads" : 110
+},{
+  "projectAccessions" : [ "PXD020611" ],
+  "accession" : "37d80ef91d5f3af3c8e1fa51bd6bb50d0dfb901337abe4ae030f905b5deb8a2a",
+  "fileCategory" : {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000408",
+    "name" : "Search engine output file URI",
+    "value" : "SEARCH"
+  },
+  "checksum" : "f14fec832248a52cd63a5f53f5176487815d7c74",
+  "publicFileLocations" : [ {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000469",
+    "name" : "FTP Protocol",
+    "value" : "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2021/07/PXD020611/F063425.dat"
+  }, {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000468",
+    "name" : "Aspera Protocol",
+    "value" : "prd_ascp@fasp.ebi.ac.uk:pride/data/archive/2021/07/PXD020611/F063425.dat"
+  } ],
+  "fileSizeBytes" : 158657680,
+  "fileName" : "F063425.dat",
+  "compress" : false,
+  "submissionDate" : "2020-07-28T13:00:14.000+00:00",
+  "publicationDate" : "2021-07-20T04:59:52.984+00:00",
+  "updatedDate" : "2020-07-28T13:00:14.000+00:00",
+  "additionalAttributes" : [ ],
+  "totalDownloads" : 61
+},{
+  "projectAccessions" : [ "PXD020611" ],
+  "accession" : "9bf4d7ebddf7f904713dc8a1273d0e2286d3f247136d43dd296b330c3d81e9e8",
+  "fileCategory" : {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000408",
+    "name" : "Search engine output file URI",
+    "value" : "SEARCH"
+  },
+  "checksum" : "7954475c8f38f4816931941b2ae3164bc5f9fbb0",
+  "publicFileLocations" : [ {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000468",
+    "name" : "Aspera Protocol",
+    "value" : "prd_ascp@fasp.ebi.ac.uk:pride/data/archive/2021/07/PXD020611/F063484.dat"
+  }, {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000469",
+    "name" : "FTP Protocol",
+    "value" : "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2021/07/PXD020611/F063484.dat"
+  } ],
+  "fileSizeBytes" : 183391404,
+  "fileName" : "F063484.dat",
+  "compress" : false,
+  "submissionDate" : "2020-07-28T13:00:14.000+00:00",
+  "publicationDate" : "2021-07-20T04:59:52.984+00:00",
+  "updatedDate" : "2020-07-28T13:00:14.000+00:00",
+  "additionalAttributes" : [ ],
+  "totalDownloads" : 70
+},{
+  "projectAccessions" : [ "PXD020611" ],
+  "accession" : "ec2fe21ce10ba733fd8a8025b2970a3f5a55a997ee22467b8b754331d28bc929",
+  "fileCategory" : {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000404",
+    "name" : "Associated raw file URI",
+    "value" : "RAW"
+  },
+  "checksum" : "e89528e2ef7911a8038cd5b314a3666d64115911",
+  "publicFileLocations" : [ {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000468",
+    "name" : "Aspera Protocol",
+    "value" : "prd_ascp@fasp.ebi.ac.uk:pride/data/archive/2021/07/PXD020611/Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep3_fr9.raw"
+  }, {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000469",
+    "name" : "FTP Protocol",
+    "value" : "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2021/07/PXD020611/Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep3_fr9.raw"
+  } ],
+  "fileSizeBytes" : 1301705599,
+  "fileName" : "Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep3_fr9.raw",
+  "compress" : false,
+  "submissionDate" : "2020-07-28T13:00:14.000+00:00",
+  "publicationDate" : "2021-07-20T04:59:52.984+00:00",
+  "updatedDate" : "2020-07-28T13:00:14.000+00:00",
+  "additionalAttributes" : [ ],
+  "totalDownloads" : 55
+},{
+  "projectAccessions" : [ "PXD020611" ],
+  "accession" : "5b6e3bc70c5445388ebae424064010ae4c84b0df03a96c394441893c171a624b",
+  "fileCategory" : {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000404",
+    "name" : "Associated raw file URI",
+    "value" : "RAW"
+  },
+  "checksum" : "b5f3871a0f669b29657edf247a3a17ce2b39c037",
+  "publicFileLocations" : [ {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000469",
+    "name" : "FTP Protocol",
+    "value" : "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2021/07/PXD020611/Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep2_fr11.raw"
+  }, {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000468",
+    "name" : "Aspera Protocol",
+    "value" : "prd_ascp@fasp.ebi.ac.uk:pride/data/archive/2021/07/PXD020611/Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep2_fr11.raw"
+  } ],
+  "fileSizeBytes" : 1245504842,
+  "fileName" : "Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep2_fr11.raw",
+  "compress" : false,
+  "submissionDate" : "2020-07-28T13:00:14.000+00:00",
+  "publicationDate" : "2021-07-20T04:59:52.984+00:00",
+  "updatedDate" : "2020-07-28T13:00:14.000+00:00",
+  "additionalAttributes" : [ ],
+  "totalDownloads" : 42
+},{
+  "projectAccessions" : [ "PXD020611" ],
+  "accession" : "727227e84fe2ebf2bf130716def2b87e5d5ee42c2bfbb09aead577599229452b",
+  "fileCategory" : {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000404",
+    "name" : "Associated raw file URI",
+    "value" : "RAW"
+  },
+  "checksum" : "68e303515911db012573d84b9f7fa93c57ed3abc",
+  "publicFileLocations" : [ {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000469",
+    "name" : "FTP Protocol",
+    "value" : "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2021/07/PXD020611/Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep3_fr10.raw"
+  }, {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000468",
+    "name" : "Aspera Protocol",
+    "value" : "prd_ascp@fasp.ebi.ac.uk:pride/data/archive/2021/07/PXD020611/Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep3_fr10.raw"
+  } ],
+  "fileSizeBytes" : 1269040715,
+  "fileName" : "Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep3_fr10.raw",
+  "compress" : false,
+  "submissionDate" : "2020-07-28T13:00:14.000+00:00",
+  "publicationDate" : "2021-07-20T04:59:52.984+00:00",
+  "updatedDate" : "2020-07-28T13:00:14.000+00:00",
+  "additionalAttributes" : [ ],
+  "totalDownloads" : 63
+},{
+  "projectAccessions" : [ "PXD020611" ],
+  "accession" : "dfe6a40fa325c2be5ec9a16d45954007cb1666960317ed2e0bd5ccbf4e65fcbc",
+  "fileCategory" : {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000408",
+    "name" : "Search engine output file URI",
+    "value" : "SEARCH"
+  },
+  "checksum" : "7f3c9ba4f716211389eb7f7204ade6fad0097b54",
+  "publicFileLocations" : [ {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000468",
+    "name" : "Aspera Protocol",
+    "value" : "prd_ascp@fasp.ebi.ac.uk:pride/data/archive/2021/07/PXD020611/F063458.dat"
+  }, {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000469",
+    "name" : "FTP Protocol",
+    "value" : "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2021/07/PXD020611/F063458.dat"
+  } ],
+  "fileSizeBytes" : 198404889,
+  "fileName" : "F063458.dat",
+  "compress" : false,
+  "submissionDate" : "2020-07-28T13:00:14.000+00:00",
+  "publicationDate" : "2021-07-20T04:59:52.984+00:00",
+  "updatedDate" : "2020-07-28T13:00:14.000+00:00",
+  "additionalAttributes" : [ ],
+  "totalDownloads" : 63
+},{
+  "projectAccessions" : [ "PXD020611" ],
+  "accession" : "f4b21d761a13564b18fc262173e0908bbe8ca893a93c2d311c6d5f04ff7786e1",
+  "fileCategory" : {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000410",
+    "name" : "Other type file URI",
+    "value" : "OTHER"
+  },
+  "checksum" : "64bfa9c4f773fe1f1bfb6b0411f1475f93708c6f",
+  "publicFileLocations" : [ {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000468",
+    "name" : "Aspera Protocol",
+    "value" : "prd_ascp@fasp.ebi.ac.uk:pride/data/archive/2021/07/PXD020611/rep1_merged_results_20180116_1331_proteins.txt"
+  }, {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000469",
+    "name" : "FTP Protocol",
+    "value" : "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2021/07/PXD020611/rep1_merged_results_20180116_1331_proteins.txt"
+  } ],
+  "fileSizeBytes" : 1822122,
+  "fileName" : "rep1_merged_results_20180116_1331_proteins.txt",
+  "compress" : false,
+  "submissionDate" : "2020-07-28T13:00:14.000+00:00",
+  "publicationDate" : "2021-07-20T04:59:52.984+00:00",
+  "updatedDate" : "2020-07-28T13:00:14.000+00:00",
+  "additionalAttributes" : [ ],
+  "totalDownloads" : 54
+},{
+  "projectAccessions" : [ "PXD020611" ],
+  "accession" : "ae66342b98c58912b4c75711d4390004edfbdd1cddfff741e571c70bef9bce22",
+  "fileCategory" : {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000408",
+    "name" : "Search engine output file URI",
+    "value" : "SEARCH"
+  },
+  "checksum" : "acbfa4b5c5e0046b08023f59b8a7ee35fe66a0db",
+  "publicFileLocations" : [ {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000468",
+    "name" : "Aspera Protocol",
+    "value" : "prd_ascp@fasp.ebi.ac.uk:pride/data/archive/2021/07/PXD020611/F063426.dat"
+  }, {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000469",
+    "name" : "FTP Protocol",
+    "value" : "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2021/07/PXD020611/F063426.dat"
+  } ],
+  "fileSizeBytes" : 174332755,
+  "fileName" : "F063426.dat",
+  "compress" : false,
+  "submissionDate" : "2020-07-28T13:00:14.000+00:00",
+  "publicationDate" : "2021-07-20T04:59:52.984+00:00",
+  "updatedDate" : "2020-07-28T13:00:14.000+00:00",
+  "additionalAttributes" : [ ],
+  "totalDownloads" : 61
+},{
+  "projectAccessions" : [ "PXD020611" ],
+  "accession" : "c623c59e94547dc5e0a0fd4737966198a08a6ab0f4536e47afef6ee34000ddc1",
+  "fileCategory" : {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000404",
+    "name" : "Associated raw file URI",
+    "value" : "RAW"
+  },
+  "checksum" : "4a53c1599fa66aa24f0b82d05613004d3923bcbb",
+  "publicFileLocations" : [ {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000469",
+    "name" : "FTP Protocol",
+    "value" : "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2021/07/PXD020611/Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep2_fr9.raw"
+  }, {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000468",
+    "name" : "Aspera Protocol",
+    "value" : "prd_ascp@fasp.ebi.ac.uk:pride/data/archive/2021/07/PXD020611/Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep2_fr9.raw"
+  } ],
+  "fileSizeBytes" : 910287005,
+  "fileName" : "Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep2_fr9.raw",
+  "compress" : false,
+  "submissionDate" : "2020-07-28T13:00:14.000+00:00",
+  "publicationDate" : "2021-07-20T04:59:52.984+00:00",
+  "updatedDate" : "2020-07-28T13:00:14.000+00:00",
+  "additionalAttributes" : [ ],
+  "totalDownloads" : 61
+},{
+  "projectAccessions" : [ "PXD020611" ],
+  "accession" : "5815764d5fe920aae73242f1223278da318e20da090971bab4b54e01fd65894e",
+  "fileCategory" : {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000408",
+    "name" : "Search engine output file URI",
+    "value" : "SEARCH"
+  },
+  "checksum" : "9c23f909e256ec6859415c49f8a2eff58c5efa66",
+  "publicFileLocations" : [ {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000468",
+    "name" : "Aspera Protocol",
+    "value" : "prd_ascp@fasp.ebi.ac.uk:pride/data/archive/2021/07/PXD020611/F063416.dat"
+  }, {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000469",
+    "name" : "FTP Protocol",
+    "value" : "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2021/07/PXD020611/F063416.dat"
+  } ],
+  "fileSizeBytes" : 172755556,
+  "fileName" : "F063416.dat",
+  "compress" : false,
+  "submissionDate" : "2020-07-28T13:00:14.000+00:00",
+  "publicationDate" : "2021-07-20T04:59:52.984+00:00",
+  "updatedDate" : "2020-07-28T13:00:14.000+00:00",
+  "additionalAttributes" : [ ],
+  "totalDownloads" : 62
+},{
+  "projectAccessions" : [ "PXD020611" ],
+  "accession" : "d5eeeafa35251944962020df7452a129f6db7e794d562c1d378f0ded1bfcbb01",
+  "fileCategory" : {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000404",
+    "name" : "Associated raw file URI",
+    "value" : "RAW"
+  },
+  "checksum" : "232c432e5da34609faac772f40fdfce25e8eefc0",
+  "publicFileLocations" : [ {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000469",
+    "name" : "FTP Protocol",
+    "value" : "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2021/07/PXD020611/Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep1_fr6.raw"
+  }, {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000468",
+    "name" : "Aspera Protocol",
+    "value" : "prd_ascp@fasp.ebi.ac.uk:pride/data/archive/2021/07/PXD020611/Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep1_fr6.raw"
+  } ],
+  "fileSizeBytes" : 1217091777,
+  "fileName" : "Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep1_fr6.raw",
+  "compress" : false,
+  "submissionDate" : "2020-07-28T13:00:14.000+00:00",
+  "publicationDate" : "2021-07-20T04:59:52.984+00:00",
+  "updatedDate" : "2020-07-28T13:00:14.000+00:00",
+  "additionalAttributes" : [ ],
+  "totalDownloads" : 65
+},{
+  "projectAccessions" : [ "PXD020611" ],
+  "accession" : "60e3dc3b2ff9b8dfb7508519d90985bc72b201b1a39af87d5f5f3b436c4cf2e7",
+  "fileCategory" : {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000404",
+    "name" : "Associated raw file URI",
+    "value" : "RAW"
+  },
+  "checksum" : "0afca8328d7c50b38b82533aed7a1b1a154be965",
+  "publicFileLocations" : [ {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000468",
+    "name" : "Aspera Protocol",
+    "value" : "prd_ascp@fasp.ebi.ac.uk:pride/data/archive/2021/07/PXD020611/Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep2_fr4.raw"
+  }, {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000469",
+    "name" : "FTP Protocol",
+    "value" : "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2021/07/PXD020611/Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep2_fr4.raw"
+  } ],
+  "fileSizeBytes" : 1202562436,
+  "fileName" : "Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep2_fr4.raw",
+  "compress" : false,
+  "submissionDate" : "2020-07-28T13:00:14.000+00:00",
+  "publicationDate" : "2021-07-20T04:59:52.984+00:00",
+  "updatedDate" : "2020-07-28T13:00:14.000+00:00",
+  "additionalAttributes" : [ ],
+  "totalDownloads" : 51
+},{
+  "projectAccessions" : [ "PXD020611" ],
+  "accession" : "4be0bfbb2771d7df295acd55befe742019c934e7460bc77756d22b95d5873c1f",
+  "fileCategory" : {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000404",
+    "name" : "Associated raw file URI",
+    "value" : "RAW"
+  },
+  "checksum" : "763c4f54e7abb05fa2085ab144b8d1d9c34b2652",
+  "publicFileLocations" : [ {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000469",
+    "name" : "FTP Protocol",
+    "value" : "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2021/07/PXD020611/Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep2_fr8.raw"
+  }, {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000468",
+    "name" : "Aspera Protocol",
+    "value" : "prd_ascp@fasp.ebi.ac.uk:pride/data/archive/2021/07/PXD020611/Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep2_fr8.raw"
+  } ],
+  "fileSizeBytes" : 1309780023,
+  "fileName" : "Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep2_fr8.raw",
+  "compress" : false,
+  "submissionDate" : "2020-07-28T13:00:14.000+00:00",
+  "publicationDate" : "2021-07-20T04:59:52.984+00:00",
+  "updatedDate" : "2020-07-28T13:00:14.000+00:00",
+  "additionalAttributes" : [ ],
+  "totalDownloads" : 57
+},{
+  "projectAccessions" : [ "PXD020611" ],
+  "accession" : "d9856f94bc77c3cd8c3168f7cdcce27a561bcc57f9c483d0ea4b5968b167bd0c",
+  "fileCategory" : {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000404",
+    "name" : "Associated raw file URI",
+    "value" : "RAW"
+  },
+  "checksum" : "6dfbc1fbb85c25311e4147fdd05ccd4fbcbc5332",
+  "publicFileLocations" : [ {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000469",
+    "name" : "FTP Protocol",
+    "value" : "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2021/07/PXD020611/Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep1_fr10.raw"
+  }, {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000468",
+    "name" : "Aspera Protocol",
+    "value" : "prd_ascp@fasp.ebi.ac.uk:pride/data/archive/2021/07/PXD020611/Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep1_fr10.raw"
+  } ],
+  "fileSizeBytes" : 1231032567,
+  "fileName" : "Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep1_fr10.raw",
+  "compress" : false,
+  "submissionDate" : "2020-07-28T13:00:14.000+00:00",
+  "publicationDate" : "2021-07-20T04:59:52.984+00:00",
+  "updatedDate" : "2020-07-28T13:00:14.000+00:00",
+  "additionalAttributes" : [ ],
+  "totalDownloads" : 48
+},{
+  "projectAccessions" : [ "PXD020611" ],
+  "accession" : "c255fe808a8a1cbd8bf27d07466d14af7fa6b40e7a79ec2d13b9975c5b015d1c",
+  "fileCategory" : {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000408",
+    "name" : "Search engine output file URI",
+    "value" : "SEARCH"
+  },
+  "checksum" : "1ac5d7b3bd2bcb1bb0c8b66018b7335971594d11",
+  "publicFileLocations" : [ {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000469",
+    "name" : "FTP Protocol",
+    "value" : "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2021/07/PXD020611/F063431.dat"
+  }, {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000468",
+    "name" : "Aspera Protocol",
+    "value" : "prd_ascp@fasp.ebi.ac.uk:pride/data/archive/2021/07/PXD020611/F063431.dat"
+  } ],
+  "fileSizeBytes" : 179249990,
+  "fileName" : "F063431.dat",
+  "compress" : false,
+  "submissionDate" : "2020-07-28T13:00:14.000+00:00",
+  "publicationDate" : "2021-07-20T04:59:52.984+00:00",
+  "updatedDate" : "2020-07-28T13:00:14.000+00:00",
+  "additionalAttributes" : [ ],
+  "totalDownloads" : 59
+},{
+  "projectAccessions" : [ "PXD020611" ],
+  "accession" : "48118b6e831b267e7a543036f9ef4d49cb7ea8dce78cda66f3c66af41e4397da",
+  "fileCategory" : {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000408",
+    "name" : "Search engine output file URI",
+    "value" : "SEARCH"
+  },
+  "checksum" : "e181e4c9a800b6cefb042429b2e67792b94e21d9",
+  "publicFileLocations" : [ {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000469",
+    "name" : "FTP Protocol",
+    "value" : "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2021/07/PXD020611/F063443.dat"
+  }, {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000468",
+    "name" : "Aspera Protocol",
+    "value" : "prd_ascp@fasp.ebi.ac.uk:pride/data/archive/2021/07/PXD020611/F063443.dat"
+  } ],
+  "fileSizeBytes" : 173396237,
+  "fileName" : "F063443.dat",
+  "compress" : false,
+  "submissionDate" : "2020-07-28T13:00:14.000+00:00",
+  "publicationDate" : "2021-07-20T04:59:52.984+00:00",
+  "updatedDate" : "2020-07-28T13:00:14.000+00:00",
+  "additionalAttributes" : [ ],
+  "totalDownloads" : 49
+},{
+  "projectAccessions" : [ "PXD020611" ],
+  "accession" : "7f689e3d31edabaf44085a506390b311e2803d000402d29d3d2f5d1a168bdbc9",
+  "fileCategory" : {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000408",
+    "name" : "Search engine output file URI",
+    "value" : "SEARCH"
+  },
+  "checksum" : "a59130fcb944f31a930b7f8502e2d158d8eacf86",
+  "publicFileLocations" : [ {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000468",
+    "name" : "Aspera Protocol",
+    "value" : "prd_ascp@fasp.ebi.ac.uk:pride/data/archive/2021/07/PXD020611/F063469.dat"
+  }, {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000469",
+    "name" : "FTP Protocol",
+    "value" : "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2021/07/PXD020611/F063469.dat"
+  } ],
+  "fileSizeBytes" : 156805918,
+  "fileName" : "F063469.dat",
+  "compress" : false,
+  "submissionDate" : "2020-07-28T13:00:14.000+00:00",
+  "publicationDate" : "2021-07-20T04:59:52.984+00:00",
+  "updatedDate" : "2020-07-28T13:00:14.000+00:00",
+  "additionalAttributes" : [ ],
+  "totalDownloads" : 71
+},{
+  "projectAccessions" : [ "PXD020611" ],
+  "accession" : "337ec86bec2865cb1080fb507f873b659dc4daf008666bd530c96764eb9b927f",
+  "fileCategory" : {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000404",
+    "name" : "Associated raw file URI",
+    "value" : "RAW"
+  },
+  "checksum" : "0e0b89423c4882d96368a3ee82ae22a9e224ebf3",
+  "publicFileLocations" : [ {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000468",
+    "name" : "Aspera Protocol",
+    "value" : "prd_ascp@fasp.ebi.ac.uk:pride/data/archive/2021/07/PXD020611/Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep2_fr3.raw"
+  }, {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000469",
+    "name" : "FTP Protocol",
+    "value" : "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2021/07/PXD020611/Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep2_fr3.raw"
+  } ],
+  "fileSizeBytes" : 1180751740,
+  "fileName" : "Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep2_fr3.raw",
+  "compress" : false,
+  "submissionDate" : "2020-07-28T13:00:14.000+00:00",
+  "publicationDate" : "2021-07-20T04:59:52.984+00:00",
+  "updatedDate" : "2020-07-28T13:00:14.000+00:00",
+  "additionalAttributes" : [ ],
+  "totalDownloads" : 70
+},{
+  "projectAccessions" : [ "PXD020611" ],
+  "accession" : "76fa357bd443f1a0fba6c20431309727c8bfdc197384001bd35e5481c903988c",
+  "fileCategory" : {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000408",
+    "name" : "Search engine output file URI",
+    "value" : "SEARCH"
+  },
+  "checksum" : "e213f96506a9e611947968ea3d00ed3f914a9c56",
+  "publicFileLocations" : [ {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000468",
+    "name" : "Aspera Protocol",
+    "value" : "prd_ascp@fasp.ebi.ac.uk:pride/data/archive/2021/07/PXD020611/F063447.dat"
+  }, {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000469",
+    "name" : "FTP Protocol",
+    "value" : "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2021/07/PXD020611/F063447.dat"
+  } ],
+  "fileSizeBytes" : 170316901,
+  "fileName" : "F063447.dat",
+  "compress" : false,
+  "submissionDate" : "2020-07-28T13:00:14.000+00:00",
+  "publicationDate" : "2021-07-20T04:59:52.984+00:00",
+  "updatedDate" : "2020-07-28T13:00:14.000+00:00",
+  "additionalAttributes" : [ ],
+  "totalDownloads" : 67
+},{
+  "projectAccessions" : [ "PXD020611" ],
+  "accession" : "ca914fc573033d204428c69bd1ef790b7cbfd446e7e0c23012428f0abf154ce9",
+  "fileCategory" : {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000408",
+    "name" : "Search engine output file URI",
+    "value" : "SEARCH"
+  },
+  "checksum" : "d88ad3d4ac77e94c0c570b5f447f8b9ed5ac1476",
+  "publicFileLocations" : [ {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000468",
+    "name" : "Aspera Protocol",
+    "value" : "prd_ascp@fasp.ebi.ac.uk:pride/data/archive/2021/07/PXD020611/F063471.dat"
+  }, {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000469",
+    "name" : "FTP Protocol",
+    "value" : "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2021/07/PXD020611/F063471.dat"
+  } ],
+  "fileSizeBytes" : 159296577,
+  "fileName" : "F063471.dat",
+  "compress" : false,
+  "submissionDate" : "2020-07-28T13:00:14.000+00:00",
+  "publicationDate" : "2021-07-20T04:59:52.984+00:00",
+  "updatedDate" : "2020-07-28T13:00:14.000+00:00",
+  "additionalAttributes" : [ ],
+  "totalDownloads" : 54
+},{
+  "projectAccessions" : [ "PXD020611" ],
+  "accession" : "5fb13c4eadfab4be3e4840389a2f4c90fedc1fae542bee11e7bf82b794f7e7ff",
+  "fileCategory" : {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000408",
+    "name" : "Search engine output file URI",
+    "value" : "SEARCH"
+  },
+  "checksum" : "0a3cc07678af17ca134bb6fa055960d0cff54327",
+  "publicFileLocations" : [ {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000469",
+    "name" : "FTP Protocol",
+    "value" : "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2021/07/PXD020611/F063437.dat"
+  }, {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000468",
+    "name" : "Aspera Protocol",
+    "value" : "prd_ascp@fasp.ebi.ac.uk:pride/data/archive/2021/07/PXD020611/F063437.dat"
+  } ],
+  "fileSizeBytes" : 176002346,
+  "fileName" : "F063437.dat",
+  "compress" : false,
+  "submissionDate" : "2020-07-28T13:00:14.000+00:00",
+  "publicationDate" : "2021-07-20T04:59:52.984+00:00",
+  "updatedDate" : "2020-07-28T13:00:14.000+00:00",
+  "additionalAttributes" : [ ],
+  "totalDownloads" : 58
+},{
+  "projectAccessions" : [ "PXD020611" ],
+  "accession" : "8b7d592289018778d43dcf1f7beb2b39a2d1804289ac07db1491ff19381d3781",
+  "fileCategory" : {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000404",
+    "name" : "Associated raw file URI",
+    "value" : "RAW"
+  },
+  "checksum" : "e06b341e0af8cb1634720d93558644923e6f35a5",
+  "publicFileLocations" : [ {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000468",
+    "name" : "Aspera Protocol",
+    "value" : "prd_ascp@fasp.ebi.ac.uk:pride/data/archive/2021/07/PXD020611/Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep3_fr6.raw"
+  }, {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000469",
+    "name" : "FTP Protocol",
+    "value" : "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2021/07/PXD020611/Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep3_fr6.raw"
+  } ],
+  "fileSizeBytes" : 1310291116,
+  "fileName" : "Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep3_fr6.raw",
+  "compress" : false,
+  "submissionDate" : "2020-07-28T13:00:14.000+00:00",
+  "publicationDate" : "2021-07-20T04:59:52.984+00:00",
+  "updatedDate" : "2020-07-28T13:00:14.000+00:00",
+  "additionalAttributes" : [ ],
+  "totalDownloads" : 44
+},{
+  "projectAccessions" : [ "PXD020611" ],
+  "accession" : "8bbabf9675ef35f7557a4f77523976602ae93b4cc73eb4401708cabddc046969",
+  "fileCategory" : {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000408",
+    "name" : "Search engine output file URI",
+    "value" : "SEARCH"
+  },
+  "checksum" : "4fd34f10f7467bfb210b816d2227d2fccd30131c",
+  "publicFileLocations" : [ {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000468",
+    "name" : "Aspera Protocol",
+    "value" : "prd_ascp@fasp.ebi.ac.uk:pride/data/archive/2021/07/PXD020611/F063407.dat"
+  }, {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000469",
+    "name" : "FTP Protocol",
+    "value" : "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2021/07/PXD020611/F063407.dat"
+  } ],
+  "fileSizeBytes" : 184320341,
+  "fileName" : "F063407.dat",
+  "compress" : false,
+  "submissionDate" : "2020-07-28T13:00:14.000+00:00",
+  "publicationDate" : "2021-07-20T04:59:52.984+00:00",
+  "updatedDate" : "2020-07-28T13:00:14.000+00:00",
+  "additionalAttributes" : [ ],
+  "totalDownloads" : 62
+},{
+  "projectAccessions" : [ "PXD020611" ],
+  "accession" : "599f9e127befbe308eb3376138e3f045a248985eed4eb44eaf40f2e117821c13",
+  "fileCategory" : {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000410",
+    "name" : "Other type file URI",
+    "value" : "OTHER"
+  },
+  "checksum" : "4f19b26e7a1befc16425817407f98027f1524132",
+  "publicFileLocations" : [ {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000468",
+    "name" : "Aspera Protocol",
+    "value" : "prd_ascp@fasp.ebi.ac.uk:pride/data/archive/2021/07/PXD020611/rep1_merged_results_20180116_1331_peptides.txt"
+  }, {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000469",
+    "name" : "FTP Protocol",
+    "value" : "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2021/07/PXD020611/rep1_merged_results_20180116_1331_peptides.txt"
+  } ],
+  "fileSizeBytes" : 50603844,
+  "fileName" : "rep1_merged_results_20180116_1331_peptides.txt",
+  "compress" : false,
+  "submissionDate" : "2020-07-28T13:00:14.000+00:00",
+  "publicationDate" : "2021-07-20T04:59:52.984+00:00",
+  "updatedDate" : "2020-07-28T13:00:14.000+00:00",
+  "additionalAttributes" : [ ],
+  "totalDownloads" : 101
+},{
+  "projectAccessions" : [ "PXD020611" ],
+  "accession" : "a895d717474c9a96f3b6dff4d808fa5e9ec7e1eb530eeaeafa0c357019bd71ec",
+  "fileCategory" : {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000408",
+    "name" : "Search engine output file URI",
+    "value" : "SEARCH"
+  },
+  "checksum" : "efc241e53e07fc98aa9c809ee4c4a69dda02064b",
+  "publicFileLocations" : [ {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000469",
+    "name" : "FTP Protocol",
+    "value" : "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2021/07/PXD020611/F063406.dat"
+  }, {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000468",
+    "name" : "Aspera Protocol",
+    "value" : "prd_ascp@fasp.ebi.ac.uk:pride/data/archive/2021/07/PXD020611/F063406.dat"
+  } ],
+  "fileSizeBytes" : 177755314,
+  "fileName" : "F063406.dat",
+  "compress" : false,
+  "submissionDate" : "2020-07-28T13:00:14.000+00:00",
+  "publicationDate" : "2021-07-20T04:59:52.984+00:00",
+  "updatedDate" : "2020-07-28T13:00:14.000+00:00",
+  "additionalAttributes" : [ ],
+  "totalDownloads" : 67
+},{
+  "projectAccessions" : [ "PXD020611" ],
+  "accession" : "68dcf436153401d6690c9f709c49db0313eccd6d4922d7b57386e6e6ee6febdd",
+  "fileCategory" : {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000408",
+    "name" : "Search engine output file URI",
+    "value" : "SEARCH"
+  },
+  "checksum" : "df5566210e2e8171e050776386eae27211a7adf7",
+  "publicFileLocations" : [ {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000469",
+    "name" : "FTP Protocol",
+    "value" : "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2021/07/PXD020611/F063430.dat"
+  }, {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000468",
+    "name" : "Aspera Protocol",
+    "value" : "prd_ascp@fasp.ebi.ac.uk:pride/data/archive/2021/07/PXD020611/F063430.dat"
+  } ],
+  "fileSizeBytes" : 170407062,
+  "fileName" : "F063430.dat",
+  "compress" : false,
+  "submissionDate" : "2020-07-28T13:00:14.000+00:00",
+  "publicationDate" : "2021-07-20T04:59:52.984+00:00",
+  "updatedDate" : "2020-07-28T13:00:14.000+00:00",
+  "additionalAttributes" : [ ],
+  "totalDownloads" : 54
+},{
+  "projectAccessions" : [ "PXD020611" ],
+  "accession" : "a5af6e77f276e8434c6c71fe66c134c8ef92bbcd0178970f413a446ba1a02fb6",
+  "fileCategory" : {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000404",
+    "name" : "Associated raw file URI",
+    "value" : "RAW"
+  },
+  "checksum" : "7eea4460c79ad70e0529a47f8db2846875d2b26f",
+  "publicFileLocations" : [ {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000468",
+    "name" : "Aspera Protocol",
+    "value" : "prd_ascp@fasp.ebi.ac.uk:pride/data/archive/2021/07/PXD020611/Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep1_fr9.raw"
+  }, {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000469",
+    "name" : "FTP Protocol",
+    "value" : "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2021/07/PXD020611/Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep1_fr9.raw"
+  } ],
+  "fileSizeBytes" : 1368131154,
+  "fileName" : "Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep1_fr9.raw",
+  "compress" : false,
+  "submissionDate" : "2020-07-28T13:00:14.000+00:00",
+  "publicationDate" : "2021-07-20T04:59:52.984+00:00",
+  "updatedDate" : "2020-07-28T13:00:14.000+00:00",
+  "additionalAttributes" : [ ],
+  "totalDownloads" : 54
+},{
+  "projectAccessions" : [ "PXD020611" ],
+  "accession" : "4b8aa5fb36f3642c23ae4a8c8dd1483c4c5c81fe1f16f1ce93367eea078f063d",
+  "fileCategory" : {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000410",
+    "name" : "Other type file URI",
+    "value" : "OTHER"
+  },
+  "checksum" : "17553914d99fe2dd1b5fd1c8969d23982a2875f9",
+  "publicFileLocations" : [ {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000468",
+    "name" : "Aspera Protocol",
+    "value" : "prd_ascp@fasp.ebi.ac.uk:pride/data/archive/2021/07/PXD020611/rep2_merged_results_20180116_1332_peptides.txt"
+  }, {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000469",
+    "name" : "FTP Protocol",
+    "value" : "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2021/07/PXD020611/rep2_merged_results_20180116_1332_peptides.txt"
+  } ],
+  "fileSizeBytes" : 48939469,
+  "fileName" : "rep2_merged_results_20180116_1332_peptides.txt",
+  "compress" : false,
+  "submissionDate" : "2020-07-28T13:00:14.000+00:00",
+  "publicationDate" : "2021-07-20T04:59:52.984+00:00",
+  "updatedDate" : "2020-07-28T13:00:14.000+00:00",
+  "additionalAttributes" : [ ],
+  "totalDownloads" : 113
+},{
+  "projectAccessions" : [ "PXD020611" ],
+  "accession" : "0bb18fbd15346acd008bc75e77ec3bc7bdb7446a0fdbbbe3410d6a17deaa040d",
+  "fileCategory" : {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000408",
+    "name" : "Search engine output file URI",
+    "value" : "SEARCH"
+  },
+  "checksum" : "734759338c9cd6ddd61f0f1eb4d65369c69cc7a4",
+  "publicFileLocations" : [ {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000468",
+    "name" : "Aspera Protocol",
+    "value" : "prd_ascp@fasp.ebi.ac.uk:pride/data/archive/2021/07/PXD020611/F063459.dat"
+  }, {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000469",
+    "name" : "FTP Protocol",
+    "value" : "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2021/07/PXD020611/F063459.dat"
+  } ],
+  "fileSizeBytes" : 172313196,
+  "fileName" : "F063459.dat",
+  "compress" : false,
+  "submissionDate" : "2020-07-28T13:00:14.000+00:00",
+  "publicationDate" : "2021-07-20T04:59:52.984+00:00",
+  "updatedDate" : "2020-07-28T13:00:14.000+00:00",
+  "additionalAttributes" : [ ],
+  "totalDownloads" : 58
+},{
+  "projectAccessions" : [ "PXD020611" ],
+  "accession" : "c26ed47b1a367de2a3cc2d221ba6ed9564ddaa8bdc1b37dbd9146f3292bba76b",
+  "fileCategory" : {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000408",
+    "name" : "Search engine output file URI",
+    "value" : "SEARCH"
+  },
+  "checksum" : "7983c59a69c39db958fddd8c3e4cffdba0a55677",
+  "publicFileLocations" : [ {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000469",
+    "name" : "FTP Protocol",
+    "value" : "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2021/07/PXD020611/F063480.dat"
+  }, {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000468",
+    "name" : "Aspera Protocol",
+    "value" : "prd_ascp@fasp.ebi.ac.uk:pride/data/archive/2021/07/PXD020611/F063480.dat"
+  } ],
+  "fileSizeBytes" : 180147322,
+  "fileName" : "F063480.dat",
+  "compress" : false,
+  "submissionDate" : "2020-07-28T13:00:14.000+00:00",
+  "publicationDate" : "2021-07-20T04:59:52.984+00:00",
+  "updatedDate" : "2020-07-28T13:00:14.000+00:00",
+  "additionalAttributes" : [ ],
+  "totalDownloads" : 62
+},{
+  "projectAccessions" : [ "PXD020611" ],
+  "accession" : "aa2dbd2be2a933ededa66fa9f36f637f9720705f7ad2f8eb3f4f70d0d5e886c9",
+  "fileCategory" : {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000408",
+    "name" : "Search engine output file URI",
+    "value" : "SEARCH"
+  },
+  "checksum" : "17ff125f7e20eded685331d45feb96119c3b5def",
+  "publicFileLocations" : [ {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000469",
+    "name" : "FTP Protocol",
+    "value" : "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2021/07/PXD020611/F063485.dat"
+  }, {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000468",
+    "name" : "Aspera Protocol",
+    "value" : "prd_ascp@fasp.ebi.ac.uk:pride/data/archive/2021/07/PXD020611/F063485.dat"
+  } ],
+  "fileSizeBytes" : 184816624,
+  "fileName" : "F063485.dat",
+  "compress" : false,
+  "submissionDate" : "2020-07-28T13:00:14.000+00:00",
+  "publicationDate" : "2021-07-20T04:59:52.984+00:00",
+  "updatedDate" : "2020-07-28T13:00:14.000+00:00",
+  "additionalAttributes" : [ ],
+  "totalDownloads" : 90
+},{
+  "projectAccessions" : [ "PXD020611" ],
+  "accession" : "6a8a1077d6a72595572e9296ba7aba3b451c5c4d5eba95e90bad4d1ba0dea220",
+  "fileCategory" : {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000408",
+    "name" : "Search engine output file URI",
+    "value" : "SEARCH"
+  },
+  "checksum" : "4949c94bcc834e670eeb3a8d767d1549cff348cc",
+  "publicFileLocations" : [ {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000469",
+    "name" : "FTP Protocol",
+    "value" : "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2021/07/PXD020611/F063478.dat"
+  }, {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000468",
+    "name" : "Aspera Protocol",
+    "value" : "prd_ascp@fasp.ebi.ac.uk:pride/data/archive/2021/07/PXD020611/F063478.dat"
+  } ],
+  "fileSizeBytes" : 174960601,
+  "fileName" : "F063478.dat",
+  "compress" : false,
+  "submissionDate" : "2020-07-28T13:00:14.000+00:00",
+  "publicationDate" : "2021-07-20T04:59:52.984+00:00",
+  "updatedDate" : "2020-07-28T13:00:14.000+00:00",
+  "additionalAttributes" : [ ],
+  "totalDownloads" : 66
+},{
+  "projectAccessions" : [ "PXD020611" ],
+  "accession" : "75daa59b9cf39349a4f4e3ad755dfe6009a1a8c9ae5dae4e75b6248a47aae8a7",
+  "fileCategory" : {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000404",
+    "name" : "Associated raw file URI",
+    "value" : "RAW"
+  },
+  "checksum" : "88c4d189fcb41f7a4c4ef3adda384e7aa53862ea",
+  "publicFileLocations" : [ {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000468",
+    "name" : "Aspera Protocol",
+    "value" : "prd_ascp@fasp.ebi.ac.uk:pride/data/archive/2021/07/PXD020611/Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep2_fr5.raw"
+  }, {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000469",
+    "name" : "FTP Protocol",
+    "value" : "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2021/07/PXD020611/Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep2_fr5.raw"
+  } ],
+  "fileSizeBytes" : 1230109640,
+  "fileName" : "Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep2_fr5.raw",
+  "compress" : false,
+  "submissionDate" : "2020-07-28T13:00:14.000+00:00",
+  "publicationDate" : "2021-07-20T04:59:52.984+00:00",
+  "updatedDate" : "2020-07-28T13:00:14.000+00:00",
+  "additionalAttributes" : [ ],
+  "totalDownloads" : 54
+},{
+  "projectAccessions" : [ "PXD020611" ],
+  "accession" : "2ffd555876f8e423e8f530a7713013c4baae36f64738446036fe49e6e38e0e41",
+  "fileCategory" : {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000410",
+    "name" : "Other type file URI",
+    "value" : "OTHER"
+  },
+  "checksum" : "851c99b2daadd7cb31f3330ea5c95e5dde48a760",
+  "publicFileLocations" : [ {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000468",
+    "name" : "Aspera Protocol",
+    "value" : "prd_ascp@fasp.ebi.ac.uk:pride/data/archive/2021/07/PXD020611/rep3_merged_results_20180116_1531_proteins.txt"
+  }, {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000469",
+    "name" : "FTP Protocol",
+    "value" : "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2021/07/PXD020611/rep3_merged_results_20180116_1531_proteins.txt"
+  } ],
+  "fileSizeBytes" : 1737347,
+  "fileName" : "rep3_merged_results_20180116_1531_proteins.txt",
+  "compress" : false,
+  "submissionDate" : "2020-07-28T13:00:14.000+00:00",
+  "publicationDate" : "2021-07-20T04:59:52.984+00:00",
+  "updatedDate" : "2020-07-28T13:00:14.000+00:00",
+  "additionalAttributes" : [ ],
+  "totalDownloads" : 76
+},{
+  "projectAccessions" : [ "PXD020611" ],
+  "accession" : "c687287022be94536dfdc695c595fd2121b84c1811b49e78875bfc9acd00aaee",
+  "fileCategory" : {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000410",
+    "name" : "Other type file URI",
+    "value" : "OTHER"
+  },
+  "checksum" : "f912499869c1c1ce3b198cd1af0dcdf0de88ae10",
+  "publicFileLocations" : [ {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000469",
+    "name" : "FTP Protocol",
+    "value" : "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2021/07/PXD020611/metadata_Filipa.csv"
+  }, {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000468",
+    "name" : "Aspera Protocol",
+    "value" : "prd_ascp@fasp.ebi.ac.uk:pride/data/archive/2021/07/PXD020611/metadata_Filipa.csv"
+  } ],
+  "fileSizeBytes" : 1555,
+  "fileName" : "metadata_Filipa.csv",
+  "compress" : false,
+  "submissionDate" : "2020-07-28T13:00:14.000+00:00",
+  "publicationDate" : "2021-07-20T04:59:52.984+00:00",
+  "updatedDate" : "2020-07-28T13:00:14.000+00:00",
+  "additionalAttributes" : [ ],
+  "totalDownloads" : 69
+},{
+  "projectAccessions" : [ "PXD020611" ],
+  "accession" : "799d3f25359c5d13aeeddd474f576303549b04e52e95dd4bd27fc9fb1e634401",
+  "fileCategory" : {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000404",
+    "name" : "Associated raw file URI",
+    "value" : "RAW"
+  },
+  "checksum" : "ea9f5f696725e195ebe7a0c566ead40402b6c493",
+  "publicFileLocations" : [ {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000469",
+    "name" : "FTP Protocol",
+    "value" : "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2021/07/PXD020611/Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep1_fr5.raw"
+  }, {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000468",
+    "name" : "Aspera Protocol",
+    "value" : "prd_ascp@fasp.ebi.ac.uk:pride/data/archive/2021/07/PXD020611/Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep1_fr5.raw"
+  } ],
+  "fileSizeBytes" : 1171910212,
+  "fileName" : "Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep1_fr5.raw",
+  "compress" : false,
+  "submissionDate" : "2020-07-28T13:00:14.000+00:00",
+  "publicationDate" : "2021-07-20T04:59:52.984+00:00",
+  "updatedDate" : "2020-07-28T13:00:14.000+00:00",
+  "additionalAttributes" : [ ],
+  "totalDownloads" : 67
+},{
+  "projectAccessions" : [ "PXD020611" ],
+  "accession" : "478dbbaf9af774e0d8d281a8eda171a4b4936b19e8d618c5a0ea07c8e2f221de",
+  "fileCategory" : {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000404",
+    "name" : "Associated raw file URI",
+    "value" : "RAW"
+  },
+  "checksum" : "7d4e6c6eec94ed41b5056b53c8a34b30301b951d",
+  "publicFileLocations" : [ {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000469",
+    "name" : "FTP Protocol",
+    "value" : "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2021/07/PXD020611/Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep3_fr4.raw"
+  }, {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000468",
+    "name" : "Aspera Protocol",
+    "value" : "prd_ascp@fasp.ebi.ac.uk:pride/data/archive/2021/07/PXD020611/Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep3_fr4.raw"
+  } ],
+  "fileSizeBytes" : 1239060027,
+  "fileName" : "Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep3_fr4.raw",
+  "compress" : false,
+  "submissionDate" : "2020-07-28T13:00:14.000+00:00",
+  "publicationDate" : "2021-07-20T04:59:52.984+00:00",
+  "updatedDate" : "2020-07-28T13:00:14.000+00:00",
+  "additionalAttributes" : [ ],
+  "totalDownloads" : 68
+},{
+  "projectAccessions" : [ "PXD020611" ],
+  "accession" : "ff12f1e8ca247b7964b15d33e613ac2614fddfc56810647458b7ec5a3b9ba1e4",
+  "fileCategory" : {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000404",
+    "name" : "Associated raw file URI",
+    "value" : "RAW"
+  },
+  "checksum" : "f1beb7be15d97d6a7c595644c91a892ad8fc1405",
+  "publicFileLocations" : [ {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000469",
+    "name" : "FTP Protocol",
+    "value" : "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2021/07/PXD020611/Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep1_fr3.raw"
+  }, {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000468",
+    "name" : "Aspera Protocol",
+    "value" : "prd_ascp@fasp.ebi.ac.uk:pride/data/archive/2021/07/PXD020611/Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep1_fr3.raw"
+  } ],
+  "fileSizeBytes" : 1136627865,
+  "fileName" : "Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep1_fr3.raw",
+  "compress" : false,
+  "submissionDate" : "2020-07-28T13:00:14.000+00:00",
+  "publicationDate" : "2021-07-20T04:59:52.984+00:00",
+  "updatedDate" : "2020-07-28T13:00:14.000+00:00",
+  "additionalAttributes" : [ ],
+  "totalDownloads" : 48
+},{
+  "projectAccessions" : [ "PXD020611" ],
+  "accession" : "aa34acf7fc4b38ac88cc561f8a5955cdf2c1f92532e1420161682cefbfc570f9",
+  "fileCategory" : {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000408",
+    "name" : "Search engine output file URI",
+    "value" : "SEARCH"
+  },
+  "checksum" : "eb0fe1095f000ffcc1aa00f7eccac442e3a9cfde",
+  "publicFileLocations" : [ {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000468",
+    "name" : "Aspera Protocol",
+    "value" : "prd_ascp@fasp.ebi.ac.uk:pride/data/archive/2021/07/PXD020611/F063452.dat"
+  }, {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000469",
+    "name" : "FTP Protocol",
+    "value" : "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2021/07/PXD020611/F063452.dat"
+  } ],
+  "fileSizeBytes" : 195720105,
+  "fileName" : "F063452.dat",
+  "compress" : false,
+  "submissionDate" : "2020-07-28T13:00:14.000+00:00",
+  "publicationDate" : "2021-07-20T04:59:52.984+00:00",
+  "updatedDate" : "2020-07-28T13:00:14.000+00:00",
+  "additionalAttributes" : [ ],
+  "totalDownloads" : 64
+},{
+  "projectAccessions" : [ "PXD020611" ],
+  "accession" : "039330e541dc36b8ff143cdc733fdd9d696d706799b42923156b60a0935ae732",
+  "fileCategory" : {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000408",
+    "name" : "Search engine output file URI",
+    "value" : "SEARCH"
+  },
+  "checksum" : "bfaedd2d87b29bcb724caa069a2f41e0724236aa",
+  "publicFileLocations" : [ {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000469",
+    "name" : "FTP Protocol",
+    "value" : "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2021/07/PXD020611/F063479.dat"
+  }, {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000468",
+    "name" : "Aspera Protocol",
+    "value" : "prd_ascp@fasp.ebi.ac.uk:pride/data/archive/2021/07/PXD020611/F063479.dat"
+  } ],
+  "fileSizeBytes" : 178816665,
+  "fileName" : "F063479.dat",
+  "compress" : false,
+  "submissionDate" : "2020-07-28T13:00:14.000+00:00",
+  "publicationDate" : "2021-07-20T04:59:52.984+00:00",
+  "updatedDate" : "2020-07-28T13:00:14.000+00:00",
+  "additionalAttributes" : [ ],
+  "totalDownloads" : 58
+},{
+  "projectAccessions" : [ "PXD020611" ],
+  "accession" : "d0426c3d5359c82d5ab2a4becc0311842cc97759061ea7bad1ae50c93734bc03",
+  "fileCategory" : {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000408",
+    "name" : "Search engine output file URI",
+    "value" : "SEARCH"
+  },
+  "checksum" : "9eca7d37927e8a41127f111e08ccfe5fbc01db62",
+  "publicFileLocations" : [ {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000469",
+    "name" : "FTP Protocol",
+    "value" : "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2021/07/PXD020611/F063436.dat"
+  }, {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000468",
+    "name" : "Aspera Protocol",
+    "value" : "prd_ascp@fasp.ebi.ac.uk:pride/data/archive/2021/07/PXD020611/F063436.dat"
+  } ],
+  "fileSizeBytes" : 174797616,
+  "fileName" : "F063436.dat",
+  "compress" : false,
+  "submissionDate" : "2020-07-28T13:00:14.000+00:00",
+  "publicationDate" : "2021-07-20T04:59:52.984+00:00",
+  "updatedDate" : "2020-07-28T13:00:14.000+00:00",
+  "additionalAttributes" : [ ],
+  "totalDownloads" : 64
+},{
+  "projectAccessions" : [ "PXD020611" ],
+  "accession" : "41fdc7679052da52425c809d8f16c8f6e11375c633f36a80a13684e903fcdcd5",
+  "fileCategory" : {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000404",
+    "name" : "Associated raw file URI",
+    "value" : "RAW"
+  },
+  "checksum" : "195f931f4107d78ce4d52fb0da86e76756759b83",
+  "publicFileLocations" : [ {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000469",
+    "name" : "FTP Protocol",
+    "value" : "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2021/07/PXD020611/Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep1_fr12.raw"
+  }, {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000468",
+    "name" : "Aspera Protocol",
+    "value" : "prd_ascp@fasp.ebi.ac.uk:pride/data/archive/2021/07/PXD020611/Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep1_fr12.raw"
+  } ],
+  "fileSizeBytes" : 1124994627,
+  "fileName" : "Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep1_fr12.raw",
+  "compress" : false,
+  "submissionDate" : "2020-07-28T13:00:14.000+00:00",
+  "publicationDate" : "2021-07-20T04:59:52.984+00:00",
+  "updatedDate" : "2020-07-28T13:00:14.000+00:00",
+  "additionalAttributes" : [ ],
+  "totalDownloads" : 62
+},{
+  "projectAccessions" : [ "PXD020611" ],
+  "accession" : "f39e115251191e38f7925dfc26dd78750d9d185097d046f1fc1f90c30c0fe3f1",
+  "fileCategory" : {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000404",
+    "name" : "Associated raw file URI",
+    "value" : "RAW"
+  },
+  "checksum" : "c0e255d0b876347d7d534d6d565b08b821c0f906",
+  "publicFileLocations" : [ {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000469",
+    "name" : "FTP Protocol",
+    "value" : "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2021/07/PXD020611/Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep2_fr1.raw"
+  }, {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000468",
+    "name" : "Aspera Protocol",
+    "value" : "prd_ascp@fasp.ebi.ac.uk:pride/data/archive/2021/07/PXD020611/Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep2_fr1.raw"
+  } ],
+  "fileSizeBytes" : 1259839125,
+  "fileName" : "Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep2_fr1.raw",
+  "compress" : false,
+  "submissionDate" : "2020-07-28T13:00:14.000+00:00",
+  "publicationDate" : "2021-07-20T04:59:52.984+00:00",
+  "updatedDate" : "2020-07-28T13:00:14.000+00:00",
+  "additionalAttributes" : [ ],
+  "totalDownloads" : 46
+},{
+  "projectAccessions" : [ "PXD020611" ],
+  "accession" : "48f0f3f99a71aebf8096b0f033ce2a04dfa304a673611da4b712bca40cad7fad",
+  "fileCategory" : {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000404",
+    "name" : "Associated raw file URI",
+    "value" : "RAW"
+  },
+  "checksum" : "b19e07e261f1988737b3f2e5b4e36753e0c5ff97",
+  "publicFileLocations" : [ {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000469",
+    "name" : "FTP Protocol",
+    "value" : "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2021/07/PXD020611/Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep3_fr12.raw"
+  }, {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000468",
+    "name" : "Aspera Protocol",
+    "value" : "prd_ascp@fasp.ebi.ac.uk:pride/data/archive/2021/07/PXD020611/Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep3_fr12.raw"
+  } ],
+  "fileSizeBytes" : 1129139787,
+  "fileName" : "Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep3_fr12.raw",
+  "compress" : false,
+  "submissionDate" : "2020-07-28T13:00:14.000+00:00",
+  "publicationDate" : "2021-07-20T04:59:52.984+00:00",
+  "updatedDate" : "2020-07-28T13:00:14.000+00:00",
+  "additionalAttributes" : [ ],
+  "totalDownloads" : 62
+},{
+  "projectAccessions" : [ "PXD020611" ],
+  "accession" : "3ae876dd61432ccae70081b8035e71167cdd35e3e3763d8065fa12308bd1d302",
+  "fileCategory" : {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000408",
+    "name" : "Search engine output file URI",
+    "value" : "SEARCH"
+  },
+  "checksum" : "1b35e9012293ac332539acedc37f0d43cab5274c",
+  "publicFileLocations" : [ {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000468",
+    "name" : "Aspera Protocol",
+    "value" : "prd_ascp@fasp.ebi.ac.uk:pride/data/archive/2021/07/PXD020611/F063464.dat"
+  }, {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000469",
+    "name" : "FTP Protocol",
+    "value" : "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2021/07/PXD020611/F063464.dat"
+  } ],
+  "fileSizeBytes" : 175959936,
+  "fileName" : "F063464.dat",
+  "compress" : false,
+  "submissionDate" : "2020-07-28T13:00:14.000+00:00",
+  "publicationDate" : "2021-07-20T04:59:52.984+00:00",
+  "updatedDate" : "2020-07-28T13:00:14.000+00:00",
+  "additionalAttributes" : [ ],
+  "totalDownloads" : 48
+},{
+  "projectAccessions" : [ "PXD020611" ],
+  "accession" : "c22790b312b8995dc96f0fc05da4a5367bc3f63bfdb0f6da53c0db64ddd9a1ec",
+  "fileCategory" : {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000404",
+    "name" : "Associated raw file URI",
+    "value" : "RAW"
+  },
+  "checksum" : "0a538b07eb4e072df1280f57d0dad203c057a1c6",
+  "publicFileLocations" : [ {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000469",
+    "name" : "FTP Protocol",
+    "value" : "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2021/07/PXD020611/Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep2_fr7.raw"
+  }, {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000468",
+    "name" : "Aspera Protocol",
+    "value" : "prd_ascp@fasp.ebi.ac.uk:pride/data/archive/2021/07/PXD020611/Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep2_fr7.raw"
+  } ],
+  "fileSizeBytes" : 1240834851,
+  "fileName" : "Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep2_fr7.raw",
+  "compress" : false,
+  "submissionDate" : "2020-07-28T13:00:14.000+00:00",
+  "publicationDate" : "2021-07-20T04:59:52.984+00:00",
+  "updatedDate" : "2020-07-28T13:00:14.000+00:00",
+  "additionalAttributes" : [ ],
+  "totalDownloads" : 51
+},{
+  "projectAccessions" : [ "PXD020611" ],
+  "accession" : "9579c218b74d7fa36855bd07acb723869557c303b44dc7865dc28bf5ca2f513a",
+  "fileCategory" : {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000404",
+    "name" : "Associated raw file URI",
+    "value" : "RAW"
+  },
+  "checksum" : "3c539db3dd826f93885d9605852eb9f2edb1ae69",
+  "publicFileLocations" : [ {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000469",
+    "name" : "FTP Protocol",
+    "value" : "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2021/07/PXD020611/Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep1_fr4.raw"
+  }, {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000468",
+    "name" : "Aspera Protocol",
+    "value" : "prd_ascp@fasp.ebi.ac.uk:pride/data/archive/2021/07/PXD020611/Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep1_fr4.raw"
+  } ],
+  "fileSizeBytes" : 1113375096,
+  "fileName" : "Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep1_fr4.raw",
+  "compress" : false,
+  "submissionDate" : "2020-07-28T13:00:14.000+00:00",
+  "publicationDate" : "2021-07-20T04:59:52.984+00:00",
+  "updatedDate" : "2020-07-28T13:00:14.000+00:00",
+  "additionalAttributes" : [ ],
+  "totalDownloads" : 57
+},{
+  "projectAccessions" : [ "PXD020611" ],
+  "accession" : "5f0ea8c882783db3bdfed0ea378d99f253a308961deb91600ffa317c80feecc4",
+  "fileCategory" : {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000408",
+    "name" : "Search engine output file URI",
+    "value" : "SEARCH"
+  },
+  "checksum" : "a05b56285a0b4247baaf429e0bdcfc639b0a6ecf",
+  "publicFileLocations" : [ {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000469",
+    "name" : "FTP Protocol",
+    "value" : "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2021/07/PXD020611/F063465.dat"
+  }, {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000468",
+    "name" : "Aspera Protocol",
+    "value" : "prd_ascp@fasp.ebi.ac.uk:pride/data/archive/2021/07/PXD020611/F063465.dat"
+  } ],
+  "fileSizeBytes" : 179994824,
+  "fileName" : "F063465.dat",
+  "compress" : false,
+  "submissionDate" : "2020-07-28T13:00:14.000+00:00",
+  "publicationDate" : "2021-07-20T04:59:52.984+00:00",
+  "updatedDate" : "2020-07-28T13:00:14.000+00:00",
+  "additionalAttributes" : [ ],
+  "totalDownloads" : 72
+},{
+  "projectAccessions" : [ "PXD020611" ],
+  "accession" : "07a0af4c122b7dc7835eabd83598a3c7e865a4da5f78263bbc57c16b543b90d6",
+  "fileCategory" : {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000408",
+    "name" : "Search engine output file URI",
+    "value" : "SEARCH"
+  },
+  "checksum" : "8a7a41ac52849ec03683b88882597ac59a2b5ce3",
+  "publicFileLocations" : [ {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000468",
+    "name" : "Aspera Protocol",
+    "value" : "prd_ascp@fasp.ebi.ac.uk:pride/data/archive/2021/07/PXD020611/F063415.dat"
+  }, {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000469",
+    "name" : "FTP Protocol",
+    "value" : "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2021/07/PXD020611/F063415.dat"
+  } ],
+  "fileSizeBytes" : 158439605,
+  "fileName" : "F063415.dat",
+  "compress" : false,
+  "submissionDate" : "2020-07-28T13:00:14.000+00:00",
+  "publicationDate" : "2021-07-20T04:59:52.984+00:00",
+  "updatedDate" : "2020-07-28T13:00:14.000+00:00",
+  "additionalAttributes" : [ ],
+  "totalDownloads" : 64
+},{
+  "projectAccessions" : [ "PXD020611" ],
+  "accession" : "074be45aa868184eb8d20b98ff141785fd5dddaa9bacfb0aafa59ba2464023f8",
+  "fileCategory" : {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000408",
+    "name" : "Search engine output file URI",
+    "value" : "SEARCH"
+  },
+  "checksum" : "c658634650994f0418e97ba7fe1d38efc3a8317b",
+  "publicFileLocations" : [ {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000468",
+    "name" : "Aspera Protocol",
+    "value" : "prd_ascp@fasp.ebi.ac.uk:pride/data/archive/2021/07/PXD020611/F063481.dat"
+  }, {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000469",
+    "name" : "FTP Protocol",
+    "value" : "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2021/07/PXD020611/F063481.dat"
+  } ],
+  "fileSizeBytes" : 183961112,
+  "fileName" : "F063481.dat",
+  "compress" : false,
+  "submissionDate" : "2020-07-28T13:00:14.000+00:00",
+  "publicationDate" : "2021-07-20T04:59:52.984+00:00",
+  "updatedDate" : "2020-07-28T13:00:14.000+00:00",
+  "additionalAttributes" : [ ],
+  "totalDownloads" : 152
+},{
+  "projectAccessions" : [ "PXD020611" ],
+  "accession" : "f3b55f5bc57406f1c53fa35160260695c1770761298bc11680653234093e4026",
+  "fileCategory" : {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000404",
+    "name" : "Associated raw file URI",
+    "value" : "RAW"
+  },
+  "checksum" : "c6d5e054c11cbcc9e338faf40520081f4e3ed295",
+  "publicFileLocations" : [ {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000469",
+    "name" : "FTP Protocol",
+    "value" : "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2021/07/PXD020611/Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep1_fr11.raw"
+  }, {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000468",
+    "name" : "Aspera Protocol",
+    "value" : "prd_ascp@fasp.ebi.ac.uk:pride/data/archive/2021/07/PXD020611/Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep1_fr11.raw"
+  } ],
+  "fileSizeBytes" : 1215809987,
+  "fileName" : "Ernie_180110_P0520_MR_FP_TP_TMT7_yeast_rep1_fr11.raw",
+  "compress" : false,
+  "submissionDate" : "2020-07-28T13:00:14.000+00:00",
+  "publicationDate" : "2021-07-20T04:59:52.984+00:00",
+  "updatedDate" : "2020-07-28T13:00:14.000+00:00",
+  "additionalAttributes" : [ ],
+  "totalDownloads" : 63
+},{
+  "projectAccessions" : [ "PXD020611" ],
+  "accession" : "12f8522ba15faf05725f21cd7c6233d714fdc939f6503487a419cbaac17b3a96",
+  "fileCategory" : {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000408",
+    "name" : "Search engine output file URI",
+    "value" : "SEARCH"
+  },
+  "checksum" : "3a2297219e2ca3085261ca1efdff55d44b661051",
+  "publicFileLocations" : [ {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000468",
+    "name" : "Aspera Protocol",
+    "value" : "prd_ascp@fasp.ebi.ac.uk:pride/data/archive/2021/07/PXD020611/F063483.dat"
+  }, {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000469",
+    "name" : "FTP Protocol",
+    "value" : "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2021/07/PXD020611/F063483.dat"
+  } ],
+  "fileSizeBytes" : 176485599,
+  "fileName" : "F063483.dat",
+  "compress" : false,
+  "submissionDate" : "2020-07-28T13:00:14.000+00:00",
+  "publicationDate" : "2021-07-20T04:59:52.984+00:00",
+  "updatedDate" : "2020-07-28T13:00:14.000+00:00",
+  "additionalAttributes" : [ ],
+  "totalDownloads" : 68
+}]

@@ -1,0 +1,692 @@
+{
+  "generated_at_utc": "2026-10-14T16:16:20.987886+00:00",
+  "protocol_sha256": "9396c8026cafc17f474e1bf5873962ca077bba976d76b8e56d32bfdac5af6617",
+  "input_sha256": {
+    "research/ale_external_sources_20261015.json": "2d9c9fab668101a77172bef86dbeca22233bf8efe8e0cdbd9138af937812e160",
+    "data/raw/ale_external_sources_20261015/PMC10733433/41467_2023_44245_MOESM1_ESM.pdf": "2cf3f315e4371cc725e487baef618fbd3f61762b72adcac7f988ebd22dd6687c",
+    "data/raw/ale_external_sources_20261015/PMC10733433/41467_2023_44245_MOESM4_ESM.xlsx": "ae661ab1e10a6c823b26314ed8437280345d0750dc4d9c5f26f0bb5a9170bc59",
+    "data/raw/ale_external_sources_20261015/PMC10733433/41467_2023_44245_MOESM9_ESM.xlsx": "495d84112140dc780af88c7344754c13bb5bf55fa8e423bf1a94bfdff3fda207",
+    "data/raw/ale_external_sources_20261015/PMC12303837/41589_2025_1911_MOESM1_ESM.pdf": "99e48ac81d91ebdb43abefa276e4521e459836fbcebc7d75df6c4c9ae94602b3",
+    "data/raw/ale_external_sources_20261015/PMC12303837/41589_2025_1911_MOESM4_ESM.xlsx": "1c367a58142540cfd36a7ef6a01e4a67d548048ea48817b2b92c9d4847209a66",
+    "data/raw/ale_external_sources_20261015/PMC12303837/41589_2025_1911_MOESM8_ESM.xlsx": "6727fa5f862a37045f1147b55458c31c10a75af6c7009684217eda88c8edd6f2",
+    "data/raw/ale_external_sources_20261015/PMC12663439/41467_2025_65793_MOESM14_ESM.xlsx": "fb08723fe82aca8bd522159d8d87f8b816551978f8a9c649a8a2a932dd656f53",
+    "data/raw/ale_external_sources_20261015/PMC12663439/41467_2025_65793_MOESM1_ESM.pdf": "f4fbc06dd807fad335f8919b300707eaea4ca30344d0e3b9ceab74aa72de1a0c",
+    "data/raw/ale_external_sources_20261015/PMC12663439/41467_2025_65793_MOESM5_ESM.xlsx": "5e41b783bc7ecbe243d421c420a8c779c65fb891141264bb436c53dcf951e785",
+    "research/results/external_data_acquisition_20261014/PMC10733433.1.json": "2edf056130f0c8e4d4cd529344f5b35d9887b1246774d5a2e88fecf39a99e83d",
+    "research/results/external_data_acquisition_20261014/PMC12303837.1.json": "7259fbed603422aacb1e822d1edc60d0d45d8ddaebaa7adcfe86dd2622a4c978",
+    "research/results/external_data_acquisition_20261014/PMC12663439.1.json": "28256ec81755029734d7e3ddbb6b0f748d9edf5add462ba1d9d2cef47639981b",
+    "data/raw/ale_external_sources_20261013/PMC10733433.xml": "4e438c66e28b35cf011aadfd5c36b4c6a18509d0e3ae35bac714fd60b45b8d5d",
+    "data/raw/ale_external_sources_20261013/PMC12303837.xml": "ab95d08502b2d713bb97833259666f85fbb95b0c435baba019b4c66bab97283f",
+    "data/raw/ale_external_sources_20261013/PMC12663439.xml": "54b6afb55c2482109b13b899e80ee493ea2598c056eacf7b12c1db9e7535643e"
+  },
+  "scope": {
+    "source_values_and_targets_seen_before_lock": true,
+    "new_blind_validation": false,
+    "original_18h_fumarate_ridge_external_validation": false,
+    "publication_superiority_claim": false,
+    "same_strain_omics_process_closed_loop": false,
+    "model_training": false,
+    "prospective_assay_savings_verified": false
+  },
+  "panel_specs": [
+    {
+      "id": "yarrowia_ale_24h_od",
+      "doi": "10.1038/s41467-023-44245-4",
+      "species": "Yarrowia lipolytica",
+      "product": "succinate",
+      "target_unit": "g/L",
+      "source": "data/raw/ale_external_sources_20261015/PMC10733433/41467_2023_44245_MOESM9_ESM.xlsx",
+      "early_sheet": "Fig. 2d",
+      "target_sheet": "Fig. 2e",
+      "time_column": "A",
+      "time_cells": {
+        "initial": "A2",
+        "early": "A3",
+        "target": "A6"
+      },
+      "initial_row": 2,
+      "early_row": 3,
+      "target_row": 6,
+      "initial_h": 0,
+      "cutoff_h": 24,
+      "endpoint_h": 96,
+      "candidates": [
+        {
+          "isolate_id": "PGC91-rTE1-1",
+          "columns": [
+            "E",
+            "F",
+            "G"
+          ]
+        },
+        {
+          "isolate_id": "PGC91-rTE2-1",
+          "columns": [
+            "H",
+            "I",
+            "J"
+          ]
+        },
+        {
+          "isolate_id": "PGC91-rTE3-1",
+          "columns": [
+            "K",
+            "L",
+            "M"
+          ]
+        }
+      ],
+      "methods": [
+        "uniform_random_expectation",
+        "early_density",
+        "early_density_fold"
+      ],
+      "condition": "YPD; 40 g/L initial glucose; 30 C; 120 rpm; released matched Fig.2d/e panel",
+      "limitations": [
+        "仅三株作者预先选出的进化代表株，非完整待筛库；每个进化群体只一株，不能留一谱系后在该谱系选株",
+        "跨菌种、跨产物且窗口24h；不验证原18h富马酸岭回归",
+        "重复编号只用于株内均值，不假定不同表重复序号就是同一个发酵瓶"
+      ]
+    },
+    {
+      "id": "ecoli_ale_24h_product",
+      "doi": "10.1038/s41589-025-01911-6",
+      "species": "Escherichia coli",
+      "product": "flaviolin",
+      "target_unit": "released source value; no conversion to g/L",
+      "source": "data/raw/ale_external_sources_20261015/PMC12303837/41589_2025_1911_MOESM8_ESM.xlsx",
+      "early_sheet": "Sheet1",
+      "target_sheet": "Sheet1",
+      "time_column": "B",
+      "time_cells": {
+        "early": "B17",
+        "target": "B18"
+      },
+      "initial_row": null,
+      "early_row": 17,
+      "target_row": 18,
+      "cutoff_h": 24,
+      "endpoint_h": 96,
+      "header_row": 16,
+      "candidates": [
+        {
+          "isolate_id": "E1_S2",
+          "columns": [
+            "G",
+            "H",
+            "I",
+            "J"
+          ]
+        },
+        {
+          "isolate_id": "E2_S3",
+          "columns": [
+            "K",
+            "L",
+            "M",
+            "N"
+          ]
+        },
+        {
+          "isolate_id": "E2_S7",
+          "columns": [
+            "O",
+            "P",
+            "Q",
+            "R"
+          ]
+        },
+        {
+          "isolate_id": "E2_S17",
+          "columns": [
+            "S",
+            "T",
+            "U",
+            "V"
+          ]
+        }
+      ],
+      "methods": [
+        "uniform_random_expectation",
+        "early_product"
+      ],
+      "condition": "M9; 2% glucose; 10 mM malonate; 0.2% L-arabinose; pBADT-RppA-NT; 37 C; 200 rpm; Fig.5c",
+      "limitations": [
+        "四株代表株来自两个进化系列，四个遗传分支不计为四个独立进化谱系",
+        "早期产物需化验，不等价于只用在线OD，成本不能混同",
+        "Fig.5a生长测试后引入生产质粒；不拼接其OD与Fig.5c产物作为同一培养轨迹",
+        "保留作者表的数值与背景扣除后负值，不推定g/L单位或进行未核实换算"
+      ]
+    }
+  ],
+  "excluded_panels": [
+    {
+      "id": "yarrowia_20_isolates",
+      "doi": "10.1038/s41467-023-44245-4",
+      "source": "data/raw/ale_external_sources_20261015/PMC10733433/41467_2023_44245_MOESM9_ESM.xlsx",
+      "sheet": "Supplementary Fig. 3",
+      "released_isolate_count": 20,
+      "reason": "只有匿名编号的终点滴度/得率/副产物，无可核查的早期曲线及谱系对应；60g/L底物也不同于Fig2d/e的40g/L，禁止拼接"
+    },
+    {
+      "id": "ogataea_growth_trajectory",
+      "doi": "10.1038/s41467-025-65793-x",
+      "source": "data/raw/ale_external_sources_20261015/PMC12663439/41467_2025_65793_MOESM14_ESM.xlsx",
+      "sheet": "Fig. S5",
+      "reason": "HpLA05-2/3原始轨迹缺失；HpLA13虽在表中但补充图5说明未覆盖；不能构造完整同条件候选库"
+    },
+    {
+      "id": "ogataea_ale_endpoint",
+      "doi": "10.1038/s41467-025-65793-x",
+      "reason": "正文/补充图8的ALE前后OD与产物均为终点比较，不能视为早期预测；工作簿标为Fig.S7a/b，保留图表编号不一致"
+    }
+  ],
+  "candidates": [
+    {
+      "panel_id": "yarrowia_ale_24h_od",
+      "isolate_id": "PGC91-rTE1-1",
+      "source_path": "data/raw/ale_external_sources_20261015/PMC10733433/41467_2023_44245_MOESM9_ESM.xlsx",
+      "early_sheet": "Fig. 2d",
+      "target_sheet": "Fig. 2e",
+      "cutoff_h": 24,
+      "endpoint_h": 96,
+      "early_cells": [
+        "E3",
+        "F3",
+        "G3"
+      ],
+      "target_cells": [
+        "E6",
+        "F6",
+        "G6"
+      ],
+      "initial_cells": [
+        "E2",
+        "F2",
+        "G2"
+      ],
+      "early_replicates": [
+        2.88,
+        2.898,
+        2.706
+      ],
+      "target_replicates": [
+        12.75,
+        12.635,
+        12.916
+      ],
+      "initial_replicates": [
+        0.161,
+        0.157,
+        0.157
+      ],
+      "early_mean": 2.828,
+      "target_mean": 12.767000000000001,
+      "initial_mean": 0.15833333333333333,
+      "replicate_count": 3,
+      "target_unit": "g/L"
+    },
+    {
+      "panel_id": "yarrowia_ale_24h_od",
+      "isolate_id": "PGC91-rTE2-1",
+      "source_path": "data/raw/ale_external_sources_20261015/PMC10733433/41467_2023_44245_MOESM9_ESM.xlsx",
+      "early_sheet": "Fig. 2d",
+      "target_sheet": "Fig. 2e",
+      "cutoff_h": 24,
+      "endpoint_h": 96,
+      "early_cells": [
+        "H3",
+        "I3",
+        "J3"
+      ],
+      "target_cells": [
+        "H6",
+        "I6",
+        "J6"
+      ],
+      "initial_cells": [
+        "H2",
+        "I2",
+        "J2"
+      ],
+      "early_replicates": [
+        2.839,
+        2.875,
+        2.399
+      ],
+      "target_replicates": [
+        12.505,
+        13.494,
+        12.404
+      ],
+      "initial_replicates": [
+        0.154,
+        0.139,
+        0.162
+      ],
+      "early_mean": 2.704333333333333,
+      "target_mean": 12.801,
+      "initial_mean": 0.15166666666666667,
+      "replicate_count": 3,
+      "target_unit": "g/L"
+    },
+    {
+      "panel_id": "yarrowia_ale_24h_od",
+      "isolate_id": "PGC91-rTE3-1",
+      "source_path": "data/raw/ale_external_sources_20261015/PMC10733433/41467_2023_44245_MOESM9_ESM.xlsx",
+      "early_sheet": "Fig. 2d",
+      "target_sheet": "Fig. 2e",
+      "cutoff_h": 24,
+      "endpoint_h": 96,
+      "early_cells": [
+        "K3",
+        "L3",
+        "M3"
+      ],
+      "target_cells": [
+        "K6",
+        "L6",
+        "M6"
+      ],
+      "initial_cells": [
+        "K2",
+        "L2",
+        "M2"
+      ],
+      "early_replicates": [
+        2.813,
+        2.956,
+        3.008
+      ],
+      "target_replicates": [
+        12.605,
+        12.467,
+        12.588
+      ],
+      "initial_replicates": [
+        0.266,
+        0.241,
+        0.157
+      ],
+      "early_mean": 2.925666666666667,
+      "target_mean": 12.553333333333333,
+      "initial_mean": 0.22133333333333335,
+      "replicate_count": 3,
+      "target_unit": "g/L"
+    },
+    {
+      "panel_id": "ecoli_ale_24h_product",
+      "isolate_id": "E1_S2",
+      "source_path": "data/raw/ale_external_sources_20261015/PMC12303837/41589_2025_1911_MOESM8_ESM.xlsx",
+      "early_sheet": "Sheet1",
+      "target_sheet": "Sheet1",
+      "cutoff_h": 24,
+      "endpoint_h": 96,
+      "early_cells": [
+        "G17",
+        "H17",
+        "I17",
+        "J17"
+      ],
+      "target_cells": [
+        "G18",
+        "H18",
+        "I18",
+        "J18"
+      ],
+      "initial_cells": [],
+      "early_replicates": [
+        0.223881,
+        0.197761,
+        0.171642,
+        0.220149
+      ],
+      "target_replicates": [
+        0.384328,
+        0.376866,
+        0.395522,
+        0.373134
+      ],
+      "initial_replicates": [],
+      "early_mean": 0.20335825,
+      "target_mean": 0.3824625,
+      "initial_mean": null,
+      "replicate_count": 4,
+      "target_unit": "released source value; no conversion to g/L"
+    },
+    {
+      "panel_id": "ecoli_ale_24h_product",
+      "isolate_id": "E2_S3",
+      "source_path": "data/raw/ale_external_sources_20261015/PMC12303837/41589_2025_1911_MOESM8_ESM.xlsx",
+      "early_sheet": "Sheet1",
+      "target_sheet": "Sheet1",
+      "cutoff_h": 24,
+      "endpoint_h": 96,
+      "early_cells": [
+        "K17",
+        "L17",
+        "M17",
+        "N17"
+      ],
+      "target_cells": [
+        "K18",
+        "L18",
+        "M18",
+        "N18"
+      ],
+      "initial_cells": [],
+      "early_replicates": [
+        -0.00373,
+        0.0,
+        0.018657,
+        0.003731
+      ],
+      "target_replicates": [
+        0.55597,
+        0.955224,
+        0.794776,
+        0.757463
+      ],
+      "initial_replicates": [],
+      "early_mean": 0.0046645,
+      "target_mean": 0.76585825,
+      "initial_mean": null,
+      "replicate_count": 4,
+      "target_unit": "released source value; no conversion to g/L"
+    },
+    {
+      "panel_id": "ecoli_ale_24h_product",
+      "isolate_id": "E2_S7",
+      "source_path": "data/raw/ale_external_sources_20261015/PMC12303837/41589_2025_1911_MOESM8_ESM.xlsx",
+      "early_sheet": "Sheet1",
+      "target_sheet": "Sheet1",
+      "cutoff_h": 24,
+      "endpoint_h": 96,
+      "early_cells": [
+        "O17",
+        "P17",
+        "Q17",
+        "R17"
+      ],
+      "target_cells": [
+        "O18",
+        "P18",
+        "Q18",
+        "R18"
+      ],
+      "initial_cells": [],
+      "early_replicates": [
+        0.085821,
+        0.115672,
+        0.470149,
+        0.470149
+      ],
+      "target_replicates": [
+        0.794776,
+        0.686567,
+        0.75,
+        0.779851
+      ],
+      "initial_replicates": [],
+      "early_mean": 0.28544775,
+      "target_mean": 0.7527985,
+      "initial_mean": null,
+      "replicate_count": 4,
+      "target_unit": "released source value; no conversion to g/L"
+    },
+    {
+      "panel_id": "ecoli_ale_24h_product",
+      "isolate_id": "E2_S17",
+      "source_path": "data/raw/ale_external_sources_20261015/PMC12303837/41589_2025_1911_MOESM8_ESM.xlsx",
+      "early_sheet": "Sheet1",
+      "target_sheet": "Sheet1",
+      "cutoff_h": 24,
+      "endpoint_h": 96,
+      "early_cells": [
+        "S17",
+        "T17",
+        "U17",
+        "V17"
+      ],
+      "target_cells": [
+        "S18",
+        "T18",
+        "U18",
+        "V18"
+      ],
+      "initial_cells": [],
+      "early_replicates": [
+        -0.00373,
+        0.0,
+        0.0,
+        0.018657
+      ],
+      "target_replicates": [
+        0.455224,
+        0.119403,
+        0.421642,
+        0.600746
+      ],
+      "initial_replicates": [],
+      "early_mean": 0.00373175,
+      "target_mean": 0.39925375,
+      "initial_mean": null,
+      "replicate_count": 4,
+      "target_unit": "released source value; no conversion to g/L"
+    }
+  ],
+  "decisions": [
+    {
+      "panel_id": "yarrowia_ale_24h_od",
+      "method": "uniform_random_expectation",
+      "isolate_id": "PGC91-rTE1-1",
+      "score": 0.0,
+      "selection_probability": 0.3333333333333333,
+      "test_endpoint_used_to_score": false
+    },
+    {
+      "panel_id": "yarrowia_ale_24h_od",
+      "method": "uniform_random_expectation",
+      "isolate_id": "PGC91-rTE2-1",
+      "score": 0.0,
+      "selection_probability": 0.3333333333333333,
+      "test_endpoint_used_to_score": false
+    },
+    {
+      "panel_id": "yarrowia_ale_24h_od",
+      "method": "uniform_random_expectation",
+      "isolate_id": "PGC91-rTE3-1",
+      "score": 0.0,
+      "selection_probability": 0.3333333333333333,
+      "test_endpoint_used_to_score": false
+    },
+    {
+      "panel_id": "yarrowia_ale_24h_od",
+      "method": "early_density",
+      "isolate_id": "PGC91-rTE1-1",
+      "score": 2.828,
+      "selection_probability": 0.0,
+      "test_endpoint_used_to_score": false
+    },
+    {
+      "panel_id": "yarrowia_ale_24h_od",
+      "method": "early_density",
+      "isolate_id": "PGC91-rTE2-1",
+      "score": 2.704333333333333,
+      "selection_probability": 0.0,
+      "test_endpoint_used_to_score": false
+    },
+    {
+      "panel_id": "yarrowia_ale_24h_od",
+      "method": "early_density",
+      "isolate_id": "PGC91-rTE3-1",
+      "score": 2.925666666666667,
+      "selection_probability": 1.0,
+      "test_endpoint_used_to_score": false
+    },
+    {
+      "panel_id": "yarrowia_ale_24h_od",
+      "method": "early_density_fold",
+      "isolate_id": "PGC91-rTE1-1",
+      "score": 17.861052631578946,
+      "selection_probability": 1.0,
+      "test_endpoint_used_to_score": false
+    },
+    {
+      "panel_id": "yarrowia_ale_24h_od",
+      "method": "early_density_fold",
+      "isolate_id": "PGC91-rTE2-1",
+      "score": 17.830769230769228,
+      "selection_probability": 0.0,
+      "test_endpoint_used_to_score": false
+    },
+    {
+      "panel_id": "yarrowia_ale_24h_od",
+      "method": "early_density_fold",
+      "isolate_id": "PGC91-rTE3-1",
+      "score": 13.218373493975903,
+      "selection_probability": 0.0,
+      "test_endpoint_used_to_score": false
+    },
+    {
+      "panel_id": "ecoli_ale_24h_product",
+      "method": "uniform_random_expectation",
+      "isolate_id": "E1_S2",
+      "score": 0.0,
+      "selection_probability": 0.25,
+      "test_endpoint_used_to_score": false
+    },
+    {
+      "panel_id": "ecoli_ale_24h_product",
+      "method": "uniform_random_expectation",
+      "isolate_id": "E2_S3",
+      "score": 0.0,
+      "selection_probability": 0.25,
+      "test_endpoint_used_to_score": false
+    },
+    {
+      "panel_id": "ecoli_ale_24h_product",
+      "method": "uniform_random_expectation",
+      "isolate_id": "E2_S7",
+      "score": 0.0,
+      "selection_probability": 0.25,
+      "test_endpoint_used_to_score": false
+    },
+    {
+      "panel_id": "ecoli_ale_24h_product",
+      "method": "uniform_random_expectation",
+      "isolate_id": "E2_S17",
+      "score": 0.0,
+      "selection_probability": 0.25,
+      "test_endpoint_used_to_score": false
+    },
+    {
+      "panel_id": "ecoli_ale_24h_product",
+      "method": "early_product",
+      "isolate_id": "E1_S2",
+      "score": 0.20335825,
+      "selection_probability": 0.0,
+      "test_endpoint_used_to_score": false
+    },
+    {
+      "panel_id": "ecoli_ale_24h_product",
+      "method": "early_product",
+      "isolate_id": "E2_S3",
+      "score": 0.0046645,
+      "selection_probability": 0.0,
+      "test_endpoint_used_to_score": false
+    },
+    {
+      "panel_id": "ecoli_ale_24h_product",
+      "method": "early_product",
+      "isolate_id": "E2_S7",
+      "score": 0.28544775,
+      "selection_probability": 1.0,
+      "test_endpoint_used_to_score": false
+    },
+    {
+      "panel_id": "ecoli_ale_24h_product",
+      "method": "early_product",
+      "isolate_id": "E2_S17",
+      "score": 0.00373175,
+      "selection_probability": 0.0,
+      "test_endpoint_used_to_score": false
+    }
+  ],
+  "metrics": [
+    {
+      "panel_id": "yarrowia_ale_24h_od",
+      "method": "uniform_random_expectation",
+      "candidate_strain_count": 3,
+      "expected_endpoint_value": 12.70711111111111,
+      "target_unit": "g/L",
+      "fraction_of_panel_best": 0.9926655035630897,
+      "absolute_regret": 0.09388888888888935,
+      "top1_hit_probability": 0.3333333333333333,
+      "early_assay": "none",
+      "selection_budget_strains": 1,
+      "actual_endpoint_assays_saved_verified": false
+    },
+    {
+      "panel_id": "yarrowia_ale_24h_od",
+      "method": "early_density",
+      "candidate_strain_count": 3,
+      "expected_endpoint_value": 12.553333333333333,
+      "target_unit": "g/L",
+      "fraction_of_panel_best": 0.9806525531859489,
+      "absolute_regret": 0.24766666666666737,
+      "top1_hit_probability": 0.0,
+      "early_assay": "OD on all candidates",
+      "selection_budget_strains": 1,
+      "actual_endpoint_assays_saved_verified": false
+    },
+    {
+      "panel_id": "yarrowia_ale_24h_od",
+      "method": "early_density_fold",
+      "candidate_strain_count": 3,
+      "expected_endpoint_value": 12.767000000000001,
+      "target_unit": "g/L",
+      "fraction_of_panel_best": 0.9973439575033202,
+      "absolute_regret": 0.03399999999999892,
+      "top1_hit_probability": 0.0,
+      "early_assay": "OD on all candidates",
+      "selection_budget_strains": 1,
+      "actual_endpoint_assays_saved_verified": false
+    },
+    {
+      "panel_id": "ecoli_ale_24h_product",
+      "method": "uniform_random_expectation",
+      "candidate_strain_count": 4,
+      "expected_endpoint_value": 0.57509325,
+      "target_unit": "released source value; no conversion to g/L",
+      "fraction_of_panel_best": 0.7509134360046392,
+      "absolute_regret": 0.19076499999999996,
+      "top1_hit_probability": 0.25,
+      "early_assay": "none",
+      "selection_budget_strains": 1,
+      "actual_endpoint_assays_saved_verified": false
+    },
+    {
+      "panel_id": "ecoli_ale_24h_product",
+      "method": "early_product",
+      "candidate_strain_count": 4,
+      "expected_endpoint_value": 0.7527985,
+      "target_unit": "released source value; no conversion to g/L",
+      "fraction_of_panel_best": 0.9829475624242476,
+      "absolute_regret": 0.013059749999999926,
+      "top1_hit_probability": 0.0,
+      "early_assay": "product assay on all candidates",
+      "selection_budget_strains": 1,
+      "actual_endpoint_assays_saved_verified": false
+    }
+  ],
+  "artifact_sha256": {
+    "candidates.csv": "1c0bd92fa9ea40666fe5dc09ea704aca421ade660e5599e96e86b79fd1e616b9",
+    "decisions.csv": "774846149b69a1116a495a92570319414312ef8b325b43b4617b0d0be592ae51",
+    "metrics.csv": "e3a79ffb1bedd890a503ef00bdf3cd18e94fd932f1ca63b796a56e95b108063a"
+  },
+  "implementation_sha256": {
+    "external_screen_validation.py": "542f42c5b202349e6e34bb71a309a140ad640aa70eae3f3c1ecdf33ffd5b7d6f",
+    "verify_external_screen_validation.py": "c0b55b73322b3701812f1a1b724d13a5beae917f016bbe8e009b664b097a53bb"
+  }
+}

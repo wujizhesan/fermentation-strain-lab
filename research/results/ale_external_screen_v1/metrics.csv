@@ -1,0 +1,6 @@
+panel_id,method,candidate_strain_count,expected_endpoint_value,target_unit,fraction_of_panel_best,absolute_regret,top1_hit_probability,early_assay,selection_budget_strains,actual_endpoint_assays_saved_verified
+yarrowia_ale_24h_od,uniform_random_expectation,3,12.70711111111111,g/L,0.9926655035630897,0.09388888888888935,0.3333333333333333,none,1,False
+yarrowia_ale_24h_od,early_density,3,12.553333333333333,g/L,0.9806525531859489,0.24766666666666737,0.0,OD on all candidates,1,False
+yarrowia_ale_24h_od,early_density_fold,3,12.767000000000001,g/L,0.9973439575033202,0.03399999999999892,0.0,OD on all candidates,1,False
+ecoli_ale_24h_product,uniform_random_expectation,4,0.57509325,released source value; no conversion to g/L,0.7509134360046392,0.19076499999999996,0.25,none,1,False
+ecoli_ale_24h_product,early_product,4,0.7527985,released source value; no conversion to g/L,0.9829475624242476,0.013059749999999926,0.0,product assay on all candidates,1,False

@@ -1,0 +1,32 @@
+{
+  "uniform_random_expectation": {
+    "expected_selected_titer_g_L": 0.13797251667950813,
+    "fraction_of_heldout_best": 0.8878564553514727,
+    "absolute_regret_g_L": 0.027176614167126207,
+    "top1_hit_probability": 0.3333333333333333,
+    "independent_population_groups": 3
+  },
+  "early_density": {
+    "expected_selected_titer_g_L": 0.1478557030137012,
+    "fraction_of_heldout_best": 0.8987242251236408,
+    "absolute_regret_g_L": 0.01729342783293314,
+    "top1_hit_probability": 0.3333333333333333,
+    "independent_population_groups": 3
+  },
+  "early_density_fold": {
+    "expected_selected_titer_g_L": 0.137993065175988,
+    "fraction_of_heldout_best": 0.8883669198403825,
+    "absolute_regret_g_L": 0.027156065670646354,
+    "top1_hit_probability": 0.0,
+    "independent_population_groups": 3
+  },
+  "fixed_ridge": {
+    "expected_selected_titer_g_L": 0.11076665426284699,
+    "fraction_of_heldout_best": 0.7748187562844603,
+    "absolute_regret_g_L": 0.054382476583787365,
+    "top1_hit_probability": 0.0,
+    "independent_population_groups": 3,
+    "prediction_mae_g_L": 0.30317256802125203,
+    "negative_predictions": 0
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-10-14T16:12:02.349619+00:00",
+  "client_date": "2026-10-15",
+  "distribution": "NCBI PMC public S3",
+  "documentation_url": "https://pmc.ncbi.nlm.nih.gov/tools/pmcaws/",
+  "files": [
+    {
+      "doi": "10.1038/s41467-023-44245-4",
+      "pmcid": "PMC10733433",
+      "license": "CC BY",
+      "source_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC10733433.1/41467_2023_44245_MOESM1_ESM.pdf",
+      "provider_md5": "7445e7e706cdb353d502b4632a5becef",
+      "downloaded": true,
+      "path": "data/raw/ale_external_sources_20261015/PMC10733433/41467_2023_44245_MOESM1_ESM.pdf",
+      "bytes": 939811,
+      "sha256": "2cf3f315e4371cc725e487baef618fbd3f61762b72adcac7f988ebd22dd6687c",
+      "md5_verified": true
+    },
+    {
+      "doi": "10.1038/s41467-023-44245-4",
+      "pmcid": "PMC10733433",
+      "license": "CC BY",
+      "source_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC10733433.1/41467_2023_44245_MOESM4_ESM.xlsx",
+      "provider_md5": "3667ff7ac0e3a9f2639b87aaa101bac1",
+      "downloaded": true,
+      "path": "data/raw/ale_external_sources_20261015/PMC10733433/41467_2023_44245_MOESM4_ESM.xlsx",
+      "bytes": 11485,
+      "sha256": "ae661ab1e10a6c823b26314ed8437280345d0750dc4d9c5f26f0bb5a9170bc59",
+      "md5_verified": true
+    },
+    {
+      "doi": "10.1038/s41467-023-44245-4",
+      "pmcid": "PMC10733433",
+      "license": "CC BY",
+      "source_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC10733433.1/41467_2023_44245_MOESM9_ESM.xlsx",
+      "provider_md5": "ae1a9c39b7aaba9a7fce35960dabe223",
+      "downloaded": true,
+      "path": "data/raw/ale_external_sources_20261015/PMC10733433/41467_2023_44245_MOESM9_ESM.xlsx",
+      "bytes": 2041702,
+      "sha256": "495d84112140dc780af88c7344754c13bb5bf55fa8e423bf1a94bfdff3fda207",
+      "md5_verified": true
+    },
+    {
+      "doi": "10.1038/s41589-025-01911-6",
+      "pmcid": "PMC12303837",
+      "license": "CC BY",
+      "source_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC12303837.1/41589_2025_1911_MOESM1_ESM.pdf",
+      "provider_md5": "fbf99ee41de53cd97645b741de13c815",
+      "downloaded": true,
+      "path": "data/raw/ale_external_sources_20261015/PMC12303837/41589_2025_1911_MOESM1_ESM.pdf",
+      "bytes": 1803677,
+      "sha256": "99e48ac81d91ebdb43abefa276e4521e459836fbcebc7d75df6c4c9ae94602b3",
+      "md5_verified": true
+    },
+    {
+      "doi": "10.1038/s41589-025-01911-6",
+      "pmcid": "PMC12303837",
+      "license": "CC BY",
+      "source_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC12303837.1/41589_2025_1911_MOESM4_ESM.xlsx",
+      "provider_md5": "b8ee0f6db4178f756ac2ca53bc1745e8",
+      "downloaded": true,
+      "path": "data/raw/ale_external_sources_20261015/PMC12303837/41589_2025_1911_MOESM4_ESM.xlsx",
+      "bytes": 139541,
+      "sha256": "1c367a58142540cfd36a7ef6a01e4a67d548048ea48817b2b92c9d4847209a66",
+      "md5_verified": true
+    },
+    {
+      "doi": "10.1038/s41589-025-01911-6",
+      "pmcid": "PMC12303837",
+      "license": "CC BY",
+      "source_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC12303837.1/41589_2025_1911_MOESM8_ESM.xlsx",
+      "provider_md5": "7d470dc1110b6bcb401a2db20cc41131",
+      "downloaded": true,
+      "path": "data/raw/ale_external_sources_20261015/PMC12303837/41589_2025_1911_MOESM8_ESM.xlsx",
+      "bytes": 11236,
+      "sha256": "6727fa5f862a37045f1147b55458c31c10a75af6c7009684217eda88c8edd6f2",
+      "md5_verified": true
+    },
+    {
+      "doi": "10.1038/s41467-025-65793-x",
+      "pmcid": "PMC12663439",
+      "license": "CC BY-NC-ND",
+      "source_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC12663439.1/41467_2025_65793_MOESM14_ESM.xlsx",
+      "provider_md5": "583201592fd17bf54b4d10c1d61bcfc7",
+      "downloaded": true,
+      "path": "data/raw/ale_external_sources_20261015/PMC12663439/41467_2025_65793_MOESM14_ESM.xlsx",
+      "bytes": 47883,
+      "sha256": "fb08723fe82aca8bd522159d8d87f8b816551978f8a9c649a8a2a932dd656f53",
+      "md5_verified": true
+    },
+    {
+      "doi": "10.1038/s41467-025-65793-x",
+      "pmcid": "PMC12663439",
+      "license": "CC BY-NC-ND",
+      "source_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC12663439.1/41467_2025_65793_MOESM1_ESM.pdf",
+      "provider_md5": "33bc05f953bdde187ba2a740125a1872",
+      "downloaded": true,
+      "path": "data/raw/ale_external_sources_20261015/PMC12663439/41467_2025_65793_MOESM1_ESM.pdf",
+      "bytes": 1056699,
+      "sha256": "f4fbc06dd807fad335f8919b300707eaea4ca30344d0e3b9ceab74aa72de1a0c",
+      "md5_verified": true
+    },
+    {
+      "doi": "10.1038/s41467-025-65793-x",
+      "pmcid": "PMC12663439",
+      "license": "CC BY-NC-ND",
+      "source_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC12663439.1/41467_2025_65793_MOESM5_ESM.xlsx",
+      "provider_md5": "f9372f61b9c96dda7cbc896b276ce570",
+      "downloaded": true,
+      "path": "data/raw/ale_external_sources_20261015/PMC12663439/41467_2025_65793_MOESM5_ESM.xlsx",
+      "bytes": 13019,
+      "sha256": "5e41b783bc7ecbe243d421c420a8c779c65fb891141264bb436c53dcf951e785",
+      "md5_verified": true
+    }
+  ],
+  "metadata": {
+    "PMC10733433": {
+      "path": "research/results/external_data_acquisition_20261014/PMC10733433.1.json",
+      "sha256": "2edf056130f0c8e4d4cd529344f5b35d9887b1246774d5a2e88fecf39a99e83d",
+      "doi": "10.1038/s41467-023-44245-4",
+      "license": "CC BY"
+    },
+    "PMC12303837": {
+      "path": "research/results/external_data_acquisition_20261014/PMC12303837.1.json",
+      "sha256": "7259fbed603422aacb1e822d1edc60d0d45d8ddaebaa7adcfe86dd2622a4c978",
+      "doi": "10.1038/s41589-025-01911-6",
+      "license": "CC BY"
+    },
+    "PMC12663439": {
+      "path": "research/results/external_data_acquisition_20261014/PMC12663439.1.json",
+      "sha256": "28256ec81755029734d7e3ddbb6b0f748d9edf5add462ba1d9d2cef47639981b",
+      "doi": "10.1038/s41467-025-65793-x",
+      "license": "CC BY-NC-ND"
+    }
+  },
+  "download_is_not_reading_completion": true,
+  "download_is_not_model_validation": true
+}

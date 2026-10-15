@@ -1,0 +1,13 @@
+heldout_lineage,method,candidate_count,target_assay_budget,selected_isolates,expected_selected_titer_g_L,heldout_best_titer_g_L,fraction_of_heldout_best,absolute_regret_g_L,top1_hit_probability,new_experimental_assays_performed,prospective_assay_availability_verified
+Chassis_F-1,uniform_random_expectation,3,1,"[""Chassis_F-1-L"", ""Chassis_F-1-M"", ""Chassis_F-1-S""]",0.022600848284632862,0.022673915535752143,0.9967774753767575,7.30672511192812e-05,0.3333333333333333,0,False
+Chassis_F-1,early_density,3,1,"[""Chassis_F-1-M""]",0.022551265029490564,0.022673915535752143,0.9945906781707736,0.00012265050626157972,0.0,0,False
+Chassis_F-1,early_density_fold,3,1,"[""Chassis_F-1-M""]",0.022551265029490564,0.022673915535752143,0.9945906781707736,0.00012265050626157972,0.0,0,False
+Chassis_F-1,fixed_ridge,3,1,"[""Chassis_F-1-M""]",0.022551265029490564,0.022673915535752143,0.9945906781707736,0.00012265050626157972,0.0,0,False
+Chassis_F-2,uniform_random_expectation,3,1,"[""Chassis_F-2-L"", ""Chassis_F-2-M"", ""Chassis_F-2-S""]",0.24306542683977359,0.29933342812328073,0.8120223269539641,0.056268001283507146,0.3333333333333333,0,False
+Chassis_F-2,early_density,3,1,"[""Chassis_F-2-M""]",0.29933342812328073,0.29933342812328073,1.0,0.0,1.0,0,False
+Chassis_F-2,early_density_fold,3,1,"[""Chassis_F-2-S""]",0.24179657052532202,0.29933342812328073,0.8077833873794339,0.05753685759795871,0.0,0,False
+Chassis_F-2,fixed_ridge,3,1,"[""Chassis_F-2-L""]",0.18806628187071806,0.29933342812328073,0.6282835934824587,0.11126714625256268,0.0,0,False
+Chassis_F-3,uniform_random_expectation,3,1,"[""Chassis_F-3-L"", ""Chassis_F-3-M"", ""Chassis_F-3-S""]",0.14825127491411796,0.17344004888087017,0.8547695637236964,0.025188773966752204,0.3333333333333333,0,False
+Chassis_F-3,early_density,3,1,"[""Chassis_F-3-L""]",0.12168241588833233,0.17344004888087017,0.7015819972001488,0.05175763299253784,0.0,0,False
+Chassis_F-3,early_density_fold,3,1,"[""Chassis_F-3-M""]",0.14963135997315138,0.17344004888087017,0.8627266939709402,0.023808688907718784,0.0,0,False
+Chassis_F-3,fixed_ridge,3,1,"[""Chassis_F-3-L""]",0.12168241588833233,0.17344004888087017,0.7015819972001488,0.05175763299253784,0.0,0,False

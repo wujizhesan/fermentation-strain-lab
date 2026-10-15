@@ -1,0 +1,98 @@
+{
+  "Chassis_F-1": {
+    "features": [
+      "initial_od600",
+      "log_early_od_fold"
+    ],
+    "means": [
+      0.09549999999999999,
+      2.8215367604949786
+    ],
+    "scales": [
+      0.023084987907007158,
+      0.10483541938147463
+    ],
+    "coefficients": [
+      0.19565835087694577,
+      0.026361561075606,
+      0.0515605371815486
+    ],
+    "ridge_penalty": 1.0,
+    "training_isolate_ids": [
+      "Chassis_F-2-L",
+      "Chassis_F-2-M",
+      "Chassis_F-2-S",
+      "Chassis_F-3-L",
+      "Chassis_F-3-M",
+      "Chassis_F-3-S"
+    ],
+    "training_lineage_groups": [
+      "Chassis_F-2",
+      "Chassis_F-3"
+    ]
+  },
+  "Chassis_F-2": {
+    "features": [
+      "initial_od600",
+      "log_early_od_fold"
+    ],
+    "means": [
+      0.09566666666666666,
+      3.328581761523168
+    ],
+    "scales": [
+      0.01715290710702481,
+      0.5748877174528005
+    ],
+    "coefficients": [
+      0.08542606159937542,
+      -0.007624171991126088,
+      -0.055049289138773674
+    ],
+    "ridge_penalty": 1.0,
+    "training_isolate_ids": [
+      "Chassis_F-1-L",
+      "Chassis_F-1-M",
+      "Chassis_F-1-S",
+      "Chassis_F-3-L",
+      "Chassis_F-3-M",
+      "Chassis_F-3-S"
+    ],
+    "training_lineage_groups": [
+      "Chassis_F-1",
+      "Chassis_F-3"
+    ]
+  },
+  "Chassis_F-3": {
+    "features": [
+      "initial_od600",
+      "log_early_od_fold"
+    ],
+    "means": [
+      0.09083333333333332,
+      3.394169038083804
+    ],
+    "scales": [
+      0.01546411616901816,
+      0.5117903247519563
+    ],
+    "coefficients": [
+      0.13283313756220327,
+      -0.006448185797285235,
+      -0.09368079207883445
+    ],
+    "ridge_penalty": 1.0,
+    "training_isolate_ids": [
+      "Chassis_F-1-L",
+      "Chassis_F-1-M",
+      "Chassis_F-1-S",
+      "Chassis_F-2-L",
+      "Chassis_F-2-M",
+      "Chassis_F-2-S"
+    ],
+    "training_lineage_groups": [
+      "Chassis_F-1",
+      "Chassis_F-2"
+    ]
+  }
+}

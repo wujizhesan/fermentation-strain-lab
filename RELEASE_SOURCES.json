@@ -1,0 +1,231 @@
+{
+  "schema_version": 1,
+  "version": "0.1.0",
+  "files": [
+    {
+      "path": "data/raw/ale_chassis_2021/all_supplementary.zip",
+      "sha256": "4ec7524cd956928f371e9e8e6384e1060e1ab4be8d533f0d1703525f17112156",
+      "bytes": 8385936,
+      "validation": "archive_members",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8297383/supplementaryFiles",
+      "bundled_in_source": false,
+      "license": "CC BY 4.0"
+    },
+    {
+      "path": "data/raw/ale_chassis_2021/RNA_study.json",
+      "sha256": "dc00168bce2f7bd3832072a74c6c563195868ccf1cd13b01b446294463a522f7",
+      "bytes": 33329,
+      "validation": "sha256",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/studies/E-MTAB-9499",
+      "bundled_in_source": true,
+      "license": "保留原始来源条款；未重新授权"
+    },
+    {
+      "path": "data/raw/ale_chassis_2021/author/data/models/iMM904_peroxisome_fbc2.xml",
+      "sha256": "68c2e6de806af9123c27a32585c8b72282f4ab8fb02a6679664c30431c9ef0cd",
+      "bytes": 1920652,
+      "validation": "sha256",
+      "url": "https://raw.githubusercontent.com/silicolife/yeastchassis/ca00a264a604efb610ddf544cd4c321b2c2df072/data/models/iMM904_peroxisome_fbc2.xml",
+      "bundled_in_source": false,
+      "license": "保留原始来源条款；未重新授权"
+    },
+    {
+      "path": "data/raw/ale_chassis_2021/author/data/models/iMM904_peroxisome_gpd1-updated_fbc2.xml",
+      "sha256": "5a2d4fad9849e3fd6f89055e97834560e2280e837d85fbaecbbc54848ddee116",
+      "bytes": 1889128,
+      "validation": "sha256",
+      "url": "https://raw.githubusercontent.com/silicolife/yeastchassis/ca00a264a604efb610ddf544cd4c321b2c2df072/data/models/iMM904_peroxisome_gpd1-updated_fbc2.xml",
+      "bundled_in_source": false,
+      "license": "保留原始来源条款；未重新授权"
+    },
+    {
+      "path": "data/raw/ale_omics_model_20261012/GIDS.csv",
+      "sha256": "d9736060d1b2e37bcf8a8a1dca0a3bbc89a1e8b4677b451953a5171849f04bae",
+      "bytes": 11794,
+      "validation": "sha256",
+      "url": "https://raw.githubusercontent.com/silicolife/yeastchassis/ca00a264a604efb610ddf544cd4c321b2c2df072/data/20170313_acids_GK_IMPORT/model/GIDS.csv",
+      "bundled_in_source": false,
+      "license": "保留原始来源条款；未重新授权"
+    },
+    {
+      "path": "data/raw/ale_omics_model_20261012/sgd.tsv",
+      "sha256": "32586247249690e9051b8dec9de264388c3ef59981ac6527038abafda80bf568",
+      "bytes": 170581,
+      "validation": "sha256",
+      "url": "https://raw.githubusercontent.com/silicolife/yeastchassis/ca00a264a604efb610ddf544cd4c321b2c2df072/src/main/resources/extra/sgd.tsv",
+      "bundled_in_source": false,
+      "license": "保留原始来源条款；未重新授权"
+    },
+    {
+      "path": "data/raw/ale_omics_model_20261012/Saccharomyces_cerevisiae_cen_pk113_7d_gca_000269885.ASM26988v1.52.gff3.gz",
+      "sha256": "2dbdad90828b45b5ee4a2fbb443a286dceb0b108a010b3d616cdd7459922cdcf",
+      "bytes": 436933,
+      "validation": "sha256",
+      "url": "https://ftp.ensemblgenomes.ebi.ac.uk/pub/fungi/release-52/gff3/fungi_ascomycota1_collection/saccharomyces_cerevisiae_cen_pk113_7d_gca_000269885/Saccharomyces_cerevisiae_cen_pk113_7d_gca_000269885.ASM26988v1.52.gff3.gz",
+      "bundled_in_source": false,
+      "license": "保留原始来源条款；未重新授权"
+    },
+    {
+      "path": "data/raw/ale_candidates_20261010/yeastchassis_tree.json",
+      "sha256": "9feddf5c8abb41681cf2e2bf3bb195e35be6244518dd986f83afc45e93fe5dd7",
+      "bytes": 46276,
+      "validation": "sha256",
+      "url": null,
+      "bundled_in_source": true,
+      "license": "保留原始来源条款；未重新授权"
+    },
+    {
+      "path": "data/raw/ale_marge_20261012/MSB-17-e10253-s002.pdf",
+      "sha256": "4fe3278607167ffe499b64e6fb4dd557208a5f1ab3408f67fda255e93294163f",
+      "bytes": 1734819,
+      "validation": "archive_member",
+      "url": null,
+      "bundled_in_source": false,
+      "license": "CC BY 4.0"
+    },
+    {
+      "path": "data/raw/ale_marge_20261012/pride_files.json",
+      "sha256": "6e1966369a592ddf75afacf924ce9c1e67b41ee98cf3b7689eaeeeacec08cd71",
+      "bytes": 96889,
+      "validation": "sha256",
+      "url": null,
+      "bundled_in_source": true,
+      "license": "保留原始来源条款；未重新授权"
+    },
+    {
+      "path": "data/raw/ale_marge_20261012/metadata_Filipa.csv",
+      "sha256": "700adfb6998a7b2a23a3c363253c54bf06484ed0cc60eb23aa592ac9b85d054d",
+      "bytes": 1555,
+      "validation": "sha256",
+      "url": null,
+      "bundled_in_source": true,
+      "license": "保留原始来源条款；未重新授权"
+    },
+    {
+      "path": "data/raw/ale_marge_20261012/zenodo_versions.json",
+      "sha256": "c697ab5b09c8111089ed372969b07311218bc56313c98769a86862f20c35e619",
+      "bytes": 26499,
+      "validation": "sha256",
+      "url": null,
+      "bundled_in_source": true,
+      "license": "保留原始来源条款；未重新授权"
+    },
+    {
+      "path": "data/raw/ale_external_sources_20261015/PMC10733433/41467_2023_44245_MOESM1_ESM.pdf",
+      "sha256": "2cf3f315e4371cc725e487baef618fbd3f61762b72adcac7f988ebd22dd6687c",
+      "bytes": 939811,
+      "validation": "sha256",
+      "url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC10733433.1/41467_2023_44245_MOESM1_ESM.pdf",
+      "bundled_in_source": false,
+      "license": "CC BY"
+    },
+    {
+      "path": "data/raw/ale_external_sources_20261015/PMC10733433/41467_2023_44245_MOESM4_ESM.xlsx",
+      "sha256": "ae661ab1e10a6c823b26314ed8437280345d0750dc4d9c5f26f0bb5a9170bc59",
+      "bytes": 11485,
+      "validation": "sha256",
+      "url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC10733433.1/41467_2023_44245_MOESM4_ESM.xlsx",
+      "bundled_in_source": false,
+      "license": "CC BY"
+    },
+    {
+      "path": "data/raw/ale_external_sources_20261015/PMC10733433/41467_2023_44245_MOESM9_ESM.xlsx",
+      "sha256": "495d84112140dc780af88c7344754c13bb5bf55fa8e423bf1a94bfdff3fda207",
+      "bytes": 2041702,
+      "validation": "sha256",
+      "url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC10733433.1/41467_2023_44245_MOESM9_ESM.xlsx",
+      "bundled_in_source": false,
+      "license": "CC BY"
+    },
+    {
+      "path": "data/raw/ale_external_sources_20261015/PMC12303837/41589_2025_1911_MOESM1_ESM.pdf",
+      "sha256": "99e48ac81d91ebdb43abefa276e4521e459836fbcebc7d75df6c4c9ae94602b3",
+      "bytes": 1803677,
+      "validation": "sha256",
+      "url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC12303837.1/41589_2025_1911_MOESM1_ESM.pdf",
+      "bundled_in_source": false,
+      "license": "CC BY"
+    },
+    {
+      "path": "data/raw/ale_external_sources_20261015/PMC12303837/41589_2025_1911_MOESM4_ESM.xlsx",
+      "sha256": "1c367a58142540cfd36a7ef6a01e4a67d548048ea48817b2b92c9d4847209a66",
+      "bytes": 139541,
+      "validation": "sha256",
+      "url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC12303837.1/41589_2025_1911_MOESM4_ESM.xlsx",
+      "bundled_in_source": false,
+      "license": "CC BY"
+    },
+    {
+      "path": "data/raw/ale_external_sources_20261015/PMC12303837/41589_2025_1911_MOESM8_ESM.xlsx",
+      "sha256": "6727fa5f862a37045f1147b55458c31c10a75af6c7009684217eda88c8edd6f2",
+      "bytes": 11236,
+      "validation": "sha256",
+      "url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC12303837.1/41589_2025_1911_MOESM8_ESM.xlsx",
+      "bundled_in_source": false,
+      "license": "CC BY"
+    },
+    {
+      "path": "data/raw/ale_external_sources_20261015/PMC12663439/41467_2025_65793_MOESM14_ESM.xlsx",
+      "sha256": "fb08723fe82aca8bd522159d8d87f8b816551978f8a9c649a8a2a932dd656f53",
+      "bytes": 47883,
+      "validation": "sha256",
+      "url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC12663439.1/41467_2025_65793_MOESM14_ESM.xlsx",
+      "bundled_in_source": false,
+      "license": "CC BY-NC-ND"
+    },
+    {
+      "path": "data/raw/ale_external_sources_20261015/PMC12663439/41467_2025_65793_MOESM1_ESM.pdf",
+      "sha256": "f4fbc06dd807fad335f8919b300707eaea4ca30344d0e3b9ceab74aa72de1a0c",
+      "bytes": 1056699,
+      "validation": "sha256",
+      "url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC12663439.1/41467_2025_65793_MOESM1_ESM.pdf",
+      "bundled_in_source": false,
+      "license": "CC BY-NC-ND"
+    },
+    {
+      "path": "data/raw/ale_external_sources_20261015/PMC12663439/41467_2025_65793_MOESM5_ESM.xlsx",
+      "sha256": "5e41b783bc7ecbe243d421c420a8c779c65fb891141264bb436c53dcf951e785",
+      "bytes": 13019,
+      "validation": "sha256",
+      "url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC12663439.1/41467_2025_65793_MOESM5_ESM.xlsx",
+      "bundled_in_source": false,
+      "license": "CC BY-NC-ND"
+    },
+    {
+      "path": "data/raw/ale_external_sources_20261013/PMC10733433.xml",
+      "sha256": "4e438c66e28b35cf011aadfd5c36b4c6a18509d0e3ae35bac714fd60b45b8d5d",
+      "bytes": 115647,
+      "validation": "sha256",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10733433/fullTextXML",
+      "bundled_in_source": false,
+      "license": "CC BY"
+    },
+    {
+      "path": "data/raw/ale_external_sources_20261013/PMC12303837.xml",
+      "sha256": "ab95d08502b2d713bb97833259666f85fbb95b0c435baba019b4c66bab97283f",
+      "bytes": 247770,
+      "validation": "sha256",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12303837/fullTextXML",
+      "bundled_in_source": false,
+      "license": "CC BY"
+    },
+    {
+      "path": "data/raw/ale_external_sources_20261013/PMC12663439.xml",
+      "sha256": "54b6afb55c2482109b13b899e80ee493ea2598c056eacf7b12c1db9e7535643e",
+      "bytes": 159451,
+      "validation": "sha256",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12663439/fullTextXML",
+      "bundled_in_source": false,
+      "license": "CC BY-NC-ND"
+    },
+    {
+      "path": "data/raw/dynamic_fermentation_discovery_20261007/Tamminen2022_ambr_online_offline_data.xlsx",
+      "sha256": "3e069c5c32010031ab8f9c9fe2632b947451e422ba876cf93b95107fc5a7287a",
+      "bytes": 16977935,
+      "validation": "sha256",
+      "url": "https://zenodo.org/api/records/5846028/files/Tamminen2022_ambr_online_offline_data.xlsx/content",
+      "bundled_in_source": false,
+      "license": "CC BY 4.0"
+    }
+  ]
+}

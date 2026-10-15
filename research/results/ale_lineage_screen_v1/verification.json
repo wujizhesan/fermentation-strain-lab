@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "independent_fit": "NumPy augmented least squares; production uses scalar normal equations",
+  "source_feature_rows_recomputed": 9,
+  "lineage_folds_refitted": 3,
+  "candidate_decisions_recomputed": 36,
+  "fold_metrics_recomputed": 12,
+  "report_sha256": "2ed1f66a434155c501636ce4e192ea55fe7ffa1e87f76b196c5103d0e1a4ab62",
+  "new_blind_validation": false,
+  "prospective_selection_validated": false,
+  "productivity_scored": false
+}

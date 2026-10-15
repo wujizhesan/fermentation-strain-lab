@@ -1,0 +1,20 @@
+{
+  "verified": true,
+  "verified_at_utc": "2026-10-10T09:05:10.143225+00:00",
+  "verifier_sha256": "830ddd5d9571d18c486cf35b72964cf8416a7ed609da049754d9a57461950d60",
+  "report_sha256": "554d637e9fb7b2af8314ea5d831e33124a7eca9a5422ff3f659e0bdc604d054e",
+  "protocol_sha256": "3a60df69e7d55a41bf727669cacdf1ef5207429825371b3c8de3d6a99aea60ff",
+  "sources_verified": 17,
+  "nested_workbooks_independently_reparsed": 10,
+  "recorded_OD_points_verified": 216,
+  "isolate_endpoints_verified": 27,
+  "population_endpoints_verified": 3,
+  "early_screening_choices_verified": 6,
+  "spearman_values_independently_ranked": 6,
+  "metabolomics_sample_links_verified": 21,
+  "RNA_metadata_samples_verified": 20,
+  "author_model_schemas_verified": 3,
+  "source_ODmax_semantic_discrepancies_preserved": 9,
+  "new_model_fits": 0,
+  "new_blind_validation": false
+}

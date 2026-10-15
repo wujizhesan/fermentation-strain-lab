@@ -1,0 +1,135 @@
+{
+  "version": "1.0",
+  "article_url": "https://link.springer.com/article/10.15252/msb.202110253",
+  "author_commit": "ca00a264a604efb610ddf544cd4c321b2c2df072",
+  "inputs": [
+    {
+      "path": "data/raw/ale_chassis_2021/all_supplementary.zip",
+      "sha256": "4ec7524cd956928f371e9e8e6384e1060e1ab4be8d533f0d1703525f17112156",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8297383/supplementaryFiles"
+    },
+    {
+      "path": "data/raw/ale_chassis_2021/RNA_study.json",
+      "sha256": "dc00168bce2f7bd3832072a74c6c563195868ccf1cd13b01b446294463a522f7",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/studies/E-MTAB-9499"
+    },
+    {
+      "path": "data/raw/ale_chassis_2021/author/data/models/iMM904_peroxisome_fbc2.xml",
+      "sha256": "68c2e6de806af9123c27a32585c8b72282f4ab8fb02a6679664c30431c9ef0cd",
+      "url": "https://raw.githubusercontent.com/silicolife/yeastchassis/ca00a264a604efb610ddf544cd4c321b2c2df072/data/models/iMM904_peroxisome_fbc2.xml"
+    },
+    {
+      "path": "data/raw/ale_chassis_2021/author/data/models/iMM904_peroxisome_gpd1-updated_fbc2.xml",
+      "sha256": "5a2d4fad9849e3fd6f89055e97834560e2280e837d85fbaecbbc54848ddee116",
+      "url": "https://raw.githubusercontent.com/silicolife/yeastchassis/ca00a264a604efb610ddf544cd4c321b2c2df072/data/models/iMM904_peroxisome_gpd1-updated_fbc2.xml"
+    },
+    {
+      "path": "data/raw/ale_omics_model_20261012/GIDS.csv",
+      "url": "https://raw.githubusercontent.com/silicolife/yeastchassis/ca00a264a604efb610ddf544cd4c321b2c2df072/data/20170313_acids_GK_IMPORT/model/GIDS.csv",
+      "sha256": "d9736060d1b2e37bcf8a8a1dca0a3bbc89a1e8b4677b451953a5171849f04bae"
+    },
+    {
+      "path": "data/raw/ale_omics_model_20261012/sgd.tsv",
+      "url": "https://raw.githubusercontent.com/silicolife/yeastchassis/ca00a264a604efb610ddf544cd4c321b2c2df072/src/main/resources/extra/sgd.tsv",
+      "sha256": "32586247249690e9051b8dec9de264388c3ef59981ac6527038abafda80bf568"
+    },
+    {
+      "path": "data/raw/ale_omics_model_20261012/Saccharomyces_cerevisiae_cen_pk113_7d_gca_000269885.ASM26988v1.52.gff3.gz",
+      "url": "https://ftp.ensemblgenomes.ebi.ac.uk/pub/fungi/release-52/gff3/fungi_ascomycota1_collection/saccharomyces_cerevisiae_cen_pk113_7d_gca_000269885/Saccharomyces_cerevisiae_cen_pk113_7d_gca_000269885.ASM26988v1.52.gff3.gz",
+      "sha256": "2dbdad90828b45b5ee4a2fbb443a286dceb0b108a010b3d616cdd7459922cdcf"
+    }
+  ],
+  "contrasts": [
+    "F",
+    "Sz",
+    "Mz"
+  ],
+  "effect": "mean(log2(positive released abundance)) evolved minus parental; >=2 positive observations per group; no pseudocount",
+  "rna_scale": "continuous released FigEV4_C values; exact normalization not established, not integer HTSeq counts",
+  "protein_scale": "released FigEV4_D positive TMT abundance; does not reproduce limma/batch correction/vsn",
+  "metabolite_scale": "extracellular FigEV4_E ribitol-normalized AUC; no absolute concentration or rate conversion",
+  "gene_mapping": "unique exact annotation protein name in Ensembl fungi release52 GCA_000269885, then author GIDS; annotation-derived, not sequence-validated orthology",
+  "sample_join": "strain group only; no replicate-level cross-omics pairing; E_Cassis_F RNA metadata alias remains unresolved",
+  "model_scenarios": {
+    "versions": [
+      "original",
+      "updated"
+    ],
+    "genotypes": [
+      "WT",
+      "Mz",
+      "Mz_MDH3_KO"
+    ],
+    "glycine_uptake_cap_mmol_gDW_h": [
+      0,
+      1
+    ],
+    "glucose_uptake_cap_mmol_gDW_h": 1.15,
+    "oxygen_uptake_cap_mmol_gDW_h": 1000,
+    "atpm_bounds": [
+      1,
+      1
+    ],
+    "fva_growth_fraction": 1.0,
+    "knockouts": {
+      "WT": [],
+      "Mz": [
+        "SER3",
+        "SER33",
+        "ZWF1",
+        "MAE1",
+        "MDH1",
+        "MDH2"
+      ],
+      "Mz_MDH3_KO": [
+        "SER3",
+        "SER33",
+        "ZWF1",
+        "MAE1",
+        "MDH1",
+        "MDH2",
+        "MDH3"
+      ]
+    },
+    "tracked_reactions": [
+      "MDHp",
+      "G3PD1irp",
+      "GLYC3Ptp",
+      "DHAPtp",
+      "EX_mal_L_e_",
+      "EX_gly_e_",
+      "EX_fum_e_"
+    ],
+    "fumarate_exchange_conditions": [
+      "open",
+      "blocked"
+    ],
+    "expected_added_reactions": [
+      "DHAPtp",
+      "G3PD1irp",
+      "GLYC3Ptp"
+    ]
+  },
+  "limitations": [
+    "parental cultures supplemented with glycine; evolved cultures not supplemented; evolution and medium effects are confounded",
+    "author Figure3 RNA effects are preselected and supplied without q-values; not a genome-wide validation set",
+    "models are transformed FBC2 files; reaction counts include boundary reactions; this is not an exact MARGE reproduction",
+    "scenario glycine cap1 is sensitivity only, not inferred from 500 mg/L",
+    "source ATPM1 and qGlucose cap1.15 preserved; no measured uptake calibration",
+    "omics abundance changes are not imposed as reaction flux bounds",
+    "no new ALE mutations assigned to parental-genotype models; no real strain gain validated",
+    "malate growth coupling depends on restricting fumarate secretion; both open and blocked exchange tested; exact optimum only"
+  ],
+  "workbook_members": {
+    "MSB-2021-10253_SourceDataForFigureEV4.xlsx": {
+      "outer_member": "MSB-17-e10253-s004.zip",
+      "inner_member": "MSB-2021-10253_SourceDataForExpandedView/MSB-2021-10253_SourceDataForFigureEV4.xlsx",
+      "sha256": "08df49bd9a1594876087f9f53dc81d50957e67f567c7721f1f269d876d4885da"
+    },
+    "MSB-2021-10253_SourceDataForFigure3.xlsx": {
+      "outer_member": "MSB-17-e10253-s008.zip",
+      "inner_member": "MSB-2021-10253_SourceDataForFigure3.xlsx",
+      "sha256": "66a5dfe09c49fe7b2ac802410294ffdb6583b6eafcd75cc6681def3c5601d65d"
+    }
+  }
+}

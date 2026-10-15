@@ -1,0 +1,36 @@
+[
+  {
+    "id": "yeast_chassis_ALE_2021",
+    "primary_url": "https://link.springer.com/article/10.15252/msb.202110253",
+    "published": "2021-07-22",
+    "obtained": "Publisher-listed figure source data obtained through the public Europe PMC supplementary package; omics sample metadata, MAF and author model files obtained.",
+    "supports": "Descriptive isolate screening with nine evolution population groups and multi-omics source integration audit.",
+    "does_not_establish": "Continuous online process signals, initial chemical state, assay return clocks, across-omics culture identity or unseen-lineage predictive superiority."
+  },
+  {
+    "id": "evolver_ALE_2018",
+    "primary_url": "https://www.nature.com/articles/nbt.4151",
+    "published": "2018-06-11",
+    "obtained": "Article data-availability section; raw process data are available on reasonable request, not downloaded.",
+    "supports": "Platform design and ALE methods; paper availability is separate from process-log availability."
+  },
+  {
+    "id": "DDR_evolver_2021",
+    "primary_url": "https://github.com/khalillab/DDR-eVOLVER-model/tree/7019f031598169723a5828f3909eba1e199794d2",
+    "obtained": "Complete five-file tree with two experiment ZIP archives; archives not downloaded in this round.",
+    "supports": "Candidate for continuous mixed-community disturbance analysis, not an ALE clone lineage dataset."
+  },
+  {
+    "id": "yeast_robustness_repository",
+    "primary_url": "https://github.com/cectri/evolution_robustness_yeast/tree/2efe8f7030eec9020298d5c91c0df253e2293ceb",
+    "obtained": "Complete two-file tree containing README and LICENSE only.",
+    "supports": "Repository description names two evolving yeast strains, but inspected tree contains no dataset; repository date is not a paper publication date."
+  },
+  {
+    "id": "rim15_ALE_2026",
+    "primary_url": "https://link.springer.com/article/10.1186/s12934-026-03096-6",
+    "published": "2026-08-15",
+    "obtained": "Article abstract, selected methods, figure descriptions and data-availability section, not new full-paper reading.",
+    "supports": "Current ALE and tolerance research; declaration says no datasets generated or analysed although article reports experiments. No linked raw time series identified in inspected declaration; raw process data not obtained."
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "paper_exact_reproduction_completed": false,
+  "strict_entry_allowed": false,
+  "missing_required_inputs": [
+    "original q<0.1 RNA differential lists and coefficients for all paper contrasts",
+    "original q<0.1 protein differential lists and coefficients",
+    "exact RNA/protein fusion rule for the MARGE relative-expression dictionary",
+    "extracellular constraint conversion to uptake/secretion bounds",
+    "exact fitted growth_frac values, software version and invocation scripts; Fig2E reference flux vectors"
+  ],
+  "rna_q_filter_reproduced": false,
+  "protein_q_filter_reproduced": false,
+  "extracellular_rate_constraints_reproduced": false,
+  "version_selected_by_publication_date_not_confirmed_by_authors": true
+}

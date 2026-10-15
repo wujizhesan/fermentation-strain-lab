@@ -1,0 +1,315 @@
+{
+  "checked_at_utc": "2026-10-10T08:43:54.840902+00:00",
+  "article_doi": "10.15252/msb.202110253",
+  "author_commit": "ca00a264a604efb610ddf544cd4c321b2c2df072",
+  "required_sources": [
+    {
+      "path": "data/raw/ale_chassis_2021/all_supplementary.zip",
+      "requested_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8297383/supplementaryFiles",
+      "resolved_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8297383/supplementaryFiles",
+      "status": 200,
+      "http_metadata": {
+        "Content-Type": "application/zip",
+        "Last-Modified": null,
+        "ETag": null
+      },
+      "bytes": 8385936,
+      "sha256": "4ec7524cd956928f371e9e8e6384e1060e1ab4be8d533f0d1703525f17112156",
+      "error": null,
+      "valid_zip": true,
+      "id": "supplement_bundle"
+    },
+    {
+      "path": "data/raw/ale_chassis_2021/RNA_study.json",
+      "requested_url": "https://www.ebi.ac.uk/biostudies/api/v1/studies/E-MTAB-9499",
+      "resolved_url": "https://www.ebi.ac.uk/biostudies/api/v1/studies/E-MTAB-9499",
+      "status": 200,
+      "http_metadata": {
+        "Content-Type": "application/json;charset=UTF-8",
+        "Last-Modified": null,
+        "ETag": null
+      },
+      "bytes": 33329,
+      "sha256": "dc00168bce2f7bd3832072a74c6c563195868ccf1cd13b01b446294463a522f7",
+      "error": null,
+      "id": "rna_study"
+    },
+    {
+      "path": "data/raw/ale_chassis_2021/genomics_runs.tsv",
+      "requested_url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJEB41109&result=read_run&fields=study_accession,sample_accession,run_accession,sample_alias,library_strategy,fastq_ftp,fastq_md5,fastq_bytes&format=tsv&download=false",
+      "resolved_url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJEB41109&result=read_run&fields=study_accession,sample_accession,run_accession,sample_alias,library_strategy,fastq_ftp,fastq_md5,fastq_bytes&format=tsv&download=false",
+      "status": 200,
+      "http_metadata": {
+        "Content-Type": "text/plain",
+        "Last-Modified": null,
+        "ETag": null
+      },
+      "bytes": 2920,
+      "sha256": "a795b736e95f0c4ce2c3863dba904ff9ff0f81c59f2319f0fc85f9062cebd90d",
+      "error": null,
+      "id": "genomics_runs"
+    },
+    {
+      "path": "data/raw/ale_chassis_2021/i_Investigation.txt",
+      "requested_url": "https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS2007/i_Investigation.txt",
+      "resolved_url": "https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS2007/i_Investigation.txt",
+      "status": 200,
+      "http_metadata": {
+        "Content-Type": "text/plain; charset=UTF-8",
+        "Last-Modified": "Sat, 06 Sep 2025 09:49:52 GMT",
+        "ETag": "\"4355-63e1ee0429b2c\""
+      },
+      "bytes": 17237,
+      "sha256": "2cfd9afa53e2877dff4688058d678cbb931c2a850ec480d7a1bcc722e768fcc3",
+      "error": null,
+      "id": "metabolomics_investigation"
+    },
+    {
+      "path": "data/raw/ale_chassis_2021/s_MTBLS2007.txt",
+      "requested_url": "https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS2007/s_MTBLS2007.txt",
+      "resolved_url": "https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS2007/s_MTBLS2007.txt",
+      "status": 200,
+      "http_metadata": {
+        "Content-Type": "text/plain; charset=UTF-8",
+        "Last-Modified": "Tue, 03 Oct 2023 01:29:38 GMT",
+        "ETag": "\"1e0f-606c5d2fbcc52\""
+      },
+      "bytes": 7695,
+      "sha256": "b636b26a09ac6e5f9102bde8f06a407eec4d32a9b35684f0ab84b15f73d705d4",
+      "error": null,
+      "id": "metabolomics_samples"
+    },
+    {
+      "path": "data/raw/ale_chassis_2021/a_MTBLS2007_GC-MS___metabolite_profiling-1.txt",
+      "requested_url": "https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS2007/a_MTBLS2007_GC-MS___metabolite_profiling-1.txt",
+      "resolved_url": "https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS2007/a_MTBLS2007_GC-MS___metabolite_profiling-1.txt",
+      "status": 200,
+      "http_metadata": {
+        "Content-Type": "text/plain; charset=UTF-8",
+        "Last-Modified": "Fri, 17 Nov 2023 17:56:30 GMT",
+        "ETag": "\"42b6-60a5cdb27232b\""
+      },
+      "bytes": 17078,
+      "sha256": "6e130fbddd27c648f933d422fb680055f7563d2517b89d728dfb2bb9644cfd9a",
+      "error": null,
+      "id": "metabolomics_assays"
+    },
+    {
+      "path": "data/raw/ale_chassis_2021/m_MTBLS2007_GC-MS___metabolite_profiling_v2_maf.tsv",
+      "requested_url": "https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS2007/m_MTBLS2007_GC-MS___metabolite_profiling_v2_maf.tsv",
+      "resolved_url": "https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS2007/m_MTBLS2007_GC-MS___metabolite_profiling_v2_maf.tsv",
+      "status": 200,
+      "http_metadata": {
+        "Content-Type": "text/tab-separated-values",
+        "Last-Modified": "Tue, 03 Oct 2023 01:29:39 GMT",
+        "ETag": "\"1ae5-606c5d308ec89\""
+      },
+      "bytes": 6885,
+      "sha256": "89c748d4a136df8a46100755a4fadf8fd0ec37b68ec7eac5be74d0198a409f9d",
+      "error": null,
+      "id": "metabolomics_maf"
+    },
+    {
+      "path": "data/raw/ale_chassis_2021/author/README.md",
+      "requested_url": "https://raw.githubusercontent.com/silicolife/yeastchassis/ca00a264a604efb610ddf544cd4c321b2c2df072/README.md",
+      "resolved_url": "https://raw.githubusercontent.com/silicolife/yeastchassis/ca00a264a604efb610ddf544cd4c321b2c2df072/README.md",
+      "status": 200,
+      "http_metadata": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "Last-Modified": null,
+        "ETag": "\"cfc7f827ba8c09c55cac751fb7b6ece42ef1f9e01026ea26dd3a3d8c6f994a35\""
+      },
+      "bytes": 18804,
+      "sha256": "34c136a32835ae03038b5f1650da2096aca00ea76363500e9cf50facaca66f75",
+      "error": null,
+      "id": "author_readme",
+      "git_blob_sha": "209128eddcccba6a63b114c881a5250b281dce85"
+    },
+    {
+      "path": "data/raw/ale_chassis_2021/author/data/models/iMM904_peroxisome.xml",
+      "requested_url": "https://raw.githubusercontent.com/silicolife/yeastchassis/ca00a264a604efb610ddf544cd4c321b2c2df072/data/models/iMM904_peroxisome.xml",
+      "resolved_url": "https://raw.githubusercontent.com/silicolife/yeastchassis/ca00a264a604efb610ddf544cd4c321b2c2df072/data/models/iMM904_peroxisome.xml",
+      "status": 200,
+      "http_metadata": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "Last-Modified": null,
+        "ETag": "\"620841113fd93df943247d202dc62309de0145b74bb67e80a146e3da5b54937d\""
+      },
+      "bytes": 2102338,
+      "sha256": "2647c57baaae48044f59818d97846b25a50477cf7a7eeb89c769b3828fa847dc",
+      "error": null,
+      "id": "model_original",
+      "git_blob_sha": "c5a83905f9b18814f5ca017083ef3a7aebcccf69"
+    },
+    {
+      "path": "data/raw/ale_chassis_2021/author/data/models/iMM904_peroxisome_fbc2.xml",
+      "requested_url": "https://raw.githubusercontent.com/silicolife/yeastchassis/ca00a264a604efb610ddf544cd4c321b2c2df072/data/models/iMM904_peroxisome_fbc2.xml",
+      "resolved_url": "https://raw.githubusercontent.com/silicolife/yeastchassis/ca00a264a604efb610ddf544cd4c321b2c2df072/data/models/iMM904_peroxisome_fbc2.xml",
+      "status": 200,
+      "http_metadata": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "Last-Modified": null,
+        "ETag": "\"5ce4f3ebb8ac07397f6116c0dd81d3adadc428100fc3c5bcd6b41fbbe5cf692e\""
+      },
+      "bytes": 1920652,
+      "sha256": "68c2e6de806af9123c27a32585c8b72282f4ab8fb02a6679664c30431c9ef0cd",
+      "error": null,
+      "id": "model_fbc2",
+      "git_blob_sha": "a225b3b7cff2a3858b34fceeedc93b71f27f994f"
+    },
+    {
+      "path": "data/raw/ale_chassis_2021/author/data/models/iMM904_peroxisome_gpd1-updated_fbc2.xml",
+      "requested_url": "https://raw.githubusercontent.com/silicolife/yeastchassis/ca00a264a604efb610ddf544cd4c321b2c2df072/data/models/iMM904_peroxisome_gpd1-updated_fbc2.xml",
+      "resolved_url": "https://raw.githubusercontent.com/silicolife/yeastchassis/ca00a264a604efb610ddf544cd4c321b2c2df072/data/models/iMM904_peroxisome_gpd1-updated_fbc2.xml",
+      "status": 200,
+      "http_metadata": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "Last-Modified": null,
+        "ETag": "\"db2ad25657ec54b192c1b0336467e6543baa25b71106bd27b667901545e50383\""
+      },
+      "bytes": 1889128,
+      "sha256": "5a2d4fad9849e3fd6f89055e97834560e2280e837d85fbaecbbc54848ddee116",
+      "error": null,
+      "id": "model_updated_fbc2",
+      "git_blob_sha": "2785cbe0d3382c65bf8ca36df31635d56da8cb57"
+    },
+    {
+      "path": "data/raw/ale_candidates_20261010/yeastchassis_tree.json",
+      "requested_url": "https://api.github.com/repos/silicolife/yeastchassis/git/trees/ca00a264a604efb610ddf544cd4c321b2c2df072?recursive=1",
+      "resolved_url": "https://api.github.com/repos/silicolife/yeastchassis/git/trees/ca00a264a604efb610ddf544cd4c321b2c2df072?recursive=1",
+      "status": 200,
+      "http_metadata": {
+        "Content-Type": "application/json; charset=utf-8",
+        "Last-Modified": "Sun, 11 Apr 2021 11:28:31 GMT",
+        "ETag": "W/\"9feddf5c8abb41681cf2e2bf3bb195e35be6244518dd986f83afc45e93fe5dd7\""
+      },
+      "bytes": 46276,
+      "sha256": "9feddf5c8abb41681cf2e2bf3bb195e35be6244518dd986f83afc45e93fe5dd7",
+      "error": null,
+      "id": "author_tree"
+    },
+    {
+      "path": "data/raw/ale_candidates_20261010/yeastchassis_article.xml",
+      "requested_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8297383/fullTextXML",
+      "resolved_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8297383/fullTextXML",
+      "bytes": 239485,
+      "sha256": "a4e7d77030d5d2a3af1d05dd70c3818e2a4602b249b712a7552c48d09fa6d795",
+      "error": null,
+      "id": "article"
+    },
+    {
+      "path": "data/raw/ale_candidates_20261010/rim15_article.xml",
+      "requested_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13477587/fullTextXML",
+      "resolved_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13477587/fullTextXML",
+      "status": 200,
+      "http_metadata": {
+        "Content-Type": "application/xml",
+        "Last-Modified": null,
+        "ETag": null
+      },
+      "bytes": 111425,
+      "sha256": "82b8bca0aca952cf037f697bd609205f20af45ed3d5679c679b1b025e5c886b3",
+      "error": null,
+      "id": "rim15_article"
+    },
+    {
+      "path": "data/raw/ale_candidates_20261010/evolver_article.xml",
+      "requested_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6035058/fullTextXML",
+      "resolved_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6035058/fullTextXML",
+      "bytes": 103138,
+      "sha256": "189dc3427c64dea07f2fb3ebde2771e7ebdf0e2ae4710e6ec036c827a2de40b8",
+      "error": null,
+      "id": "evolver_article"
+    },
+    {
+      "path": "data/raw/ale_candidates_20261010/robustness_tree.json",
+      "requested_url": "https://api.github.com/repos/cectri/evolution_robustness_yeast/git/trees/main?recursive=1",
+      "resolved_url": "https://api.github.com/repos/cectri/evolution_robustness_yeast/git/trees/main?recursive=1",
+      "status": 200,
+      "http_metadata": {
+        "Content-Type": "application/json; charset=utf-8",
+        "Last-Modified": "Mon, 01 Dec 2025 14:43:04 GMT",
+        "ETag": "W/\"0a412586ecbe3c308e915d986bdb5e09725378b76cde5ad4a194937b628ab647\""
+      },
+      "bytes": 664,
+      "sha256": "0a412586ecbe3c308e915d986bdb5e09725378b76cde5ad4a194937b628ab647",
+      "error": null,
+      "id": "robustness_tree",
+      "download_url": "https://api.github.com/repos/cectri/evolution_robustness_yeast/git/trees/2efe8f7030eec9020298d5c91c0df253e2293ceb?recursive=1"
+    },
+    {
+      "path": "data/raw/ale_candidates_20261010/ddr_tree.json",
+      "requested_url": "https://api.github.com/repos/khalillab/DDR-eVOLVER-model/git/trees/main?recursive=1",
+      "resolved_url": "https://api.github.com/repos/khalillab/DDR-eVOLVER-model/git/trees/main?recursive=1",
+      "bytes": 1349,
+      "sha256": "d813ecded6564a87bf83e8b61aa07f9f6aa62344e7cd9b5ebc83c7884023c2e0",
+      "error": null,
+      "id": "ddr_tree",
+      "download_url": "https://api.github.com/repos/khalillab/DDR-eVOLVER-model/git/trees/7019f031598169723a5828f3909eba1e199794d2?recursive=1"
+    }
+  ],
+  "candidate_scope": [
+    {
+      "id": "yeast_chassis_ALE_2021",
+      "primary_url": "https://link.springer.com/article/10.15252/msb.202110253",
+      "published": "2021-07-22",
+      "obtained": "Publisher-listed figure source data obtained through the public Europe PMC supplementary package; omics sample metadata, MAF and author model files obtained.",
+      "supports": "Descriptive isolate screening with nine evolution population groups and multi-omics source integration audit.",
+      "does_not_establish": "Continuous online process signals, initial chemical state, assay return clocks, across-omics culture identity or unseen-lineage predictive superiority."
+    },
+    {
+      "id": "evolver_ALE_2018",
+      "primary_url": "https://www.nature.com/articles/nbt.4151",
+      "published": "2018-06-11",
+      "obtained": "Article data-availability section; raw process data are available on reasonable request, not downloaded.",
+      "supports": "Platform design and ALE methods; paper availability is separate from process-log availability."
+    },
+    {
+      "id": "DDR_evolver_2021",
+      "primary_url": "https://github.com/khalillab/DDR-eVOLVER-model/tree/7019f031598169723a5828f3909eba1e199794d2",
+      "obtained": "Complete five-file tree with two experiment ZIP archives; archives not downloaded in this round.",
+      "supports": "Candidate for continuous mixed-community disturbance analysis, not an ALE clone lineage dataset."
+    },
+    {
+      "id": "yeast_robustness_repository",
+      "primary_url": "https://github.com/cectri/evolution_robustness_yeast/tree/2efe8f7030eec9020298d5c91c0df253e2293ceb",
+      "obtained": "Complete two-file tree containing README and LICENSE only.",
+      "supports": "Repository description names two evolving yeast strains, but inspected tree contains no dataset; repository date is not a paper publication date."
+    },
+    {
+      "id": "rim15_ALE_2026",
+      "primary_url": "https://link.springer.com/article/10.1186/s12934-026-03096-6",
+      "published": "2026-08-15",
+      "obtained": "Article abstract, selected methods, figure descriptions and data-availability section, not new full-paper reading.",
+      "supports": "Current ALE and tolerance research; declaration says no datasets generated or analysed although article reports experiments. No linked raw time series identified in inspected declaration; raw process data not obtained."
+    }
+  ],
+  "publisher_archive_observation": {
+    "some_direct_supplement_links_returned_HTTP200_HTML_challenge": true,
+    "public_Europe_PMC_supplement_bundle_obtained": true,
+    "HTML_challenge_not_accepted_as_workbook": true,
+    "only_nested_workbooks_read_no_figure_digitization": true
+  },
+  "license_scope": {
+    "article_and_figure_source_data": {
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "Pereira, Lopes, Maia et al. (2021), Model-guided development of an evolutionarily stable yeast chassis, DOI 10.15252/msb.202110253",
+      "publisher_url": "https://link.springer.com/article/10.15252/msb.202110253"
+    },
+    "author_repository": {
+      "explicit_license_file_in_inspected_tree": false,
+      "blanket_code_or_model_license_inferred": false,
+      "original_files_retained_in_ignored_cache": true
+    },
+    "omics_metadata": {
+      "primary_sources": [
+        "E-MTAB-9499",
+        "PRJEB41109",
+        "MTBLS2007"
+      ],
+      "separate_repository_license_not_inferred_from_article": true,
+      "raw_reads_and_spectra_not_redistributed": true
+    }
+  }
+}

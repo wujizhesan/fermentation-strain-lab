@@ -1,0 +1,41 @@
+[
+  {
+    "design": "Sz",
+    "product": "succinate",
+    "isolate_count": 9,
+    "lineage_group_count": 3,
+    "observed_early_times_h": [
+      17.0
+    ],
+    "density_titer_spearman_descriptive": 0.11666666666666665,
+    "density_fold_titer_spearman_descriptive": 0.13333333333333333,
+    "statistical_significance_claim": false,
+    "cluster_independence_claim": false
+  },
+  {
+    "design": "F",
+    "product": "fumarate",
+    "isolate_count": 9,
+    "lineage_group_count": 3,
+    "observed_early_times_h": [
+      18.0
+    ],
+    "density_titer_spearman_descriptive": -0.6166666666666666,
+    "density_fold_titer_spearman_descriptive": -0.4666666666666666,
+    "statistical_significance_claim": false,
+    "cluster_independence_claim": false
+  },
+  {
+    "design": "Mz",
+    "product": "malate",
+    "isolate_count": 9,
+    "lineage_group_count": 3,
+    "observed_early_times_h": [
+      18.0
+    ],
+    "density_titer_spearman_descriptive": 0.19999999999999998,
+    "density_fold_titer_spearman_descriptive": 0.03333333333333333,
+    "statistical_significance_claim": false,
+    "cluster_independence_claim": false
+  }
+]

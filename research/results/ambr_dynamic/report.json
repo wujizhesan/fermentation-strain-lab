@@ -1,0 +1,333 @@
+{
+  "created_at_utc": "2026-10-07T14:37:43.744666+00:00",
+  "source_sha256": "3e069c5c32010031ab8f9c9fe2632b947451e422ba876cf93b95107fc5a7287a",
+  "protocol_sha256": "2b027c50de5ddf447c8d35412f89164b24a54295a18fbbb500cd842ba72a1163",
+  "implementation_sha256": "a267be7cff4069708d54384894829ea118465258675e134e6848dbb5ba6bbdac",
+  "cultures": 20,
+  "independent_rounds": 2,
+  "online_rows": 74849,
+  "offline_rows": 230,
+  "feature_eligible_rows": 212,
+  "feature_excluded_rows": [
+    {
+      "row_id": "D-161646 pH 3.5 (1)!2",
+      "reason": "no_past_online_observation"
+    },
+    {
+      "row_id": "D-161646 pH 3.5 (2)!2",
+      "reason": "no_past_online_observation"
+    },
+    {
+      "row_id": "T2 pH 4 (1)!2",
+      "reason": "no_past_online_observation"
+    },
+    {
+      "row_id": "T2 pH 4 (2)!2",
+      "reason": "no_past_online_observation"
+    },
+    {
+      "row_id": "T2 pH 3.5 (1)!2",
+      "reason": "no_past_online_observation"
+    },
+    {
+      "row_id": "T2 pH 3.5 (2)!2",
+      "reason": "no_past_online_observation"
+    },
+    {
+      "row_id": "T2 pH 3 (1)!2",
+      "reason": "no_past_online_observation"
+    },
+    {
+      "row_id": "T2 pH 3 (2)!2",
+      "reason": "no_past_online_observation"
+    },
+    {
+      "row_id": "T2 YE 1 (1)!2",
+      "reason": "no_past_online_observation"
+    },
+    {
+      "row_id": "T2 YE 1 (2)!2",
+      "reason": "no_past_online_observation"
+    },
+    {
+      "row_id": "T2 YE 0.5 (1)!2",
+      "reason": "no_past_online_observation"
+    },
+    {
+      "row_id": "T2 YE 0.5 (2)!2",
+      "reason": "no_past_online_observation"
+    },
+    {
+      "row_id": "T2 YE 0 (1)!2",
+      "reason": "no_past_online_observation"
+    },
+    {
+      "row_id": "T2 YE 0 (2)!2",
+      "reason": "no_past_online_observation"
+    },
+    {
+      "row_id": "T2 glucose 10 (1)!2",
+      "reason": "no_past_online_observation"
+    },
+    {
+      "row_id": "T2 glucose 10 (2)!2",
+      "reason": "no_past_online_observation"
+    },
+    {
+      "row_id": "T2 glucose 50 (1)!2",
+      "reason": "no_past_online_observation"
+    },
+    {
+      "row_id": "T2 glucose 50 (2)!2",
+      "reason": "no_past_online_observation"
+    }
+  ],
+  "eligible_points_by_target": {
+    "CDW_g_L": 211,
+    "mucic_acid_corrected_g_L": 209
+  },
+  "model_fits": 16,
+  "prediction_rows": 1680,
+  "fold_scores": 160,
+  "summaries": [
+    {
+      "direction": "1_to_2",
+      "target": "CDW_g_L",
+      "strategy": "training_mean",
+      "batches": 10,
+      "batch_macro_RMSE": 4.982670822024077,
+      "batch_macro_MAE": 3.5752092209220967,
+      "negative_raw_predictions": 0,
+      "pooled_points": 110,
+      "pooled_RMSE": 5.367310438637658,
+      "pooled_MAE": 3.557305730573062
+    },
+    {
+      "direction": "1_to_2",
+      "target": "CDW_g_L",
+      "strategy": "time_recipe_ridge",
+      "batches": 10,
+      "batch_macro_RMSE": 3.3234911869073214,
+      "batch_macro_MAE": 2.6555605807273137,
+      "negative_raw_predictions": 0,
+      "pooled_points": 110,
+      "pooled_RMSE": 3.4080269039711255,
+      "pooled_MAE": 2.6482503238289983
+    },
+    {
+      "direction": "1_to_2",
+      "target": "CDW_g_L",
+      "strategy": "instantaneous_ridge",
+      "batches": 10,
+      "batch_macro_RMSE": 3.2409528767886364,
+      "batch_macro_MAE": 2.511597720210245,
+      "negative_raw_predictions": 1,
+      "pooled_points": 110,
+      "pooled_RMSE": 3.3314911088418824,
+      "pooled_MAE": 2.503823565823912
+    },
+    {
+      "direction": "1_to_2",
+      "target": "CDW_g_L",
+      "strategy": "history_ridge",
+      "batches": 10,
+      "batch_macro_RMSE": 3.6663979563196003,
+      "batch_macro_MAE": 2.8493506986372497,
+      "negative_raw_predictions": 2,
+      "pooled_points": 110,
+      "pooled_RMSE": 3.822217134414252,
+      "pooled_MAE": 2.846756639349636
+    },
+    {
+      "direction": "1_to_2",
+      "target": "mucic_acid_corrected_g_L",
+      "strategy": "training_mean",
+      "batches": 10,
+      "batch_macro_RMSE": 12.733443167988106,
+      "batch_macro_MAE": 10.876014313605188,
+      "negative_raw_predictions": 0,
+      "pooled_points": 109,
+      "pooled_RMSE": 13.114396475213246,
+      "pooled_MAE": 10.929611780313799
+    },
+    {
+      "direction": "1_to_2",
+      "target": "mucic_acid_corrected_g_L",
+      "strategy": "time_recipe_ridge",
+      "batches": 10,
+      "batch_macro_RMSE": 5.280782404617034,
+      "batch_macro_MAE": 4.155872148962491,
+      "negative_raw_predictions": 0,
+      "pooled_points": 109,
+      "pooled_RMSE": 5.412245459108442,
+      "pooled_MAE": 4.151135617371834
+    },
+    {
+      "direction": "1_to_2",
+      "target": "mucic_acid_corrected_g_L",
+      "strategy": "instantaneous_ridge",
+      "batches": 10,
+      "batch_macro_RMSE": 5.141272819088553,
+      "batch_macro_MAE": 4.06467540031853,
+      "negative_raw_predictions": 7,
+      "pooled_points": 109,
+      "pooled_RMSE": 5.5849498393739045,
+      "pooled_MAE": 4.055810037622912
+    },
+    {
+      "direction": "1_to_2",
+      "target": "mucic_acid_corrected_g_L",
+      "strategy": "history_ridge",
+      "batches": 10,
+      "batch_macro_RMSE": 4.601563449587731,
+      "batch_macro_MAE": 3.6126468572624333,
+      "negative_raw_predictions": 7,
+      "pooled_points": 109,
+      "pooled_RMSE": 4.994015678915865,
+      "pooled_MAE": 3.599473468940429
+    },
+    {
+      "direction": "2_to_1",
+      "target": "CDW_g_L",
+      "strategy": "training_mean",
+      "batches": 10,
+      "batch_macro_RMSE": 5.382866763525578,
+      "batch_macro_MAE": 4.5294060606060595,
+      "negative_raw_predictions": 0,
+      "pooled_points": 101,
+      "pooled_RMSE": 5.619455791765992,
+      "pooled_MAE": 4.5274887488748865
+    },
+    {
+      "direction": "2_to_1",
+      "target": "CDW_g_L",
+      "strategy": "time_recipe_ridge",
+      "batches": 10,
+      "batch_macro_RMSE": 3.4727352341047313,
+      "batch_macro_MAE": 2.9707198919613425,
+      "negative_raw_predictions": 0,
+      "pooled_points": 101,
+      "pooled_RMSE": 3.6419405462243915,
+      "pooled_MAE": 2.9737333964110118
+    },
+    {
+      "direction": "2_to_1",
+      "target": "CDW_g_L",
+      "strategy": "instantaneous_ridge",
+      "batches": 10,
+      "batch_macro_RMSE": 5.516501976696825,
+      "batch_macro_MAE": 3.649991767543775,
+      "negative_raw_predictions": 7,
+      "pooled_points": 101,
+      "pooled_RMSE": 5.920891409367603,
+      "pooled_MAE": 3.646316145987534
+    },
+    {
+      "direction": "2_to_1",
+      "target": "CDW_g_L",
+      "strategy": "history_ridge",
+      "batches": 10,
+      "batch_macro_RMSE": 5.568382394204083,
+      "batch_macro_MAE": 3.6585197581276794,
+      "negative_raw_predictions": 7,
+      "pooled_points": 101,
+      "pooled_RMSE": 5.933429831141359,
+      "pooled_MAE": 3.6561612952697042
+    },
+    {
+      "direction": "2_to_1",
+      "target": "mucic_acid_corrected_g_L",
+      "strategy": "training_mean",
+      "batches": 10,
+      "batch_macro_RMSE": 14.197673836568352,
+      "batch_macro_MAE": 12.326610281351012,
+      "negative_raw_predictions": 0,
+      "pooled_points": 100,
+      "pooled_RMSE": 14.464066276008175,
+      "pooled_MAE": 12.32661028135101
+    },
+    {
+      "direction": "2_to_1",
+      "target": "mucic_acid_corrected_g_L",
+      "strategy": "time_recipe_ridge",
+      "batches": 10,
+      "batch_macro_RMSE": 6.515454157586359,
+      "batch_macro_MAE": 5.465680801564549,
+      "negative_raw_predictions": 0,
+      "pooled_points": 100,
+      "pooled_RMSE": 6.777443222965023,
+      "pooled_MAE": 5.465680801564549
+    },
+    {
+      "direction": "2_to_1",
+      "target": "mucic_acid_corrected_g_L",
+      "strategy": "instantaneous_ridge",
+      "batches": 10,
+      "batch_macro_RMSE": 11.367417083180712,
+      "batch_macro_MAE": 6.97015233528758,
+      "negative_raw_predictions": 14,
+      "pooled_points": 100,
+      "pooled_RMSE": 12.267815016294975,
+      "pooled_MAE": 6.970152335287579
+    },
+    {
+      "direction": "2_to_1",
+      "target": "mucic_acid_corrected_g_L",
+      "strategy": "history_ridge",
+      "batches": 10,
+      "batch_macro_RMSE": 11.327480471446805,
+      "batch_macro_MAE": 6.859380672097592,
+      "negative_raw_predictions": 12,
+      "pooled_points": 100,
+      "pooled_RMSE": 12.18191217436746,
+      "pooled_MAE": 6.859380672097593
+    }
+  ],
+  "primary_comparison": {
+    "direction": "1_to_2",
+    "target": "CDW_g_L",
+    "candidate": "history_ridge",
+    "reference": "instantaneous_ridge",
+    "batches": 10,
+    "mean_batch_RMSE_delta": 0.4254450795309637,
+    "batches_improved": 2
+  },
+  "workbook_description": [
+    "ambr®250 data",
+    "- each sheet contains data from one culture, with strain and condition indicated in the sheet name",
+    "- duplicate cultures are numbered in brackets (1) or (2) - all (1) cultures were carried out at the same time and all (2) cultures at the same time, but (1) and (2) cultures not at the same time",
+    "- values following YE or glucose (in sheet names) refer to the concentration of this ingredient in the medium or feed in g/L",
+    "- two strains were included in these experiments: D-161646 and D-221704 (= T2). The strain is indicated in each sheet name, with D-221704 indicated as T2 (designation used in Vidgren et al. 2020) for easier reading",
+    "- the volumes of acid added in the pH 3.5 and pH 3 cultures in the second set (2) are larger than those actually added (as obvious by visual inspection of the reactors), presumably because of air bubbles in the line",
+    "- headings are those provided by the system, with extra text removed - the number in the heading refers to the vessel position in the ambr®250 system",
+    "- offline data is provided in columns following the online data.",
+    "- concentration of mucic acid includes that removed in samples",
+    "- concentrations of mucic acid have been adjusted to take into account evaporation, as well as sample removal",
+    "- evaporation was assessed by measuring the volume of each reactor at the end of the experiment and comparing with the volume calculated by ambr®250",
+    "- a separate sheet gives the concentrations of substrate and co-substrate in the feed ",
+    "- data published in Tamminen et al. 2022. AMB Express"
+  ],
+  "scope_limits": [
+    "Dataset/schema and causal feature design selected after article reading and raw-field inspection, before any new model scoring. This is not a prospective blinded trial.",
+    "Twenty real cultures belong to two shared experimental rounds and ten matched condition pairs. Vessels and shared feed bottles within a round are correlated; ten cultures are not ten independent experimental rounds.",
+    "Round 1 to 2 is the prespecified primary direction; round 2 to 1 is only retrospective sensitivity. Both rounds share laboratory, apparatus, strains and recipe design; no new species/site/scale generalization.",
+    "Online observation timestamps are treated as signal availability times. Raw signal arrival, preprocessing delays and assay-return logs are absent; this is conditional retrospective causal replay, not verified online deployment.",
+    "No label interpolation. Offline initial samples without preceding online records are retained with an explicit exclusion; remaining observed samples need an online record no older than 0.5 h.",
+    "CDW is the primary measured biomass target. Mucic acid values were corrected by authors for sample removal and evaporation using end-of-run volumes; secondary scores predict that retrospective corrected proxy, not instantaneous broth product concentration.",
+    "Documented faulty acid pump records and dependent system volume are excluded. CER/OUR remain author-calculated native signals without independently audited sensor calibration, native units or processing formula; their integrals are not intracellular metabolic flux.",
+    "Actual feed substrate concentrations differ between rounds, but assay timing is unknown, so those values appear only in provenance inventory, not model inputs.",
+    "No post-test tuning, confidence-interval significance claim or full-paper original ML reproduction. Original article is a cultivation study without this soft-sensor algorithm.",
+    "No omics integration, adaptive laboratory evolution, enzyme engineering, wet-lab strain optimization, closed-loop control, energy reduction or publication superiority demonstrated."
+  ],
+  "artifact_sha256": {
+    "protocol.json": "2b027c50de5ddf447c8d35412f89164b24a54295a18fbbb500cd842ba72a1163",
+    "observations.csv": "55592d2a8a44134e1c302928405925606367cee59d94c803c13b1411995e60f1",
+    "batch_inventory.csv": "4002d1c87a72f67d23276b658a79312f3dedaa75e3c9e4eca38bb555e3dcc6b0",
+    "online_channel_audit.csv": "d13883440edf91f015ce6923b36897ded0ae63c4130cb1a635efe355b51f3e13",
+    "models.json": "bba23d9f95794f103490127527244c0d86f32bef0f8cfb52b007f84ed1319123",
+    "predictions.csv": "b52e609b46fadbb11ec9d8d942fdf11a5ca55d827071144ac901c741f7dad7a9",
+    "fold_metrics.csv": "21932918f4505a300607d273217eb71b20e1f49f8c002703ca7f3946f2b51d56",
+    "summary.csv": "683d7b77aba7ab665278850c022b02b4b87d40b7051d15b1171214bc7a59616f",
+    "paired_batches.csv": "ad19914bf5e9f494bd2614c6728dca8a9079291bef80c41677b52c3cc9884475"
+  }
+}

@@ -1,0 +1,22 @@
+sample_name,MS_assay_name,replicate,recorded_genotype_role,raw_spectral_file,maf_column,feature_rows,connection_basis,is_same_culture_as_isolate_screen_established
+WT1,WT_1,1,wild-type,FILES/RAW_FILES/WT_1.qgd,WT_1,20,Explicit assay-table Sample Name and MS Assay Name,False
+WT2,WT_2,2,wild-type,FILES/RAW_FILES/WT_2.qgd,WT_2,20,Explicit assay-table Sample Name and MS Assay Name,False
+WT3,WT_3,3,wild-type,FILES/RAW_FILES/WT_3.qgd,WT_3,20,Explicit assay-table Sample Name and MS Assay Name,False
+Chassis_Sz1,Chassis_Sz1,1,parental,FILES/RAW_FILES/Chassis_Sz1.qgd,Chassis_Sz1,20,Explicit assay-table Sample Name and MS Assay Name,False
+Chassis_Sz2,Chassis_Sz2,2,parental,FILES/RAW_FILES/Chassis_Sz2.qgd,Chassis_Sz2,20,Explicit assay-table Sample Name and MS Assay Name,False
+Chassis_Sz3,Chassis_Sz3,3,parental,FILES/RAW_FILES/Chassis_Sz3.qgd,Chassis_Sz3,20,Explicit assay-table Sample Name and MS Assay Name,False
+Chassis_Mz1,Chassis_Mz1,1,parental,FILES/RAW_FILES/Chassis_Mz1.qgd,Chassis_Mz1,20,Explicit assay-table Sample Name and MS Assay Name,False
+Chassis_Mz2,Chassis_Mz2,2,parental,FILES/RAW_FILES/Chassis_Mz2.qgd,Chassis_Mz2,20,Explicit assay-table Sample Name and MS Assay Name,False
+Chassis_Mz3,Chassis_Mz3,3,parental,FILES/RAW_FILES/Chassis_Mz3.qgd,Chassis_Mz3,20,Explicit assay-table Sample Name and MS Assay Name,False
+Chassis_F1,Chassis_F1,1,parental,FILES/RAW_FILES/Chassis_F1.qgd,Chassis_F1,20,Explicit assay-table Sample Name and MS Assay Name,False
+Chassis_F2,Chassis_F2,2,parental,FILES/RAW_FILES/Chassis_F2.qgd,Chassis_F2,20,Explicit assay-table Sample Name and MS Assay Name,False
+Chassis_F3,Chassis_F3,3,parental,FILES/RAW_FILES/Chassis_F3.qgd,Chassis_F3,20,Explicit assay-table Sample Name and MS Assay Name,False
+E_Chassis_Sz1,E_Chassis_Sz1,1,evolved,FILES/RAW_FILES/E_Chassis_Sz1.qgd,E_Chassis_Sz1,20,Explicit assay-table Sample Name and MS Assay Name,False
+E_Chassis_Sz2,E_Chassis_Sz2,2,evolved,FILES/RAW_FILES/E_Chassis_Sz2.qgd,E_Chassis_Sz2,20,Explicit assay-table Sample Name and MS Assay Name,False
+E_Chassis_Sz3,E_Chassis_Sz3,3,evolved,FILES/RAW_FILES/E_Chassis_Sz3.qgd,E_Chassis_Sz3,20,Explicit assay-table Sample Name and MS Assay Name,False
+E_Chassis_Mz1,E_Chassis_Mz1,1,evolved,FILES/RAW_FILES/E_Chassis_Mz1.qgd,E_Chassis_Mz1,20,Explicit assay-table Sample Name and MS Assay Name,False
+E_Chassis_Mz2,E_Chassis_Mz2,2,evolved,FILES/RAW_FILES/E_Chassis_Mz2.qgd,E_Chassis_Mz2,20,Explicit assay-table Sample Name and MS Assay Name,False
+E_Chassis_Mz3,E_Chassis_Mz3,3,evolved,FILES/RAW_FILES/E_Chassis_Mz3.qgd,E_Chassis_Mz3,20,Explicit assay-table Sample Name and MS Assay Name,False
+E_Chassis_F1,E_Chassis_F1,1,evolved,FILES/RAW_FILES/E_Chassis_F1.qgd,E_Chassis_F1,20,Explicit assay-table Sample Name and MS Assay Name,False
+E_Chassis_F2,E_Chassis_F2,2,evolved,FILES/RAW_FILES/E_Chassis_F2.qgd,E_Chassis_F2,20,Explicit assay-table Sample Name and MS Assay Name,False
+E_Chassis_F3,E_Chassis_F3,3,evolved,FILES/RAW_FILES/E_Chassis_F3.qgd,E_Chassis_F3,20,Explicit assay-table Sample Name and MS Assay Name,False

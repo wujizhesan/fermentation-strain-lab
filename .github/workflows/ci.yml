@@ -1,0 +1,50 @@
+name: research-prototype
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+    inputs:
+      full_replay:
+        description: Download frozen inputs and replay all four modules
+        type: boolean
+        default: false
+permissions:
+  contents: read
+jobs:
+  quick:
+    strategy:
+      matrix:
+        os: [windows-latest, ubuntu-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - run: python -m pip install -r requirements-lab.txt
+      - run: python lab.py status
+      - run: python lab.py run --module screening --output runs/quick
+      - run: python lab.py verify --run-dir runs/quick
+      - run: python -m unittest discover -s tests -p test_project_entry.py -v
+      - run: python -m unittest discover -s tests -p test_ale_lineage_screen.py -v
+      - run: python -m unittest discover -s tests -p test_lab_entry.py -v
+  full:
+    if: github.event_name == 'workflow_dispatch' && inputs.full_replay
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - run: python -m pip install -r requirements-lab.txt
+      - run: python lab.py prepare --download
+      - run: python lab.py run --module all --output runs/all
+      - run: python lab.py verify --run-dir runs/all
+      - run: python -m unittest discover -s tests -v
+      - run: python -m unittest discover -s gem_tests -v
+        env:
+          MARGE_RESULTS_ROOT: ${{ github.workspace }}/runs/all/core/metabolism
+      - uses: actions/upload-artifact@v4
+        with:
+          name: full-replay
+          path: runs/all

@@ -1,0 +1,132 @@
+{
+  "schema_version": 1,
+  "release_version": "0.1.0",
+  "description": "本地发行验收摘要；不代表 GitHub Actions 运行结果。",
+  "independent_clean_run": true,
+  "runtime": {
+    "python": "3.13",
+    "isolated_venv": true,
+    "system_site_packages": false,
+    "runtime_dependencies_locked": 43,
+    "pip_check_passed": true
+  },
+  "fresh_input_prepare": {
+    "passed": true,
+    "frozen_public_inputs": 25,
+    "status": {
+      "ready": true,
+      "missing": [],
+      "changed": []
+    }
+  },
+  "module_tests": {
+    "root": 595,
+    "release": 48,
+    "release_marge": 44
+  },
+  "primary_metric_replay": {
+    "screening": {
+      "conclusion": "当前岭回归的选株滴度未高于随机选择期望。",
+      "metric": "expected_selected_titer_g_L",
+      "pairs": [
+        {
+          "method": "uniform_random_expectation",
+          "reference": 0.13797251667950813,
+          "fresh": 0.13797251667950813,
+          "absolute_difference": 0.0
+        },
+        {
+          "method": "early_density",
+          "reference": 0.1478557030137012,
+          "fresh": 0.1478557030137012,
+          "absolute_difference": 0.0
+        },
+        {
+          "method": "early_density_fold",
+          "reference": 0.137993065175988,
+          "fresh": 0.137993065175988,
+          "absolute_difference": 0.0
+        },
+        {
+          "method": "fixed_ridge",
+          "reference": 0.11076665426284699,
+          "fresh": 0.11076665426284699,
+          "absolute_difference": 0.0
+        }
+      ],
+      "passed": true
+    },
+    "softsensor": {
+      "conclusion": "历史窗口主目标误差未改善。",
+      "metric": "batch_macro_RMSE_g_L",
+      "pairs": [
+        {
+          "method": "training_mean",
+          "reference": 4.982670822024077,
+          "fresh": 4.982670822024077,
+          "absolute_difference": 0.0
+        },
+        {
+          "method": "time_recipe_ridge",
+          "reference": 3.3234911869073214,
+          "fresh": 3.3234911869073214,
+          "absolute_difference": 0.0
+        },
+        {
+          "method": "instantaneous_ridge",
+          "reference": 3.2409528767886364,
+          "fresh": 3.2409528767886364,
+          "absolute_difference": 0.0
+        },
+        {
+          "method": "history_ridge",
+          "reference": 3.6663979563196003,
+          "fresh": 3.6663979563196003,
+          "absolute_difference": 0.0
+        }
+      ],
+      "passed": true
+    }
+  },
+  "external_public_cases": {
+    "metrics_match_frozen_reference": true,
+    "original_18h_model_external_validation": false
+  },
+  "marge": {
+    "variants": {
+      "ale_marge_demo_v1": {
+        "passed": true,
+        "independent_solver": "SciPy HiGHS",
+        "joint_lps_resolved": 24,
+        "range_endpoints_resolved": 240,
+        "input_gene_rows_recomputed": 4159,
+        "report_sha256": "f18e20874f82cd5c65b5492f165f9e0e8aef00f9a377f9259c4e752cfff21ca6"
+      },
+      "ale_marge_balancefix_v1": {
+        "passed": true,
+        "independent_solver": "SciPy HiGHS",
+        "joint_lps_resolved": 24,
+        "range_endpoints_resolved": 240,
+        "input_gene_rows_recomputed": 4159,
+        "report_sha256": "bf066c44aec3e7c2dc1bfbfa32172a69f7bd763e11fe0401b57b7c0f73ca5241"
+      }
+    },
+    "exact_paper_reproduction": false,
+    "measured_flux": false
+  },
+  "preservation": {
+    "legacy_scientific_files_checked": 346,
+    "changed": 0,
+    "legacy_project_entry_unchanged": true
+  },
+  "scope": {
+    "same_strain_closed_loop": false,
+    "wet_lab_strain_gain": false,
+    "publication_superiority_claim": false
+  },
+  "limitations": [
+    "选株、软测量、组学模型使用不同公开数据。",
+    "当前入口运行随包固定案例；未提供任意自有数据训练适配。",
+    "无前瞻盲测、同株过程闭环或湿实验增产验证。"
+  ]
+}

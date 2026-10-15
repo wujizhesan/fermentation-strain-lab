@@ -1,0 +1,99 @@
+{
+  "checked_at_utc": "2026-10-07T15:23:53.321870+00:00",
+  "scope": "Targeted primary-source search for public experimental continuous fermentation trajectories and offline assays; not exhaustive",
+  "accepted_public_dataset": {
+    "dataset_doi": "10.5281/zenodo.5846028",
+    "dataset_url": "https://zenodo.org/records/5846028",
+    "published": "2022-07-11",
+    "metadata": {
+      "path": "data/raw/dynamic_fermentation_discovery_20261007/zenodo_5846028.json",
+      "sha256": "26278af7a52406e5c2b4b57ce5dfd11f0c42a091623e03ccb9a01d174e186fd2",
+      "bytes": 5270
+    },
+    "files": [
+      {
+        "path": "data/raw/dynamic_fermentation_discovery_20261007/Paasikallio2017_CO2_data.xlsx",
+        "sha256": "af7742d58df66fb46e1ca2e6af32a5adf793714e92e703af9aec3b78a63ed81a",
+        "bytes": 731057,
+        "url": "https://zenodo.org/api/records/5846028/files/Paasikallio2017_CO2_data.xlsx/content",
+        "published_md5": "f6c552f3fba234edd224c6f9e1417ecc",
+        "published_checksum_verified": true
+      },
+      {
+        "path": "data/raw/dynamic_fermentation_discovery_20261007/Tamminen2022_ambr_online_offline_data.xlsx",
+        "sha256": "3e069c5c32010031ab8f9c9fe2632b947451e422ba876cf93b95107fc5a7287a",
+        "bytes": 16977935,
+        "url": "https://zenodo.org/api/records/5846028/files/Tamminen2022_ambr_online_offline_data.xlsx/content",
+        "published_md5": "b9b1b9d9ada0d4d87d010c81968bf644",
+        "published_checksum_verified": true
+      },
+      {
+        "path": "data/raw/dynamic_fermentation_discovery_20261007/Vidgren2020_2L_CO2_data.xlsx",
+        "sha256": "e0effbf37924ab08cf45da5f0d77e82ec69d5b112ab7081b352cf44bb78f31ef",
+        "bytes": 916375,
+        "url": "https://zenodo.org/api/records/5846028/files/Vidgren2020_2L_CO2_data.xlsx/content",
+        "published_md5": "c24b1bdd7f14d7cc9e1fe7696c3299d8",
+        "published_checksum_verified": true
+      }
+    ],
+    "article": {
+      "doi": "10.1186/s13568-022-01436-4",
+      "title": "Use of ambr250 to assess mucic acid production in fed-batch cultures of a marine Trichoderma sp. D-221704",
+      "published_online": "2022-07-13",
+      "primary_url": "https://link.springer.com/article/10.1186/s13568-022-01436-4",
+      "fulltext_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9279543/fullTextXML",
+      "fulltext": {
+        "path": "data/raw/dynamic_fermentation_discovery_20261007/tamminen_2022.xml",
+        "sha256": "35a5feb0255d04f0d684237ec016fd4eba1a7c1ff9272c9a539f85e830927cae",
+        "bytes": 73061
+      },
+      "complete_main_text_read": true,
+      "reading_depth": "Full abstract, Introduction, all Methods, Results, Discussion, Table 1, data availability; complete main text read, no wet-lab reproduction",
+      "main_text_section_word_counts": {
+        "Introduction": 748,
+        "Materials and methods": 1061,
+        "Results": 1418,
+        "Discussion": 1628
+      }
+    },
+    "license": "CC BY 4.0",
+    "main_workbook_cultures": 20,
+    "independent_rounds": 2,
+    "online_rows": 74849,
+    "offline_rows": 230,
+    "other_workbooks_have_no_paired_offline_validation_labels": true
+  },
+  "excluded_from_public_executable_benchmark": [
+    {
+      "doi": "10.3389/fbioe.2026.1919748",
+      "title": "Online capacitance-integrated development of a hybrid bioprocess model for industrial fungal fermentations",
+      "published_online": "2026-10-05",
+      "primary_url": "https://www.frontiersin.org/journals/bioengineering-and-biotechnology/articles/10.3389/fbioe.2026.1919748/full",
+      "fulltext": {
+        "path": "data/raw/dynamic_fermentation_discovery_20261007/frontiers_2026.html",
+        "sha256": "fd3491864d19fb32e1ce39dbe28880ebb22ce9ef4c7f13ca9c6e6c96bb9ca02d",
+        "bytes": 1410765
+      },
+      "complete_main_text_read": false,
+      "reading_depth": "Abstract, selected methods, limitations and data availability only",
+      "exclusion_reason": "Data and code not public owing to industrial confidentiality; methodological reference, no dataset or original model reproduction"
+    },
+    {
+      "doi": "10.1007/s00449-025-03251-0",
+      "title": "The dynamic growth of bacterial cultures: real-time Bayesian estimation of substrate uptake rates in fed-batch fermentations of E. coli",
+      "first_online": "2025-11-08",
+      "issue_year": 2026,
+      "primary_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12948805/fullTextXML",
+      "fulltext": {
+        "path": "data/raw/dynamic_fermentation_discovery_20261007/bayesian_ecoli.xml",
+        "sha256": "ad3a1f436bada340f0042edd2b508b3d41bd5c74310b1b3809a812f70f2fbd5b",
+        "bytes": 397332
+      },
+      "complete_main_text_read": false,
+      "reading_depth": "Methods and data availability only",
+      "exclusion_reason": "Data and algorithms available from corresponding author upon reasonable request; no public direct raw-data repository found"
+    }
+  ],
+  "external_requests_sent": false,
+  "publication_superiority_claim": false
+}

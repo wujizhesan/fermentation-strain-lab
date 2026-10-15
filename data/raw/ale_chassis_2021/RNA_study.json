@@ -1,0 +1,1030 @@
+{
+  "accno" : "E-MTAB-9499",
+  "attributes" : [ {
+    "name" : "Title",
+    "value" : "RNA-seq analysis of model-guided engineered Saccharomyces cerevisiae chassis for improved dicarboxylic acids (malic, succinic and fumaric acid) production."
+  }, {
+    "name" : "ReleaseDate",
+    "value" : "2021-07-01"
+  }, {
+    "name" : "RootPath",
+    "value" : "E-MTAB-9499"
+  }, {
+    "name" : "AttachTo",
+    "value" : "ArrayExpress"
+  } ],
+  "section" : {
+    "accno" : "s-E-MTAB-9499",
+    "type" : "Study",
+    "attributes" : [ {
+      "name" : "Title",
+      "value" : "RNA-seq analysis of model-guided engineered Saccharomyces cerevisiae chassis for improved dicarboxylic acids (malic, succinic and fumaric acid) production."
+    }, {
+      "name" : "Study type",
+      "value" : "High-throughput sequencing"
+    }, {
+      "name" : "Study type",
+      "value" : "RNA-seq of coding RNA",
+      "valqual" : [ {
+        "name" : "Ontology",
+        "value" : "EFO"
+      }, {
+        "name" : "TermId",
+        "value" : "EFO_0003738"
+      } ]
+    }, {
+      "name" : "Organism",
+      "value" : "Saccharomyces cerevisiae"
+    }, {
+      "name" : "Description",
+      "value" : "Model-guided chassis strain design has the potential to accelerate cellfactory development. In this experiment genetic targets were identified in silico and implemented in vivo to design a yeast chassis strain for enhanced production of succinic, malic and fumaric acid. The phenotype of engineered chassis strains was further optimised through adaptive laboratory evolution. RNA-seq analysis of engineered yeast chassis strains, evolved strains and wild-type (CEN.PK background)was performed to determine the effect of engineered gene deletions and evolution on the transcriptome."
+    } ],
+    "links" : [ [ {
+      "url" : "ERP123698",
+      "attributes" : [ {
+        "name" : "Type",
+        "value" : "ENA"
+      } ]
+    } ] ],
+    "subsections" : [ [ {
+      "accno" : "P-MTAB-100550",
+      "type" : "Protocols",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "P-MTAB-100550"
+      }, {
+        "name" : "Type",
+        "value" : "nucleic acid sequencing protocol",
+        "valqual" : [ {
+          "name" : "Ontology",
+          "value" : "EFO"
+        }, {
+          "name" : "TermId",
+          "value" : "EFO_0004170"
+        } ]
+      }, {
+        "name" : "Description",
+        "value" : "Obtained libraries that passed the QC step were pooled in equimolar amounts; 2 pM solution of this pool was loaded on the Illumina sequencer NextSeq 500 and sequenced uni-directionally."
+      }, {
+        "name" : "Hardware",
+        "value" : "NextSeq 500"
+      } ]
+    }, {
+      "accno" : "P-MTAB-100551",
+      "type" : "Protocols",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "P-MTAB-100551"
+      }, {
+        "name" : "Type",
+        "value" : "growth protocol",
+        "valqual" : [ {
+          "name" : "Ontology",
+          "value" : "EFO"
+        }, {
+          "name" : "TermId",
+          "value" : "EFO_0003789"
+        } ]
+      }, {
+        "name" : "Description",
+        "value" : "Pre-cultures were prepared by cultivating a single colony from a selective YPD plate of each yeast strain in YPD medium until mid-exponential phase (~16 h). Pre-cultured cells were centrifuged, washed two times with distilled water, and inoculated in defined minimal media with 2% glucose at initial OD600 of 0.1. These cultivations were performed in triplicates."
+      }, {
+        "name" : "Hardware"
+      } ]
+    }, {
+      "accno" : "P-MTAB-100548",
+      "type" : "Protocols",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "P-MTAB-100548"
+      }, {
+        "name" : "Type",
+        "value" : "nucleic acid extraction protocol",
+        "valqual" : [ {
+          "name" : "Ontology",
+          "value" : "EFO"
+        }, {
+          "name" : "TermId",
+          "value" : "EFO_0002944"
+        } ]
+      }, {
+        "name" : "Description",
+        "value" : "Total RNA was isolated with RNAeasy kit (Qiagen) following manufacturer recommendations. To remove DNA contamination, samples were digested with Turbo DNAse (Invitrogen Ambion) followed by RNA clean-up (RNAeasy kit, Qiagen)."
+      }, {
+        "name" : "Hardware"
+      } ]
+    }, {
+      "accno" : "P-MTAB-100547",
+      "type" : "Protocols",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "P-MTAB-100547"
+      }, {
+        "name" : "Type",
+        "value" : "sample collection protocol",
+        "valqual" : [ {
+          "name" : "Ontology",
+          "value" : "EFO"
+        }, {
+          "name" : "TermId",
+          "value" : "EFO_0005518"
+        } ]
+      }, {
+        "name" : "Description",
+        "value" : "Samples were collected at mid-exponential growth phase for transcriptomics, proteomics and extracellular metabolomics. For total RNA, 10 mL of culture broth was collected in a 50 mL Falcon® tube filled with ice and immediately centrifuged at 10.000rpm for 2 min at 0 °C. After centrifugation, cell pellet were snap-frozen in liquid nitrogen and kept at -80°C until extraction."
+      }, {
+        "name" : "Hardware"
+      } ]
+    }, {
+      "accno" : "P-MTAB-100549",
+      "type" : "Protocols",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "P-MTAB-100549"
+      }, {
+        "name" : "Type",
+        "value" : "nucleic acid library construction protocol",
+        "valqual" : [ {
+          "name" : "Ontology",
+          "value" : "EFO"
+        }, {
+          "name" : "TermId",
+          "value" : "EFO_0004184"
+        } ]
+      }, {
+        "name" : "Description",
+        "value" : "RNA library was prepared using the NEBNext® Ultra™ II Directional RNA Library Preparation Kit for Illumina: polyA transcripts capture. Barcoded stranded mRNA-seq libraries were prepared from ~200 ng total RNA samples using the NEBNext Poly(A) mRNA Magnetic Isolation Module and NEBNext Ultra II Directional RNA Library Prep Kit for Illumina (New England Biolabs (NEB), Ipswich, MA, USA)."
+      }, {
+        "name" : "Hardware"
+      } ]
+    } ], {
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Kiran Patil"
+      }, {
+        "name" : "Email",
+        "value" : "kp533@cam.ac.uk"
+      }, {
+        "name" : "Role",
+        "value" : "investigator"
+      }, {
+        "name" : "affiliation",
+        "value" : "o1",
+        "reference" : true
+      } ]
+    }, {
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Filipa Pereira"
+      }, {
+        "name" : "Email",
+        "value" : "filipa.pereira@embl.de"
+      }, {
+        "name" : "Role",
+        "value" : "data analyst;experiment performer;submitter"
+      }, {
+        "name" : "affiliation",
+        "value" : "o2",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "o1",
+      "type" : "Organization",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Structural and Computational Biology Unit, European Molecular Biology Laboratory, Heidelberg, Germany  The Medical Research Council Toxicology Unit, University of Cambridge, Cambridge, UK"
+      }, {
+        "name" : "Address",
+        "value" : "EMBL Heidelberg, Meyerhofstraße 1, 69117 Heidelberg, Germany"
+      } ]
+    }, {
+      "accno" : "o2",
+      "type" : "Organization",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Structural and Computational Biology Unit, European Molecular Biology Laboratory, Heidelberg, Germany"
+      }, {
+        "name" : "Address",
+        "value" : "EMBL Heidelberg, Meyerhofstraße 1, 69117 Heidelberg, Germany"
+      } ]
+    }, {
+      "type" : "Publication",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "Model-guided development of evolutionarily stable yeast chassis for dicarboxylic acids production"
+      }, {
+        "name" : "Authors",
+        "value" : "Filipa Pereira, Helder Lopes, Paulo Maia, Britta Meyer, Justyna Nocon, Paula Jouhten, Dimitrios Konstantinidis, Eleni Kafkia, Peter Kötter, Isabel Rocha and Kiran R. Patil"
+      }, {
+        "name" : "Status",
+        "value" : "in preparation"
+      } ]
+    }, {
+      "accno" : "s-samples-factors-E-MTAB-9499",
+      "type" : "Samples",
+      "attributes" : [ {
+        "name" : "Sample count",
+        "value" : "20"
+      }, {
+        "name" : "Experimental Designs",
+        "value" : "strain or line design",
+        "valqual" : [ {
+          "name" : "TermId",
+          "value" : "EFO:0001754"
+        } ]
+      }, {
+        "name" : "Experimental Designs",
+        "value" : "genetic modification design",
+        "valqual" : [ {
+          "name" : "TermId",
+          "value" : "EFO:0001758"
+        } ]
+      }, {
+        "name" : "Experimental Factors",
+        "value" : "genotype",
+        "valqual" : [ {
+          "name" : "TermName",
+          "value" : "genotype"
+        } ]
+      }, {
+        "name" : "Experimental Factors",
+        "value" : "strain",
+        "valqual" : [ {
+          "name" : "TermName",
+          "value" : "strain"
+        } ]
+      } ],
+      "subsections" : [ {
+        "accno" : "exp_factor-E-MTAB-9499",
+        "type" : "Experimental Factors",
+        "attributes" : [ {
+          "name" : "Genotype",
+          "value" : "MATα URA3 HIS3 LEU2 TRP1 MAL2-8c SUC2 ser3Δ ser33Δ fum1Δ"
+        }, {
+          "name" : "Genotype",
+          "value" : "MATa URA3 HIS3 LEU2 TRP1 MAL2-8c SUC2"
+        }, {
+          "name" : "Genotype",
+          "value" : "MATα URA3 HIS3 LEU2 TRP1 MAL2- 8c SUC2 ser3Δ ser33Δ sdh3Δ zwf1Δ"
+        }, {
+          "name" : "Genotype",
+          "value" : "MATα URA3 HIS3 LEU2 TRP1 MAL2- 8c SUC2 ser3Δ ser33Δ zwf1Δ mdh1Δ mdh2Δ mae1Δ"
+        }, {
+          "name" : "Strain",
+          "value" : "Chassis_Mz"
+        }, {
+          "name" : "Strain",
+          "value" : "E_Chassis_Mz"
+        }, {
+          "name" : "Strain",
+          "value" : "CEN.PK113-7D"
+        }, {
+          "name" : "Strain",
+          "value" : "E_Cassis_F"
+        }, {
+          "name" : "Strain",
+          "value" : "Chassis_Sz"
+        }, {
+          "name" : "Strain",
+          "value" : "Chassis_F"
+        }, {
+          "name" : "Strain",
+          "value" : "E_Chassis_Sz"
+        }, {
+          "name" : "Strain",
+          "value" : "E_Chassis_F"
+        } ],
+        "subsections" : [ [ {
+          "accno" : "factors_0",
+          "type" : "Factors Table",
+          "attributes" : [ {
+            "name" : "genotype",
+            "value" : "MATα URA3 HIS3 LEU2 TRP1 MAL2-8c SUC2 ser3Δ ser33Δ fum1Δ"
+          }, {
+            "name" : "strain",
+            "value" : "Chassis_F"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "3",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/ERS5040725-ERS5040727"
+            } ]
+          } ]
+        }, {
+          "accno" : "factors_1",
+          "type" : "Factors Table",
+          "attributes" : [ {
+            "name" : "genotype",
+            "value" : "MATα URA3 HIS3 LEU2 TRP1 MAL2- 8c SUC2 ser3Δ ser33Δ zwf1Δ mdh1Δ mdh2Δ mae1Δ"
+          }, {
+            "name" : "strain",
+            "value" : "Chassis_Mz"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "3",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/ERS5040728-ERS5040730"
+            } ]
+          } ]
+        }, {
+          "accno" : "factors_2",
+          "type" : "Factors Table",
+          "attributes" : [ {
+            "name" : "genotype",
+            "value" : "MATα URA3 HIS3 LEU2 TRP1 MAL2- 8c SUC2 ser3Δ ser33Δ sdh3Δ zwf1Δ"
+          }, {
+            "name" : "strain",
+            "value" : "Chassis_Sz"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "2",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/ERS5040731-ERS5040732"
+            } ]
+          } ]
+        }, {
+          "accno" : "factors_3",
+          "type" : "Factors Table",
+          "attributes" : [ {
+            "name" : "genotype",
+            "value" : "MATα URA3 HIS3 LEU2 TRP1 MAL2-8c SUC2 ser3Δ ser33Δ fum1Δ"
+          }, {
+            "name" : "strain",
+            "value" : "E_Chassis_F"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "2",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/ERS5040733,ERS5040735"
+            } ]
+          } ]
+        }, {
+          "accno" : "factors_4",
+          "type" : "Factors Table",
+          "attributes" : [ {
+            "name" : "genotype",
+            "value" : "MATα URA3 HIS3 LEU2 TRP1 MAL2-8c SUC2 ser3Δ ser33Δ fum1Δ"
+          }, {
+            "name" : "strain",
+            "value" : "E_Cassis_F"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "1",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/ERS5040734"
+            } ]
+          } ]
+        }, {
+          "accno" : "factors_5",
+          "type" : "Factors Table",
+          "attributes" : [ {
+            "name" : "genotype",
+            "value" : "MATα URA3 HIS3 LEU2 TRP1 MAL2- 8c SUC2 ser3Δ ser33Δ zwf1Δ mdh1Δ mdh2Δ mae1Δ"
+          }, {
+            "name" : "strain",
+            "value" : "E_Chassis_Mz"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "3",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/ERS5040736-ERS5040738"
+            } ]
+          } ]
+        }, {
+          "accno" : "factors_6",
+          "type" : "Factors Table",
+          "attributes" : [ {
+            "name" : "genotype",
+            "value" : "MATα URA3 HIS3 LEU2 TRP1 MAL2- 8c SUC2 ser3Δ ser33Δ sdh3Δ zwf1Δ"
+          }, {
+            "name" : "strain",
+            "value" : "E_Chassis_Sz"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "3",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/ERS5040739-ERS5040741"
+            } ]
+          } ]
+        }, {
+          "accno" : "factors_7",
+          "type" : "Factors Table",
+          "attributes" : [ {
+            "name" : "genotype",
+            "value" : "MATa URA3 HIS3 LEU2 TRP1 MAL2-8c SUC2"
+          }, {
+            "name" : "strain",
+            "value" : "CEN.PK113-7D"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "3",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/ERS5040742-ERS5040744"
+            } ]
+          } ]
+        } ] ]
+      }, {
+        "accno" : "source_chars-E-MTAB-9499",
+        "type" : "Source Characteristics",
+        "attributes" : [ {
+          "name" : "Organism",
+          "value" : "Saccharomyces cerevisiae"
+        }, {
+          "name" : "Genotype",
+          "value" : "MATα URA3 HIS3 LEU2 TRP1 MAL2-8c SUC2 ser3Δ ser33Δ fum1Δ"
+        }, {
+          "name" : "Genotype",
+          "value" : "MATa URA3 HIS3 LEU2 TRP1 MAL2-8c SUC2"
+        }, {
+          "name" : "Genotype",
+          "value" : "MATα URA3 HIS3 LEU2 TRP1 MAL2- 8c SUC2 ser3Δ ser33Δ sdh3Δ zwf1Δ"
+        }, {
+          "name" : "Genotype",
+          "value" : "MATα URA3 HIS3 LEU2 TRP1 MAL2- 8c SUC2 ser3Δ ser33Δ zwf1Δ mdh1Δ mdh2Δ mae1Δ"
+        }, {
+          "name" : "Strain",
+          "value" : "Chassis_Mz"
+        }, {
+          "name" : "Strain",
+          "value" : "E_Chassis_Mz"
+        }, {
+          "name" : "Strain",
+          "value" : "CEN.PK113-7D"
+        }, {
+          "name" : "Strain",
+          "value" : "E_Cassis_F"
+        }, {
+          "name" : "Strain",
+          "value" : "Chassis_Sz"
+        }, {
+          "name" : "Strain",
+          "value" : "Chassis_F"
+        }, {
+          "name" : "Strain",
+          "value" : "E_Chassis_Sz"
+        }, {
+          "name" : "Strain",
+          "value" : "E_Chassis_F"
+        }, {
+          "name" : "Phenotype",
+          "value" : "fumarate producer"
+        }, {
+          "name" : "Phenotype",
+          "value" : "malate producer"
+        }, {
+          "name" : "Phenotype",
+          "value" : "succinate producer"
+        }, {
+          "name" : "Phenotype",
+          "value" : "wild-type"
+        }, {
+          "name" : "Replicate",
+          "value" : "1"
+        }, {
+          "name" : "Replicate",
+          "value" : "2"
+        }, {
+          "name" : "Replicate",
+          "value" : "3"
+        } ],
+        "subsections" : [ [ {
+          "accno" : "source_0",
+          "type" : "Characteristics Table",
+          "attributes" : [ {
+            "name" : "genotype",
+            "value" : "MATα URA3 HIS3 LEU2 TRP1 MAL2-8c SUC2 ser3Δ ser33Δ fum1Δ"
+          }, {
+            "name" : "strain",
+            "value" : "Chassis_F"
+          }, {
+            "name" : "phenotype",
+            "value" : "fumarate producer"
+          }, {
+            "name" : "replicate",
+            "value" : "1"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "1",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/ERS5040725"
+            } ]
+          } ]
+        }, {
+          "accno" : "source_1",
+          "type" : "Characteristics Table",
+          "attributes" : [ {
+            "name" : "genotype",
+            "value" : "MATα URA3 HIS3 LEU2 TRP1 MAL2-8c SUC2 ser3Δ ser33Δ fum1Δ"
+          }, {
+            "name" : "strain",
+            "value" : "Chassis_F"
+          }, {
+            "name" : "phenotype",
+            "value" : "fumarate producer"
+          }, {
+            "name" : "replicate",
+            "value" : "2"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "1",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/ERS5040726"
+            } ]
+          } ]
+        }, {
+          "accno" : "source_2",
+          "type" : "Characteristics Table",
+          "attributes" : [ {
+            "name" : "genotype",
+            "value" : "MATα URA3 HIS3 LEU2 TRP1 MAL2-8c SUC2 ser3Δ ser33Δ fum1Δ"
+          }, {
+            "name" : "strain",
+            "value" : "Chassis_F"
+          }, {
+            "name" : "phenotype",
+            "value" : "fumarate producer"
+          }, {
+            "name" : "replicate",
+            "value" : "3"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "1",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/ERS5040727"
+            } ]
+          } ]
+        }, {
+          "accno" : "source_3",
+          "type" : "Characteristics Table",
+          "attributes" : [ {
+            "name" : "genotype",
+            "value" : "MATα URA3 HIS3 LEU2 TRP1 MAL2- 8c SUC2 ser3Δ ser33Δ zwf1Δ mdh1Δ mdh2Δ mae1Δ"
+          }, {
+            "name" : "strain",
+            "value" : "Chassis_Mz"
+          }, {
+            "name" : "phenotype",
+            "value" : "malate producer"
+          }, {
+            "name" : "replicate",
+            "value" : "1"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "1",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/ERS5040728"
+            } ]
+          } ]
+        }, {
+          "accno" : "source_4",
+          "type" : "Characteristics Table",
+          "attributes" : [ {
+            "name" : "genotype",
+            "value" : "MATα URA3 HIS3 LEU2 TRP1 MAL2- 8c SUC2 ser3Δ ser33Δ zwf1Δ mdh1Δ mdh2Δ mae1Δ"
+          }, {
+            "name" : "strain",
+            "value" : "Chassis_Mz"
+          }, {
+            "name" : "phenotype",
+            "value" : "malate producer"
+          }, {
+            "name" : "replicate",
+            "value" : "2"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "1",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/ERS5040729"
+            } ]
+          } ]
+        }, {
+          "accno" : "source_5",
+          "type" : "Characteristics Table",
+          "attributes" : [ {
+            "name" : "genotype",
+            "value" : "MATα URA3 HIS3 LEU2 TRP1 MAL2- 8c SUC2 ser3Δ ser33Δ zwf1Δ mdh1Δ mdh2Δ mae1Δ"
+          }, {
+            "name" : "strain",
+            "value" : "Chassis_Mz"
+          }, {
+            "name" : "phenotype",
+            "value" : "malate producer"
+          }, {
+            "name" : "replicate",
+            "value" : "3"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "1",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/ERS5040730"
+            } ]
+          } ]
+        }, {
+          "accno" : "source_6",
+          "type" : "Characteristics Table",
+          "attributes" : [ {
+            "name" : "genotype",
+            "value" : "MATα URA3 HIS3 LEU2 TRP1 MAL2- 8c SUC2 ser3Δ ser33Δ sdh3Δ zwf1Δ"
+          }, {
+            "name" : "strain",
+            "value" : "Chassis_Sz"
+          }, {
+            "name" : "phenotype",
+            "value" : "succinate producer"
+          }, {
+            "name" : "replicate",
+            "value" : "1"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "1",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/ERS5040731"
+            } ]
+          } ]
+        }, {
+          "accno" : "source_7",
+          "type" : "Characteristics Table",
+          "attributes" : [ {
+            "name" : "genotype",
+            "value" : "MATα URA3 HIS3 LEU2 TRP1 MAL2- 8c SUC2 ser3Δ ser33Δ sdh3Δ zwf1Δ"
+          }, {
+            "name" : "strain",
+            "value" : "Chassis_Sz"
+          }, {
+            "name" : "phenotype",
+            "value" : "succinate producer"
+          }, {
+            "name" : "replicate",
+            "value" : "2"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "1",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/ERS5040732"
+            } ]
+          } ]
+        }, {
+          "accno" : "source_8",
+          "type" : "Characteristics Table",
+          "attributes" : [ {
+            "name" : "genotype",
+            "value" : "MATα URA3 HIS3 LEU2 TRP1 MAL2-8c SUC2 ser3Δ ser33Δ fum1Δ"
+          }, {
+            "name" : "strain",
+            "value" : "E_Chassis_F"
+          }, {
+            "name" : "phenotype",
+            "value" : "fumarate producer"
+          }, {
+            "name" : "replicate",
+            "value" : "1"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "1",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/ERS5040733"
+            } ]
+          } ]
+        }, {
+          "accno" : "source_9",
+          "type" : "Characteristics Table",
+          "attributes" : [ {
+            "name" : "genotype",
+            "value" : "MATα URA3 HIS3 LEU2 TRP1 MAL2-8c SUC2 ser3Δ ser33Δ fum1Δ"
+          }, {
+            "name" : "strain",
+            "value" : "E_Cassis_F"
+          }, {
+            "name" : "phenotype",
+            "value" : "fumarate producer"
+          }, {
+            "name" : "replicate",
+            "value" : "2"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "1",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/ERS5040734"
+            } ]
+          } ]
+        }, {
+          "accno" : "source_10",
+          "type" : "Characteristics Table",
+          "attributes" : [ {
+            "name" : "genotype",
+            "value" : "MATα URA3 HIS3 LEU2 TRP1 MAL2-8c SUC2 ser3Δ ser33Δ fum1Δ"
+          }, {
+            "name" : "strain",
+            "value" : "E_Chassis_F"
+          }, {
+            "name" : "phenotype",
+            "value" : "fumarate producer"
+          }, {
+            "name" : "replicate",
+            "value" : "3"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "1",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/ERS5040735"
+            } ]
+          } ]
+        }, {
+          "accno" : "source_11",
+          "type" : "Characteristics Table",
+          "attributes" : [ {
+            "name" : "genotype",
+            "value" : "MATα URA3 HIS3 LEU2 TRP1 MAL2- 8c SUC2 ser3Δ ser33Δ zwf1Δ mdh1Δ mdh2Δ mae1Δ"
+          }, {
+            "name" : "strain",
+            "value" : "E_Chassis_Mz"
+          }, {
+            "name" : "phenotype",
+            "value" : "malate producer"
+          }, {
+            "name" : "replicate",
+            "value" : "1"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "1",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/ERS5040736"
+            } ]
+          } ]
+        }, {
+          "accno" : "source_12",
+          "type" : "Characteristics Table",
+          "attributes" : [ {
+            "name" : "genotype",
+            "value" : "MATα URA3 HIS3 LEU2 TRP1 MAL2- 8c SUC2 ser3Δ ser33Δ zwf1Δ mdh1Δ mdh2Δ mae1Δ"
+          }, {
+            "name" : "strain",
+            "value" : "E_Chassis_Mz"
+          }, {
+            "name" : "phenotype",
+            "value" : "malate producer"
+          }, {
+            "name" : "replicate",
+            "value" : "2"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "1",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/ERS5040737"
+            } ]
+          } ]
+        }, {
+          "accno" : "source_13",
+          "type" : "Characteristics Table",
+          "attributes" : [ {
+            "name" : "genotype",
+            "value" : "MATα URA3 HIS3 LEU2 TRP1 MAL2- 8c SUC2 ser3Δ ser33Δ zwf1Δ mdh1Δ mdh2Δ mae1Δ"
+          }, {
+            "name" : "strain",
+            "value" : "E_Chassis_Mz"
+          }, {
+            "name" : "phenotype",
+            "value" : "malate producer"
+          }, {
+            "name" : "replicate",
+            "value" : "3"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "1",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/ERS5040738"
+            } ]
+          } ]
+        }, {
+          "accno" : "source_14",
+          "type" : "Characteristics Table",
+          "attributes" : [ {
+            "name" : "genotype",
+            "value" : "MATα URA3 HIS3 LEU2 TRP1 MAL2- 8c SUC2 ser3Δ ser33Δ sdh3Δ zwf1Δ"
+          }, {
+            "name" : "strain",
+            "value" : "E_Chassis_Sz"
+          }, {
+            "name" : "phenotype",
+            "value" : "succinate producer"
+          }, {
+            "name" : "replicate",
+            "value" : "1"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "1",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/ERS5040739"
+            } ]
+          } ]
+        }, {
+          "accno" : "source_15",
+          "type" : "Characteristics Table",
+          "attributes" : [ {
+            "name" : "genotype",
+            "value" : "MATα URA3 HIS3 LEU2 TRP1 MAL2- 8c SUC2 ser3Δ ser33Δ sdh3Δ zwf1Δ"
+          }, {
+            "name" : "strain",
+            "value" : "E_Chassis_Sz"
+          }, {
+            "name" : "phenotype",
+            "value" : "succinate producer"
+          }, {
+            "name" : "replicate",
+            "value" : "2"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "1",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/ERS5040740"
+            } ]
+          } ]
+        }, {
+          "accno" : "source_16",
+          "type" : "Characteristics Table",
+          "attributes" : [ {
+            "name" : "genotype",
+            "value" : "MATα URA3 HIS3 LEU2 TRP1 MAL2- 8c SUC2 ser3Δ ser33Δ sdh3Δ zwf1Δ"
+          }, {
+            "name" : "strain",
+            "value" : "E_Chassis_Sz"
+          }, {
+            "name" : "phenotype",
+            "value" : "succinate producer"
+          }, {
+            "name" : "replicate",
+            "value" : "3"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "1",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/ERS5040741"
+            } ]
+          } ]
+        }, {
+          "accno" : "source_17",
+          "type" : "Characteristics Table",
+          "attributes" : [ {
+            "name" : "genotype",
+            "value" : "MATa URA3 HIS3 LEU2 TRP1 MAL2-8c SUC2"
+          }, {
+            "name" : "strain",
+            "value" : "CEN.PK113-7D"
+          }, {
+            "name" : "phenotype",
+            "value" : "wild-type"
+          }, {
+            "name" : "replicate",
+            "value" : "1"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "1",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/ERS5040742"
+            } ]
+          } ]
+        }, {
+          "accno" : "source_18",
+          "type" : "Characteristics Table",
+          "attributes" : [ {
+            "name" : "genotype",
+            "value" : "MATa URA3 HIS3 LEU2 TRP1 MAL2-8c SUC2"
+          }, {
+            "name" : "strain",
+            "value" : "CEN.PK113-7D"
+          }, {
+            "name" : "phenotype",
+            "value" : "wild-type"
+          }, {
+            "name" : "replicate",
+            "value" : "2"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "1",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/ERS5040743"
+            } ]
+          } ]
+        }, {
+          "accno" : "source_19",
+          "type" : "Characteristics Table",
+          "attributes" : [ {
+            "name" : "genotype",
+            "value" : "MATa URA3 HIS3 LEU2 TRP1 MAL2-8c SUC2"
+          }, {
+            "name" : "strain",
+            "value" : "CEN.PK113-7D"
+          }, {
+            "name" : "phenotype",
+            "value" : "wild-type"
+          }, {
+            "name" : "replicate",
+            "value" : "3"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "1",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/ERS5040744"
+            } ]
+          } ]
+        } ] ]
+      } ]
+    }, {
+      "accno" : "s-assays-data-E-MTAB-9499",
+      "type" : "Assays and Data",
+      "attributes" : [ {
+        "name" : "Assay count",
+        "value" : "20"
+      }, {
+        "name" : "Technology",
+        "value" : "Sequencing assay"
+      }, {
+        "name" : "Assay by Molecule",
+        "value" : "RNA assay"
+      } ],
+      "subsections" : [ {
+        "accno" : "mt-E-MTAB-9499",
+        "type" : "MAGE-TAB Files",
+        "files" : [ [ {
+          "path" : "E-MTAB-9499.idf.txt",
+          "size" : 5376,
+          "attributes" : [ {
+            "name" : "Type",
+            "value" : "IDF File"
+          }, {
+            "name" : "Format",
+            "value" : "tab-delimited text"
+          }, {
+            "name" : "Description",
+            "value" : "Investigation Design Format (IDF)"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "E-MTAB-9499.sdrf.txt",
+          "size" : 12340,
+          "attributes" : [ {
+            "name" : "Type",
+            "value" : "SDRF File"
+          }, {
+            "name" : "Format",
+            "value" : "tab-delimited text"
+          }, {
+            "name" : "Description",
+            "value" : "Sample and Data Relationship Format (SDRF)"
+          } ],
+          "type" : "file"
+        } ] ]
+      } ]
+    }, {
+      "accno" : "score-E-MTAB-9499",
+      "type" : "MINSEQE Score",
+      "attributes" : [ {
+        "name" : "Exp. Design",
+        "value" : "*"
+      }, {
+        "name" : "Variables",
+        "value" : "*"
+      }, {
+        "name" : "Processed",
+        "value" : "-"
+      }, {
+        "name" : "Raw",
+        "value" : "*"
+      }, {
+        "name" : "Protocols",
+        "value" : "*"
+      } ]
+    } ]
+  },
+  "type" : "submission"
+}

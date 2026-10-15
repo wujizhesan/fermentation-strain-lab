@@ -1,0 +1,4 @@
+source_label,product,titer_g_L,source_odmax_field,source_sheet,source_excel_row,assay_collection_time_h,assay_return_time_verified
+Chassis_Sz population3,succinate,0.43067076833962475,3.392,FigS3_D,12,,False
+Chassis_F_population3,fumarate,0.13990410203497364,5.072,FigS3_E,11,,False
+Chassis_Mz population2,malate,0.20429066431173107,3.6,FigS3_F,12,,False

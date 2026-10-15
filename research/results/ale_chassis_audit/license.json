@@ -1,0 +1,22 @@
+{
+  "article_and_figure_source_data": {
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Pereira, Lopes, Maia et al. (2021), Model-guided development of an evolutionarily stable yeast chassis, DOI 10.15252/msb.202110253",
+    "publisher_url": "https://link.springer.com/article/10.15252/msb.202110253"
+  },
+  "author_repository": {
+    "explicit_license_file_in_inspected_tree": false,
+    "blanket_code_or_model_license_inferred": false,
+    "original_files_retained_in_ignored_cache": true
+  },
+  "omics_metadata": {
+    "primary_sources": [
+      "E-MTAB-9499",
+      "PRJEB41109",
+      "MTBLS2007"
+    ],
+    "separate_repository_license_not_inferred_from_article": true,
+    "raw_reads_and_spectra_not_redistributed": true
+  }
+}

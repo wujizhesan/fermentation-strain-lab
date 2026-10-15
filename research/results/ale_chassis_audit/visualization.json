@@ -1,0 +1,27 @@
+{
+  "plot_implementation": {
+    "path": "plot_ale_chassis_audit.py",
+    "sha256": "3569843d61794edf2a65602e6b73ca069068cebe5d829ef99fcc8cbad0c010c7",
+    "bytes": 3256
+  },
+  "figures": [
+    {
+      "path": "research/results/ale_chassis_audit/ale_chassis_audit.png",
+      "sha256": "f6768ebe4b0e60c26e69d239ce300fb0923a562bb3764ded59ecdad7576cec57",
+      "bytes": 360403
+    },
+    {
+      "path": "research/results/ale_chassis_audit/ale_chassis_audit.svg",
+      "sha256": "f536b1e69a171a9ee94205986a3ccb5ba61fdaf520d3a3310bdabbb275c31cca",
+      "bytes": 175707
+    }
+  ],
+  "source_report": {
+    "path": "research/results/ale_chassis_audit/report.json",
+    "sha256": "554d637e9fb7b2af8314ea5d831e33124a7eca9a5422ff3f659e0bdc604d054e",
+    "bytes": 8781
+  },
+  "panels": 6,
+  "visual_review_completed": true,
+  "visual_review": "All27 isolate OD trajectories and endpoint titers shown with population grouping. Selected growth proxies annotated relative to observed product-specific best. Manual OD and unknown endpoint assay times explicit; no fitted model."
+}

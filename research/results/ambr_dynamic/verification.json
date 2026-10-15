@@ -1,0 +1,22 @@
+{
+  "verified": true,
+  "verifier_sha256": "c402e7593127e251cf010ffc634ee1c51a267dab54f865a68228a4a86149d582",
+  "protocol_sha256": "2b027c50de5ddf447c8d35412f89164b24a54295a18fbbb500cd842ba72a1163",
+  "report_sha256": "1009235402fd821571d6fcdd65d077b829cb6b8fbbe198cbf2592843b041ad3a",
+  "xlsx_reader": "Independent direct OOXML ZIP/XML parser, no producer import",
+  "independent_estimator": "Augmented least squares ridge, independent of producer normal-equation solver",
+  "online_rows_independently_parsed": 74849,
+  "offline_rows_independently_parsed": 230,
+  "all_eligible_features_recomputed": 212,
+  "ridge_models_independently_refitted": 12,
+  "prediction_rows_verified": 1680,
+  "fold_metrics_verified": 160,
+  "paired_batches_verified": 40,
+  "maximum_feature_absolute_difference": 3.637978807091713e-12,
+  "maximum_model_parameter_absolute_difference": 1.8189894035458565e-12,
+  "maximum_raw_prediction_absolute_difference": 9.777068044058979e-12,
+  "maximum_fold_metric_absolute_difference": 0.0,
+  "actual_sensor_arrival_times_verified": false,
+  "instantaneous_product_concentration_verified": false,
+  "publication_superiority_claim": false
+}

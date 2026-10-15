@@ -1,0 +1,36 @@
+{
+  "locked_at_utc": "2026-10-10T08:43:54.843902+00:00",
+  "task": "Independent public ALE isolate-screening and multi-omics source audit",
+  "source_manifest_sha256": "7e52bbc3a5e00c78efe66099dcd2c01fa5ae8344fbd5b436bc75297e82278d63",
+  "implementation_sha256": {
+    "ale_chassis_audit.py": "286df9f39d10660735a6c3a16af2aae1a6f22fc4a740dd3a8dde3613eb9504dd",
+    "verify_ale_chassis_audit.py": "830ddd5d9571d18c486cf35b72964cf8416a7ed609da049754d9a57461950d60",
+    "plot_ale_chassis_audit.py": "3569843d61794edf2a65602e6b73ca069068cebe5d829ef99fcc8cbad0c010c7",
+    "tests/test_ale_chassis_audit.py": "59834dae8bdee249f303c4015dc7b0608914d3c59dcce1b71ba2445800df716d"
+  },
+  "early_recorded_time_cutoff_h": 18,
+  "early_feature_rule": "Last actual recorded OD at or before18h; no interpolation. Normalize by recorded0h OD for the second fixed proxy. No exponential growth-rate claim.",
+  "screening_methods": [
+    "early_density",
+    "early_density_fold"
+  ],
+  "tie_break": "Lexicographic isolate ID; endpoint titer is used only for retrospective evaluation, never to select growth-proxy winners.",
+  "identity_rule": "Only explicit Chassis_{Sz,F,Mz}-{1,2,3}-{S,M,L} isolate IDs; underscore and hyphen encoding equivalent. Population mixtures and parental controls retained separately, never assigned as an isolate replicate.",
+  "support": "Three product-specific designs, three separately evolved populations per design and three selected isolates per population. Isolates are clustered within population; these are not27 independent ALE lineages.",
+  "endpoint_OD_rule": "Preserve the original ODmax field even when it differs from maximum observed trajectory OD; matching value times are diagnostics, not inferred product-assay times.",
+  "omics_rule": "Use explicit Sample Name to MS Assay Name mapping within MetaboLights only. Across-omics replicate numbers and selected isolate IDs do not establish same culture identity. Keep E_Cassis_F metadata typo unresolved.",
+  "model_rule": "No predictor fitting, crossvalidation, active selection benefit, FBA solving, biological wet work or new blinded validation. Spearman descriptive only, no significance inference.",
+  "source_inspection_completed_before_lock": true,
+  "known_growth_product_pattern_observed_before_lock": true,
+  "preaudit_complete_tests_passed": 450,
+  "scope_limits": [
+    "Descriptive retrospective screening of published selected isolates, not a new prospective selection experiment or independent blind model evaluation.",
+    "OD trajectories are manual growth assays for the source appendix screening; this does not provide full continuous online bioreactor logs or verified sensor/assay arrival clocks.",
+    "Endpoint product collection time is not recorded in the source screen table. Do not infer productivity, arbitrary-time concentration accuracy or use matching OD to invent collection times.",
+    "Only nine evolution population groups across three product-specific genetic designs; within-population isolates are correlated and three designs are too few for broad cross-design generalization.",
+    "Parental glycine-supplemented and evolved unsupplemented comparisons can include medium changes; selected omics representatives are not established to be the same27 screened isolates.",
+    "Article methods report loss-of-production isolates whose genotypes were not verified to exclude contamination. Keep them as released records without assigning a mutation-based cause.",
+    "Chromatographic AUC and processed transcript/protein abundances are not concentration or intracellular flux. Archived SBML and published simulated fluxes do not constitute a new flux estimate.",
+    "Original concentration3563/error288/gain16 parameter counts and original8/11 plus3extra complete-paper counts stay unchanged; no publication superiority claim."
+  ]
+}

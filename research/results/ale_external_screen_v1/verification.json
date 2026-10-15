@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "report_sha256": "b080439d0e0c1ee864576e34c96528177ceb185f4e8ccea3611b1dcb9df48778",
+  "protocol_sha256": "9396c8026cafc17f474e1bf5873962ca077bba976d76b8e56d32bfdac5af6617",
+  "checks": {
+    "协议 SHA": true,
+    "原始输入 SHA": true,
+    "公开元数据 MD5 与来源身份": true,
+    "候选身份与重复数": true,
+    "早期与终点时钟": true,
+    "逐候选原始单元格独立复算": true,
+    "全部选择分数与概率独立复算": true,
+    "全部面板指标独立复算": true,
+    "CSV 内容绑定原始单元格": true,
+    "CSV SHA": true,
+    "实现 SHA": true,
+    "面板与排除项绑定协议": true,
+    "保留复现范围": true,
+    "未伪造化验节省与时间可用性": true,
+    "甲醇酵母缺失重复有原始依据": true,
+    "油脂酵母匿名终点库未拼接": true
+  }
+}

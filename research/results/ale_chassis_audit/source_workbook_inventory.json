@@ -1,0 +1,277 @@
+[
+  {
+    "workbook": "MSB-2021-10253_SourceDataForFigure1.xlsx",
+    "outer_member": "MSB-17-e10253-s001.zip",
+    "inner_member": "MSB-2021-10253_SourceDataForFigure1.xlsx",
+    "bytes": 13307,
+    "sha256": "245157b43388991a6ae89d438e48d358141210ec85bfbedd406966c80d80bc97",
+    "sheets": [
+      {
+        "name": "Fig_1D",
+        "rows": 15,
+        "maximum_columns": 5
+      },
+      {
+        "name": "Fig_1E",
+        "rows": 16,
+        "maximum_columns": 2
+      },
+      {
+        "name": "Fig_1F",
+        "rows": 16,
+        "maximum_columns": 2
+      },
+      {
+        "name": "Fig_1G",
+        "rows": 16,
+        "maximum_columns": 2
+      }
+    ]
+  },
+  {
+    "workbook": "MSB-2021-10253_SourceDataForFigure2.xlsx",
+    "outer_member": "MSB-17-e10253-s003.zip",
+    "inner_member": "MSB-2021-10253_SourceDataForFigure2.xlsx",
+    "bytes": 57583,
+    "sha256": "7ed3a10deec7d50d64c1967665d27b0d0f456f3028b48e1cf99b49e4b2247667",
+    "sheets": [
+      {
+        "name": "Fig_2A",
+        "rows": 10,
+        "maximum_columns": 256
+      },
+      {
+        "name": "Fig_2B",
+        "rows": 10,
+        "maximum_columns": 256
+      },
+      {
+        "name": "Fig_2C",
+        "rows": 10,
+        "maximum_columns": 256
+      },
+      {
+        "name": "Fig_2D",
+        "rows": 9,
+        "maximum_columns": 256
+      },
+      {
+        "name": "Fig_2E",
+        "rows": 410,
+        "maximum_columns": 256
+      }
+    ]
+  },
+  {
+    "workbook": "MSB-2021-10253_SourceDataForFigureEV2.xlsx",
+    "outer_member": "MSB-17-e10253-s004.zip",
+    "inner_member": "MSB-2021-10253_SourceDataForExpandedView/MSB-2021-10253_SourceDataForFigureEV2.xlsx",
+    "bytes": 22983,
+    "sha256": "3f8a5316928e081cde52afe82040d6786cae9b8eeed2209bdb46555ee357be10",
+    "sheets": [
+      {
+        "name": "FigEV2_A",
+        "rows": 16,
+        "maximum_columns": 7
+      },
+      {
+        "name": "FigEV2_B",
+        "rows": 36,
+        "maximum_columns": 10
+      },
+      {
+        "name": "FigEV2_C",
+        "rows": 33,
+        "maximum_columns": 10
+      },
+      {
+        "name": "FigEV2_D",
+        "rows": 27,
+        "maximum_columns": 10
+      },
+      {
+        "name": "FigEV2_E",
+        "rows": 22,
+        "maximum_columns": 7
+      },
+      {
+        "name": "FigEV2_F",
+        "rows": 14,
+        "maximum_columns": 7
+      },
+      {
+        "name": "FigEV2_G",
+        "rows": 9,
+        "maximum_columns": 7
+      }
+    ]
+  },
+  {
+    "workbook": "MSB-2021-10253_SourceDataForFigureEV3.xlsx",
+    "outer_member": "MSB-17-e10253-s004.zip",
+    "inner_member": "MSB-2021-10253_SourceDataForExpandedView/MSB-2021-10253_SourceDataForFigureEV3.xlsx",
+    "bytes": 17785,
+    "sha256": "3120a8a153c3c8494e7b88f497d188c2aada05a46f9470f55bc0f84cf43c9140",
+    "sheets": [
+      {
+        "name": "Sheet 1",
+        "rows": 49,
+        "maximum_columns": 265
+      }
+    ]
+  },
+  {
+    "workbook": "MSB-2021-10253_SourceDataForFigureEV4.xlsx",
+    "outer_member": "MSB-17-e10253-s004.zip",
+    "inner_member": "MSB-2021-10253_SourceDataForExpandedView/MSB-2021-10253_SourceDataForFigureEV4.xlsx",
+    "bytes": 2414801,
+    "sha256": "08df49bd9a1594876087f9f53dc81d50957e67f567c7721f1f269d876d4885da",
+    "sheets": [
+      {
+        "name": "Summary",
+        "rows": 3,
+        "maximum_columns": 1
+      },
+      {
+        "name": "FigEV4_C",
+        "rows": 5447,
+        "maximum_columns": 21
+      },
+      {
+        "name": "FigEV4_D",
+        "rows": 3306,
+        "maximum_columns": 22
+      },
+      {
+        "name": "FigEV4_E",
+        "rows": 23,
+        "maximum_columns": 20
+      }
+    ]
+  },
+  {
+    "workbook": "MSB-2021-10253_SourceDataForFigureS2.xlsx",
+    "outer_member": "MSB-17-e10253-s004.zip",
+    "inner_member": "MSB-2021-10253_SourceDataForExpandedView/MSB-2021-10253_SourceDataForFigureS2.xlsx",
+    "bytes": 14845,
+    "sha256": "985bccd43c8027c62fa8a812283242d40e613b08cacb8ad7869da2257aad398e",
+    "sheets": [
+      {
+        "name": "FigS4_B",
+        "rows": 29,
+        "maximum_columns": 4
+      },
+      {
+        "name": "FigS4_C",
+        "rows": 29,
+        "maximum_columns": 4
+      },
+      {
+        "name": "FigS4_D",
+        "rows": 29,
+        "maximum_columns": 4
+      },
+      {
+        "name": "FigS4_E",
+        "rows": 29,
+        "maximum_columns": 4
+      }
+    ]
+  },
+  {
+    "workbook": "MSB-2021-10253_SourceDataForFigureS3.xlsx",
+    "outer_member": "MSB-17-e10253-s004.zip",
+    "inner_member": "MSB-2021-10253_SourceDataForExpandedView/MSB-2021-10253_SourceDataForFigureS3.xlsx",
+    "bytes": 21298,
+    "sha256": "fd07a5021c1ed37c80009140bace44c1beb5bfadfdb2c9e1d09fc23d9811b5b6",
+    "sheets": [
+      {
+        "name": "FigS3_A",
+        "rows": 20,
+        "maximum_columns": 13
+      },
+      {
+        "name": "FigS3_D",
+        "rows": 12,
+        "maximum_columns": 3
+      },
+      {
+        "name": "FigS3_B",
+        "rows": 14,
+        "maximum_columns": 13
+      },
+      {
+        "name": "FigS3_E",
+        "rows": 11,
+        "maximum_columns": 3
+      },
+      {
+        "name": "FigS3_C",
+        "rows": 14,
+        "maximum_columns": 14
+      },
+      {
+        "name": "FigS3_F",
+        "rows": 12,
+        "maximum_columns": 3
+      }
+    ]
+  },
+  {
+    "workbook": "MSB-2021-10253_SourceDataForFigureS4.xlsx",
+    "outer_member": "MSB-17-e10253-s004.zip",
+    "inner_member": "MSB-2021-10253_SourceDataForExpandedView/MSB-2021-10253_SourceDataForFigureS4.xlsx",
+    "bytes": 45818,
+    "sha256": "30fb7e0922ab08ea672ed027d794e03ef2142c40e1e8cf4b0e76b21e4fa7b45f",
+    "sheets": [
+      {
+        "name": "FigS4",
+        "rows": 1045,
+        "maximum_columns": 7
+      }
+    ]
+  },
+  {
+    "workbook": "MSB-2021-10253_SourceDataForFigure4.xlsx",
+    "outer_member": "MSB-17-e10253-s007.zip",
+    "inner_member": "MSB-2021-10253_SourceDataForFigure4.xlsx",
+    "bytes": 15069,
+    "sha256": "af87c423c0edfe9d8ed8749f16ad92311119acc98cabb97fd34db63b0ba32766",
+    "sheets": [
+      {
+        "name": "Fig4_B",
+        "rows": 41,
+        "maximum_columns": 8
+      },
+      {
+        "name": "Fig4_C",
+        "rows": 50,
+        "maximum_columns": 8
+      },
+      {
+        "name": "Fig4_D",
+        "rows": 13,
+        "maximum_columns": 3
+      }
+    ]
+  },
+  {
+    "workbook": "MSB-2021-10253_SourceDataForFigure3.xlsx",
+    "outer_member": "MSB-17-e10253-s008.zip",
+    "inner_member": "MSB-2021-10253_SourceDataForFigure3.xlsx",
+    "bytes": 13622,
+    "sha256": "66a5dfe09c49fe7b2ac802410294ffdb6583b6eafcd75cc6681def3c5601d65d",
+    "sheets": [
+      {
+        "name": "Proteomics",
+        "rows": 36,
+        "maximum_columns": 4
+      },
+      {
+        "name": "Transcriptomics",
+        "rows": 36,
+        "maximum_columns": 4
+      }
+    ]
+  }
+]

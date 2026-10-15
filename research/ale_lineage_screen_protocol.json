@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "locked_at_utc": "2026-10-13T05:45:56.548602+00:00",
+  "task": "公开酵母富马酸ALE候选的整谱系留出选株回放",
+  "species": "Saccharomyces cerevisiae",
+  "design": "F",
+  "product": "fumarate",
+  "primary_endpoint": "released endpoint titer_g_L; not productivity or yield",
+  "cutoff_h": 18.0,
+  "observations_available_at_recorded_time_is_assumed": true,
+  "population_group_count": 3,
+  "candidates_per_population": 3,
+  "validation": "leave-one-population-out; train6, test3; three folds",
+  "features": [
+    "initial_od600",
+    "log_early_od_fold"
+  ],
+  "ridge_penalty": 1.0,
+  "preprocessing": "training population mean and ddof0 std; constant scale replaced by1",
+  "methods": [
+    "uniform_random_expectation",
+    "early_density",
+    "early_density_fold",
+    "fixed_ridge"
+  ],
+  "target_assay_budget_per_heldout_population": 1,
+  "common_historical_titer_labels_per_fold": 6,
+  "random_baseline": "exact expected selection under uniform draw; no repeated seeds counted as new experiments",
+  "score_tie_absolute_tolerance": 1e-12,
+  "tie_policy": "uniform expected selection among tied maximum scores; no endpoint tie-breaking",
+  "negative_ridge_predictions": "preserve raw values for ranking and audit; negative values are not feasible titer claims",
+  "primary_selection_metric": "lineage_equal_mean_fraction_of_best_in_heldout_population",
+  "secondary_metrics": [
+    "expected_titer_g_L",
+    "absolute_selection_regret_g_L",
+    "top1_hit_probability",
+    "ridge_prediction_mae_g_L"
+  ],
+  "input_sha256": {
+    "research/results/ale_chassis_audit/isolate_observations.csv": "c32e3be7b3f055f77784e6498471ef53b91b80db5dbcf1f6f2f1830cf54b0965",
+    "research/results/ale_chassis_audit/isolate_endpoints.csv": "f9470b866916f22debc4ac9696231087aa650ff0327a175d57e6591e3d9dca3e",
+    "research/results/ale_chassis_audit/report.json": "554d637e9fb7b2af8314ea5d831e33124a7eca9a5422ff3f659e0bdc604d054e",
+    "research/results/ale_chassis_audit/verification.json": "0d3ca8d832a4b533937be61d56cd5f4d29dde55ad6cc2a56c48a2f340c6bbf5c"
+  },
+  "source_and_targets_seen_before_lock": true,
+  "fumarate_chosen_after_known_growth_proxy_failure": true,
+  "new_model_scores_seen_before_lock": false,
+  "hyperparameter_search": false,
+  "test_label_use_for_prediction_or_selection": false,
+  "screen_isolates_joined_to_omics": false,
+  "MARGE_fluxes_used_as_isolate_features": false,
+  "strict_prospective_validation_allowed": false,
+  "productivity_scoring_allowed": false,
+  "limitations": [
+    "Only3 population clusters and selected isolates; exploratory replay, no fresh blinded test.",
+    "Endpoint collection and assay return times unknown; no productivity or yield.",
+    "Growth is manual recorded OD, not calibrated biomass or online arrival logs.",
+    "Common6 historical target labels assumed available before candidate selection; chronology unverified.",
+    "Reported isolate genotypes do not all exclude contamination; no mutation-cause claims.",
+    "No reliable same-culture link to omics or MARGE groups; no such features added.",
+    "Confidence intervals, significance, prospective assay savings and superiority to papers not established."
+  ],
+  "implementation_sha256": {
+    "ale_lineage_screen.py": "dccb09980d5215fb3d05cf6ddd1fdef3637e6572915d825683a6f23fccf60e7c",
+    "verify_ale_lineage_screen.py": "76b36f18aaa08e7afbb327bc975abe1283a689f52b0668952ae32898f70e47f9",
+    "tests/test_ale_lineage_screen.py": "ec9d7eaa5ae5c17af7c292923b270c47e924f570d624d6bb6f2ac320c1bfd9b6",
+    "modeling.py": "75ab6377fc2287c93324ab52eca3f7d724251f39b14f43a2065d1f9f8bb2aefb"
+  }
+}

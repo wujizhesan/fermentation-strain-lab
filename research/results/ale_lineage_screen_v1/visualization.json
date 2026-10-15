@@ -1,0 +1,13 @@
+{
+  "report_sha256": "2ed1f66a434155c501636ce4e192ea55fe7ffa1e87f76b196c5103d0e1a4ab62",
+  "outputs": [
+    {
+      "path": "selection_comparison.png",
+      "sha256": "16d21c8728d8250767e9b75f5598640e57405192850ad78208d6b377cdb9810a"
+    },
+    {
+      "path": "selection_comparison.svg",
+      "sha256": "4ed133a4299ddc0d25d1c56e59f0b6eec1b02b986017f08ada95b5b1c8566922"
+    }
+  ]
+}

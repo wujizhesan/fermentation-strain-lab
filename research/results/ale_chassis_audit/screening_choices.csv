@@ -1,0 +1,7 @@
+design,product,method,elapsed_time_cutoff_h,candidate_isolates,candidate_lineage_groups,selected_isolate,selected_lineage_group,observed_feature_time_h,feature_value,selected_titer_g_L,retrospective_best_titer_isolate,retrospective_best_titer_g_L,selected_fraction_of_observed_best,selected_is_observed_best,uses_titer_to_select,retrospective_descriptive_screen,prospective_assay_availability_verified
+Sz,succinate,early_density,18,9,3,Chassis_Sz-2-L,Chassis_Sz-2,17.0,2.228,0.32097156421290346,Chassis_Sz-3-M,0.5412862932500474,0.5929792943503015,False,False,True,False
+Sz,succinate,early_density_fold,18,9,3,Chassis_Sz-1-L,Chassis_Sz-1,17.0,18.94017094017094,0.5163147172957138,Chassis_Sz-3-M,0.5412862932500474,0.9538662325912657,False,False,True,False
+F,fumarate,early_density,18,9,3,Chassis_F-1-M,Chassis_F-1,18.0,4.72,0.022551265029490564,Chassis_F-2-M,0.29933342812328073,0.07533827802287021,False,False,True,False
+F,fumarate,early_density_fold,18,9,3,Chassis_F-1-M,Chassis_F-1,18.0,50.75268817204301,0.022551265029490564,Chassis_F-2-M,0.29933342812328073,0.07533827802287021,False,False,True,False
+Mz,malate,early_density,18,9,3,Chassis_Mz-1-M,Chassis_Mz-1,18.0,5.024,0.053943630502090716,Chassis_Mz-2-L,0.2378910558552424,0.22675770767487627,False,False,True,False
+Mz,malate,early_density_fold,18,9,3,Chassis_Mz-1-M,Chassis_Mz-1,18.0,62.02469135802469,0.053943630502090716,Chassis_Mz-2-L,0.2378910558552424,0.22675770767487627,False,False,True,False
