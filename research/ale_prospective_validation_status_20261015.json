@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "recorded_at_utc": "2026-10-15T02:54:10Z",
-  "status": "preparation_only_blocked",
+  "recorded_at_utc": "2026-10-15T04:36:00Z",
+  "status": "model_frozen_waiting_external_cohort",
   "strict_external_validation_allowed": false,
-  "new_model_fit": false,
+  "new_model_fit": true,
   "new_model_prediction": false,
   "new_chemical_assay": false,
   "wet_lab_gain_validated": false,
@@ -12,8 +12,8 @@
     "species": "Saccharomyces cerevisiae",
     "product": "fumarate",
     "target": "released endpoint titer_g_L",
-    "target_collection_time_h": null,
-    "target_time_status": "not_recorded_in_screen_endpoint_table",
+    "target_collection_time_h": 57.0,
+    "target_time_status": "reconstructed_from_source_end_of_growth_curve_crosswalk; direct_lab_sample_timestamp_unavailable",
     "independent_population_groups": 3,
     "screen_isolates": 9,
     "features": [
@@ -30,18 +30,26 @@
     "fixed_ridge_top1_hit_probability": 0.0,
     "uniform_random_top1_hit_probability": 0.3333333333333333,
     "independent_groups": 3,
-    "interpretation": "exploratory internal replay; fixed ridge did not outperform random expectation"
+    "interpretation": "exploratory internal replay; fixed ridge did not outperform random expectation",
+    "early_density_expected_selected_titer_g_L": 0.1478557030137012,
+    "early_density_top1_hit_probability": 0.3333333333333333,
+    "early_density_interpretation": "descriptive only: mean is slightly above random, but top-1 rate equals random and the net gain is driven by one of three lineages"
   },
   "blockers": [
     {
       "id": "source_endpoint_time",
-      "state": "unresolved",
-      "detail": "The source isolate endpoint table does not report the collection time for each titer label; do not infer it from the OD trajectory."
+      "state": "resolved_by_source_crosswalk",
+      "detail": "Appendix Figure S3 defines the titer as end-of-growth; each of the nine fumarate isolate columns ends at 57 h and its ODmax equals that terminal value. This is a source reconstruction, not a direct laboratory timestamp."
+    },
+    {
+      "id": "source_process_alignment",
+      "state": "partially_recovered_assay_replicates_and_flask_geometry_unresolved",
+      "detail": "Source methods recover MD20/20 g/L glucose, pH 5, 30 C, 180 rpm, initial OD600 0.1, and shake-flask sample handling, but Figure S3 does not identify which assay workflow produced each fumarate scalar, its replicate structure, or the flask geometry. See research/ale_source_process_alignment_20261015.json."
     },
     {
       "id": "eligible_external_cohort",
       "state": "not_found_in_current_candidate_set",
-      "detail": "Previously replayed public panels use different organisms/products or different features and are not a strict test of the locked original model."
+      "detail": "Inspected an open CSIC wine-yeast ALE dataset and a 2023 S. cerevisiae malate-to-fumarate study; neither exposes a matched replicate-level 18 h OD plus endpoint fumarate cohort for the frozen task. Search is not exhaustive."
     },
     {
       "id": "strain_stock_and_assay_capacity",
@@ -55,17 +63,45 @@
     }
   ],
   "next_gates": [
-    "Verify the source endpoint collection time and culture/assay definition from the primary source or authors.",
-    "If endpoint semantics cannot be resolved, define a new fixed-time target and a new model protocol; do not call it validation of the original model.",
-    "Freeze an all-development-data ridge artifact and hashes before opening any external endpoint labels.",
-    "Run a powered independent-lineage validation and blinded, independent-culture retest against parent and random-selection controls."
+    "Confirm development-process and assay details needed to reproduce the same Producer_F task at a fixed 57 h endpoint.",
+    "Confirm Producer_F stock/genotype availability and choose a calibrated, documented fumarate assay; record flask geometry and biological replicates before starting new populations.",
+    "Keep each early-OD feature and fixed-57 h titer linked to culture_id; timestamp sample collection, instrument measurement and result availability.",
+    "Acquire an independent cohort from new ALE populations with early OD and 57 h fumarate measurements; do not reuse the nine development isolates as external validation.",
+    "Use the prospective intake freeze stage before any external titer labels are available; later append endpoint measurements and verify against the saved receipt.",
+    "Freeze candidate predictions and selection decisions before any external titer labels are available; do not refit or recalibrate on that cohort.",
+    "Use pilot variance, assay precision and a prespecified practical gain to power the independent reculture confirmation."
   ],
   "artifacts": {
     "plan": "research/ale_prospective_validation_plan_20261015.md",
+    "intake_validator": "ale_prospective_intake.py",
+    "intake_test": "tests/test_ale_prospective_intake.py",
     "candidate_template": "research/templates/ale_prospective_candidates.csv",
+    "culture_template": "research/templates/ale_prospective_cultures.csv",
     "measurement_template": "research/templates/ale_prospective_measurements.csv",
+    "decision_template": "research/templates/ale_prospective_decisions.csv",
     "omics_link_template": "research/templates/ale_prospective_omics_links.csv",
     "source_audit": "research/results/ale_chassis_audit/report.json",
-    "internal_model_replay": "research/results/ale_lineage_screen_v1/report.json"
+    "internal_model_replay": "research/results/ale_lineage_screen_v1/report.json",
+    "public_candidate_audit": "research/results/ale_external_candidate_audit_20261015.json",
+    "model_failure_diagnostic": "research/results/ale_model_failure_diagnostic_20261015.json",
+    "endpoint_time_recovery": "research/ale_endpoint_time_recovery_20261015.json",
+    "external_model_protocol": "research/ale_external_model_freeze_protocol_20261015.json",
+    "frozen_full_data_model": "research/results/ale_external_model_v1/fitted_model.json",
+    "frozen_model_verification": "research/results/ale_external_model_v1/verification.json",
+    "source_process_alignment_audit": "research/ale_source_process_alignment_20261015.json"
+  },
+  "model_failure_diagnostic": {
+    "result": "between-lineage shift dominates overall early-OD association; ridge fold-feature coefficient changes sign across held-out lineages",
+    "confirmatory": false,
+    "independent_lineages": 3,
+    "artifact": "research/results/ale_model_failure_diagnostic_20261015.json"
+  },
+  "external_model_freeze": {
+    "protocol": "research/ale_external_model_freeze_protocol_20261015.json",
+    "model": "research/results/ale_external_model_v1/fitted_model.json",
+    "verification": "research/results/ale_external_model_v1/verification.json",
+    "model_sha256": "c6b942ecde8234efed2e6cf0b9fed50fb11b490751ed75ae992afb0f8a750d35",
+    "external_prediction_created": false,
+    "external_validation": false
   }
 }

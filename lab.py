@@ -249,6 +249,15 @@ def main(argv=None) -> int:
     execution.add_argument("--python")
     verification = commands.add_parser("verify")
     verification.add_argument("--run-dir", type=Path, required=True)
+    prospective = commands.add_parser("prospective")
+    prospective.add_argument("--stage", choices=("freeze", "evaluate"), required=True)
+    prospective.add_argument("--candidates", type=Path, default=ROOT / "research/templates/ale_prospective_candidates.csv")
+    prospective.add_argument("--cultures", type=Path, default=ROOT / "research/templates/ale_prospective_cultures.csv")
+    prospective.add_argument("--measurements", type=Path, default=ROOT / "research/templates/ale_prospective_measurements.csv")
+    prospective.add_argument("--decisions", type=Path, default=ROOT / "research/templates/ale_prospective_decisions.csv")
+    prospective.add_argument("--omics", type=Path)
+    prospective.add_argument("--freeze-receipt", type=Path)
+    prospective.add_argument("--output", type=Path, required=True)
     args = parser.parse_args(argv)
     try:
         if args.command == "prepare":
@@ -265,6 +274,17 @@ def main(argv=None) -> int:
         elif args.command == "verify":
             collect_run(args.run_dir)
             print("运行回执、日志、数值结果与证据范围检查通过")
+            return 0
+        elif args.command == "prospective":
+            if args.stage == "evaluate" and args.freeze_receipt is None:
+                raise ValueError("evaluate 阶段必须通过 --freeze-receipt 指定冻结回执")
+            from ale_prospective_intake import run as run_prospective
+            result = run_prospective(args.stage, args.candidates, args.cultures, args.measurements,
+                                     args.decisions, args.output, args.freeze_receipt, args.omics)
+            print("前瞻数据入口检查通过；尚未验证模型增益或解除来源工艺阻塞")
+            print("回执：" + str(args.output))
+            if getattr(args, "json", False):
+                print(json.dumps({key: result[key] for key in result if key != "freeze_receipt"}, ensure_ascii=False, indent=2))
             return 0
         else:
             selected = MODULES if args.module == "all" else (args.module,)

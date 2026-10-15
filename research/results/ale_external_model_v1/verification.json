@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "checked_at_utc": "2026-10-15T04:31:34.641512Z",
+  "source_crosswalk": {
+    "passed": true,
+    "isolates_checked": 9,
+    "last_numeric_OD_time_h": 57.0,
+    "ODmax_matches_terminal_OD": true,
+    "endpoint_titers_match_source_workbook": true
+  },
+  "independent_fit": "NumPy augmented least squares; intercept unpenalized",
+  "maximum_absolute_parameter_difference": 4.440892098500626e-16,
+  "training_rows_recomputed": 9,
+  "independent_population_count": 3,
+  "model_sha256": "c6b942ecde8234efed2e6cf0b9fed50fb11b490751ed75ae992afb0f8a750d35",
+  "protocol_sha256": "c0ed4f631f687f00a399034bacf80e348f18e022efee8f5f203d1a65c57586d3",
+  "external_prediction_created": false,
+  "external_validation": false,
+  "new_chemical_assay": false
+}

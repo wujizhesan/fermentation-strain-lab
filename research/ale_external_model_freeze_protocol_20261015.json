@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "locked_at_utc": "2026-10-15T04:29:55Z",
+  "protocol_kind": "full_development_fit_for_future_external_test",
+  "scope": "Model freeze only; not an external validation protocol or performance claim.",
+  "species": "Saccharomyces cerevisiae",
+  "strain_design": "F",
+  "product": "fumarate",
+  "target": {
+    "variable": "endpoint titer_g_L",
+    "time_h": 57.0,
+    "time_basis": "reconstructed from Appendix Figure S3 end-of-growth-curve criterion and the per-isolate source workbook crosswalk",
+    "direct_laboratory_sample_timestamp_available": false
+  },
+  "development_cohort": {
+    "source": "Pereira et al. 2021, Figure S3 source workbook",
+    "isolates": 9,
+    "independent_ale_populations": 3,
+    "previously_seen_by_analyst": true,
+    "role": "development only; never count as external test"
+  },
+  "features": [
+    "initial_od600",
+    "log_early_od_fold"
+  ],
+  "feature_rule": "Use the last observed isolate OD at or before 18 h; do not interpolate or extrapolate.",
+  "model": {
+    "estimator": "Ridge regression",
+    "ridge_penalty": 1.0,
+    "intercept": true,
+    "intercept_penalized": false,
+    "standardization": "mean and population standard deviation (ddof=0) calculated on the full nine-isolate development cohort; constant scale replaced with 1"
+  },
+  "prohibitions": [
+    "No hyperparameter or feature search.",
+    "No external-label access, external refitting, recalibration, or threshold selection.",
+    "Do not overwrite the original leave-one-population-out protocol, code, or results.",
+    "Do not describe model fitting as external validation, prospective selection, assay savings, or wet-lab gain."
+  ],
+  "future_validation_requirements": [
+    "An independent cohort from new ALE populations of the same Producer_F background.",
+    "Same predeclared process and a fixed 57 h fumarate-titer target; verify assay and process alignment before calling it external validation.",
+    "Record population, isolate, culture, sample, assay, measurement time, result-availability time, and blind code.",
+    "Freeze predictions and selection decisions before endpoint labels are available.",
+    "Compare with random selection and the preregistered early-OD baseline at the independent-population level."
+  ],
+  "source_protocol": "research/ale_lineage_screen_protocol.json",
+  "source_endpoint_recovery": "research/ale_endpoint_time_recovery_20261015.json"
+}

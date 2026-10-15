@@ -35,6 +35,7 @@ jobs:
       - run: python -m unittest discover -s tests -p test_project_entry.py -v
       - run: python -m unittest discover -s tests -p test_ale_lineage_screen.py -v
       - run: python -m unittest discover -s tests -p test_lab_entry.py -v
+      - run: python -m unittest discover -s tests -p test_ale_prospective_intake.py -v
   full:
     if: github.event_name == 'workflow_dispatch' && inputs.full_replay
     runs-on: ubuntu-latest
