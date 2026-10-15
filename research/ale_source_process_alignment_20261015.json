@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "audited_at_utc": "2026-10-15T04:36:00Z",
+  "source": {
+    "article_doi": "10.15252/msb.202110253",
+    "article_url": "https://link.springer.com/article/10.15252/msb.202110253",
+    "appendix_figure": "Appendix Figure S3, PDF page 4",
+    "figure_source_workbook": "MSB-2021-10253_SourceDataForFigureS3.xlsx",
+    "figure_source_sheets": [
+      "FigS3_B",
+      "FigS3_E"
+    ]
+  },
+  "task_scope": "Source-method audit for the nine evolved Producer_F fumarate isolates; this is not an external validation cohort.",
+  "recovered_conditions": {
+    "clone_plate_medium": "MD20 agar with 20 g/L glucose",
+    "characterization_medium": "defined minimal medium MD20 with 20 g/L glucose",
+    "medium_pH": 5.0,
+    "temperature_c": 30,
+    "orbital_shaking_rpm": 180,
+    "initial_od600": 0.1,
+    "preculture": "single colony from selective YPD plate; approximately 16 h to mid-exponential phase; centrifuged and washed twice with distilled water before inoculation",
+    "endpoint_definition": "product titer at end of the growth curve",
+    "source_reconstructed_endpoint_time_h": 57.0,
+    "shake_flask_sample_handling": "sample at stated time, centrifuge 4000 g for 10 min, filter supernatant through 0.2 um PVDF and store at -20 C",
+    "reported_fumarate_quantification_options": [
+      "GC-MS with analytical standards and calibration curves",
+      "UPLC/UHPLC with PDA detection at 260 nm, Rezex ROA-Organic Acid H+ column at 65 C, 0.5 mM H2SO4 mobile phase at 0.5 ml/min, and calibration curves"
+    ],
+    "replication_context": "General cultivation methods state that cultivations were performed in triplicates, but Figure S3 and its source workbook do not map that statement to each fumarate endpoint or provide replicate-level endpoint values."
+  },
+  "unresolved_for_strict_process_reproduction": [
+    "The Figure S3 source table does not identify whether each released fumarate value came from the GC-MS or UPLC/UHPLC workflow.",
+    "The paper gives a general triplicate-cultivation statement, but Figure S3 and its source workbook do not show whether each released fumarate scalar is a mean, its replicate type, or replicate-level values.",
+    "Shake-flask vessel size, working volume, closure and fill ratio for the Figure S3 isolate characterization are not stated in the source table/caption.",
+    "The direct sample-collection timestamp and result-availability timestamp are not present; 57 h is reconstructed from the end-of-growth criterion and source-data crosswalk.",
+    "The source does not establish that the preserved stocks for these exact nine isolates remain available or genetically re-confirmed."
+  ],
+  "interpretation": {
+    "endpoint_time_gate": "resolved_by_source_crosswalk_at_57_h",
+    "culture_recipe_gate": "partially_recovered_from_article_methods",
+    "assay_and_replicate_gate": "unresolved_at_isolate_value_level",
+    "strict_external_validation": false,
+    "recommended_next_step": "Confirm availability and genotype of the Producer_F parent, choose a calibrated fumarate assay, record the exact culture geometry and biological replicate structure, then collect a new independent ALE cohort at a fixed 57 h endpoint. Treat this as a prospective validation under a declared assay unless the missing source assay details are recovered."
+  }
+}

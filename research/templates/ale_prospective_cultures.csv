@@ -1,0 +1,1 @@
+culture_id,study_id,population_id,isolate_id,biological_replicate,production_condition_id,medium,medium_batch_id,initial_glucose_g_L,initial_pH,temperature_C,agitation_rpm,vessel_type,vessel_volume_mL,working_volume_mL,inoculum_type,inoculum_value,inoculum_unit,start_time_utc,position,blind_code,protocol_id

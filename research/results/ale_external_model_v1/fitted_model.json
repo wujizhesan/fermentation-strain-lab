@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "frozen_at_utc": "2026-10-15T04:31:34.641512Z",
+  "purpose": "locked full-development-data model for a future independent external cohort",
+  "endpoint": {
+    "product": "fumarate",
+    "unit": "g/L",
+    "time_h": 57.0,
+    "time_basis": "source-reconstructed end-of-growth endpoint; no direct laboratory sample timestamp"
+  },
+  "development_data_seen_before_fit": true,
+  "development_isolate_count": 9,
+  "independent_population_count": 3,
+  "model": {
+    "features": [
+      "initial_od600",
+      "log_early_od_fold"
+    ],
+    "means": [
+      0.094,
+      3.18142918670065
+    ],
+    "scales": [
+      0.01898537448786419,
+      0.516349485144936
+    ],
+    "coefficients": [
+      0.13797251667950816,
+      -0.016718319097069594,
+      -0.07144748280688981
+    ],
+    "ridge_penalty": 1.0,
+    "training_isolate_ids": [
+      "Chassis_F-1-L",
+      "Chassis_F-1-M",
+      "Chassis_F-1-S",
+      "Chassis_F-2-L",
+      "Chassis_F-2-M",
+      "Chassis_F-2-S",
+      "Chassis_F-3-L",
+      "Chassis_F-3-M",
+      "Chassis_F-3-S"
+    ],
+    "training_lineage_groups": [
+      "Chassis_F-1",
+      "Chassis_F-2",
+      "Chassis_F-3"
+    ]
+  },
+  "training_feature_rows_sha256": "1bc089c9f1930bc413b4e19946f987ec9415fad37b15d188f05d4872fc984854",
+  "training_target_values_g_L": {
+    "Chassis_F-1-L": 0.022673915535752143,
+    "Chassis_F-1-M": 0.022551265029490564,
+    "Chassis_F-1-S": 0.022577364288655883,
+    "Chassis_F-2-L": 0.18806628187071806,
+    "Chassis_F-2-M": 0.29933342812328073,
+    "Chassis_F-2-S": 0.24179657052532202,
+    "Chassis_F-3-L": 0.12168241588833233,
+    "Chassis_F-3-M": 0.14963135997315138,
+    "Chassis_F-3-S": 0.17344004888087017
+  },
+  "inputs_sha256": {
+    "research/ale_external_model_freeze_protocol_20261015.json": "c0ed4f631f687f00a399034bacf80e348f18e022efee8f5f203d1a65c57586d3",
+    "research/ale_lineage_screen_protocol.json": "7da7eaaf87a979741db7170d2b66ab7a8a7a3c0f5907ee33af761aaf68c9adcb",
+    "research/results/ale_chassis_audit/isolate_observations.csv": "c32e3be7b3f055f77784e6498471ef53b91b80db5dbcf1f6f2f1830cf54b0965",
+    "research/results/ale_chassis_audit/isolate_endpoints.csv": "f9470b866916f22debc4ac9696231087aa650ff0327a175d57e6591e3d9dca3e",
+    "research/results/ale_chassis_audit/report.json": "554d637e9fb7b2af8314ea5d831e33124a7eca9a5422ff3f659e0bdc604d054e",
+    "research/results/ale_chassis_audit/verification.json": "0d3ca8d832a4b533937be61d56cd5f4d29dde55ad6cc2a56c48a2f340c6bbf5c",
+    "research/ale_endpoint_time_recovery_20261015.json": "9a01aee6a0ce70f8f0520f499cc701ccf6db7de4db3afbda8ca1a06d73471985",
+    "research/ale_endpoint_time_recovery_20261015.csv": "0e4d7b99c0025932916ce658db63de4f27deed11df861b42256aee556998b748",
+    "ale_lineage_screen.py": "dccb09980d5215fb3d05cf6ddd1fdef3637e6572915d825683a6f23fccf60e7c",
+    "modeling.py": "75ab6377fc2287c93324ab52eca3f7d724251f39b14f43a2065d1f9f8bb2aefb",
+    "data/raw/ale_chassis_2021/all_supplementary.zip": "4ec7524cd956928f371e9e8e6384e1060e1ab4be8d533f0d1703525f17112156",
+    "all_supplementary.zip::MSB-17-e10253-s004.zip": "b92702092b2f3c1d1f5a4fe6f4df5c837c6c87f32ccb206c1d5547aedcaf9a40",
+    "all_supplementary.zip::FigureS3.xlsx": "fd07a5021c1ed37c80009140bace44c1beb5bfadfdb2c9e1d09fc23d9811b5b6",
+    "all_supplementary.zip::MSB-17-e10253-s002.pdf": "4fe3278607167ffe499b64e6fb4dd557208a5f1ab3408f67fda255e93294163f"
+  },
+  "scope": {
+    "external_prediction_created": false,
+    "external_validation": false,
+    "new_chemical_assay": false,
+    "wet_lab_gain_validated": false,
+    "hyperparameter_search": false
+  }
+}

@@ -1,77 +1,82 @@
 {
   "schema_version": 1,
-  "release_version": "0.1.2",
-  "description": "本地发行验收摘要；GitHub Actions 记录代码提交的自动化验证结果。",
+  "release_version": "0.1.3",
+  "description": "本地发行验收摘要；GitHub Actions 状态以实际工作流运行记录为准。",
   "package_build": {
     "source": {
-      "archive": "fermentation-strain-lab-0.1.2.zip",
-      "members": 145,
-      "bytes": 1874332,
-      "sha256": "cd8d218bf8ead87a21afd013c93d661ae9fcd38bdd23a3558c162b6984290bb1",
+      "archive": "fermentation-strain-lab-0.1.3.zip",
+      "members": 153,
+      "bytes": 1898598,
+      "sha256": "844cbd670f846a9002d241d3c27625f47a52266a47cf0168e6fdd3e4b0baf06d",
       "crc_passed": true,
-      "manifest_files": 144,
-      "manifest_sha256": "dc9e4b475cda2b4fac5bd5bf02af2527e024d6e6706bf292b91c6deee6fc9198"
+      "manifest_files": 152,
+      "manifest_sha256": "7e964e64f17763254df11e93acf589da23167b4f5b9f2242473aa6a42e1d1393"
     },
     "offline": {
-      "archive": "fermentation-strain-lab-0.1.2-offline.zip",
-      "members": 165,
-      "bytes": 35406026,
-      "sha256": "5d49b694882ea74ca699746883a4010b3cb75f55c2806db66741cee7f56b1f3e",
+      "archive": "fermentation-strain-lab-0.1.3-offline.zip",
+      "members": 173,
+      "bytes": 35430425,
+      "sha256": "e4a9bb67460b5c1420199075f6202d9ff044d6b2809cf6773ed23f9eff264b51",
       "crc_passed": true,
-      "manifest_files": 164,
-      "manifest_sha256": "fc09e35c9e6089914aa8a4cd5ea0e1a001f853c4c5c803530bf9c49ff8236777"
+      "manifest_files": 172,
+      "manifest_sha256": "211d1ad785889dc299292aabc1ebb2b65c7789e9ede7f179fc082498e20979b3"
     }
   },
-  "offline_package_checks": {
-    "python": "3.13.14",
-    "package_integrity_passed": true,
-    "package_manifest_files_checked": 164,
-    "raw_inputs_ready": true,
-    "main_tests": {
-      "count": 48,
+  "local_checks": {
+    "python_used": "3.12.10",
+    "source_package_integrity_passed": true,
+    "offline_package_integrity_passed": true,
+    "offline_raw_inputs_ready": true,
+    "offline_package_tests": {
+      "count": 59,
       "passed": true
     },
-    "numeric_replay_performed": false,
-    "reference_snapshot_reused": true
-  },
-  "documentation_gate": {
-    "checks_passed": 12,
-    "checks_total": 12,
-    "passed": true,
-    "skipped": [
-      "D9: 自动生成文档中的历史路径索引"
-    ]
+    "source_ci_quick_tests": {
+      "count": 42,
+      "passed": true
+    },
+    "workspace_tests": {
+      "count": 606,
+      "passed": true
+    },
+    "screening_quick_run_and_verify": true,
+    "numeric_full_replay_performed": false
   },
   "new_research_artifacts": [
+    "ale_prospective_intake.py",
+    "tests/test_ale_prospective_intake.py",
     "research/ale_prospective_validation_plan_20261015.md",
     "research/ale_prospective_validation_status_20261015.json",
+    "research/ale_external_model_freeze_protocol_20261015.json",
+    "research/ale_source_process_alignment_20261015.json",
+    "research/results/ale_external_model_v1/fitted_model.json",
+    "research/results/ale_external_model_v1/verification.json",
     "research/templates/ale_prospective_candidates.csv",
+    "research/templates/ale_prospective_cultures.csv",
     "research/templates/ale_prospective_measurements.csv",
-    "research/templates/ale_prospective_omics_links.csv",
-    "research/ale_endpoint_time_recovery_20261015.md",
-    "research/ale_endpoint_time_recovery_20261015.json",
-    "research/ale_endpoint_time_recovery_20261015.csv"
+    "research/templates/ale_prospective_decisions.csv",
+    "research/templates/ale_prospective_omics_links.csv"
   ],
   "github_actions": {
-    "status": "completed_success",
+    "status": "success",
     "workflow": "research-prototype",
-    "run_id": 38675978334,
-    "run_url": "https://github.com/wujizhesan/fermentation-strain-lab/actions/runs/38675978334",
-    "validated_commit": "95318b29e41ad7f4811916f07b48c33255b74659",
+    "run_id": 38684906597,
+    "run_url": "https://github.com/wujizhesan/fermentation-strain-lab/actions/runs/38684906597",
+    "validated_commit": "15e57c262b6ad4c1fe0d87a7c37bc57df36ba3c7",
     "jobs": {
       "windows-latest": "success",
       "ubuntu-latest": "success"
     }
   },
   "scientific_scope": {
-    "endpoint_time_recovered": true,
-    "endpoint_time_basis": "Reconstructed as 57 h from the source figure caption and terminal-row crosswalk; not a raw laboratory timestamp.",
-    "same_strain_closed_loop": false,
+    "data_intake_implemented": true,
+    "records_only_temporal_order_checked": true,
+    "independent_blinding_proven": false,
     "original_model_external_validation": false,
+    "same_strain_closed_loop": false,
     "wet_lab_gain": false,
-    "new_model_fit": false,
     "new_chemical_assay": false,
     "publication_superiority_claim": false,
-    "external_validation_blocker": "The original 18 h model still lacks a blind independent or prospective validation panel; representative retrospective panels do not establish generalization."
+    "external_validation_blocker": "Source assay workflow, replicate mapping, flask geometry and trusted timestamps remain unresolved."
   }
 }

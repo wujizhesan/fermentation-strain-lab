@@ -1,6 +1,6 @@
 # Fermentation Strain Lab
 
-公开数据驱动的菌株筛选与发酵建模研究原型，版本 0.1.2。
+公开数据驱动的菌株筛选与发酵建模研究原型，版本 0.1.3。
 
 **主问题：能否利用菌株的早期观测，选出最终产物表现更好的菌株？**
 
@@ -22,6 +22,8 @@
 ## 下一阶段：前瞻验证准备
 
 [ALE 选株模型前瞻验证方案](research/ale_prospective_validation_plan_20261015.md) 固定了外部测试、同株样本追踪与湿实验增产确认的门槛，并提供数据模板。[终点时点溯源更新](research/ale_endpoint_time_recovery_20261015.md)依据论文补充图注和图源表，将该数据集九株富马酸终点重建为 57 h；这解除内部回顾性回放的时点歧义，但没有独立外部验证、前瞻闭环或湿实验增产证据。
+
+前瞻数据可通过 `lab.py prospective --stage freeze` 与 `--stage evaluate` 分阶段核验。先冻结候选、培养、早期 OD、模型/基线决策与预测文件摘要；终点结果可用后再追加测量并核对冻结回执。该入口检查数据关联和所记录的时间顺序，不重算预测分数或证明模型有效；本机时钟与 LIMS 时间没有可信时间戳/数字签名，不能单独证明分析人员未提前接触终点。模板见 `research/templates/ale_prospective_*.csv`。
 
 ## 无需安装依赖：查看参考结果
 
@@ -95,7 +97,7 @@ python -m unittest discover -s gem_tests -v
 
 Windows 可用 `$env:MARGE_RESULTS_ROOT=(Resolve-Path runs/all/core/metabolism).Path`，Linux 可用 `export MARGE_RESULTS_ROOT="$PWD/runs/all/core/metabolism"`。MARGE 的运行入口本身也会在新生成结果上执行 `gem_tests`。
 
-GitHub Actions 配置 Windows/Ubuntu 的参考检查、快速选株及入口测试；手动触发并选择 `full_replay` 可下载输入并全量重跑。工作流是否在 GitHub 通过，以实际 Actions 记录为准。本地复算验收记录见 [VALIDATION.json](VALIDATION.json)。
+GitHub Actions 配置 Windows/Ubuntu 的参考检查、快速选株及入口测试；手动触发并选择 `full_replay` 可下载输入并全量重跑。工作流是否在 GitHub 通过，以实际 Actions 记录为准。
 
 依赖锁定在 `requirements-lab.txt` 及其包含的文件中。发行环境采用 Python 3.13；早期软测量归档记录的 Python/NumPy 版本不同，因此保留归档原件，并对本次结果重新核验，不声称原环境逐位一致。
 
