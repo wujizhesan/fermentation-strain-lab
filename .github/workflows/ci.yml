@@ -18,6 +18,11 @@ jobs:
     runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v4
+      - name: Restore tracked file bytes
+        shell: bash
+        run: |
+          git config core.autocrlf false
+          git checkout-index --force --all
       - uses: actions/setup-python@v5
         with:
           python-version: '3.13'

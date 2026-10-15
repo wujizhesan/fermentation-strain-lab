@@ -4,8 +4,8 @@
   "mode": "source",
   "files": {
     ".github/workflows/ci.yml": {
-      "bytes": 1768,
-      "sha256": "6eda9bd38efe73d884116c57cfd11555e6f6caed9f4276e0745239d6c8024ce3"
+      "bytes": 1933,
+      "sha256": "8872bb3e5a07cb60b987bf68d342ddaf7dd48b3bc56129d231f6edb43e7c5a87"
     },
     ".gitignore": {
       "bytes": 1596,
