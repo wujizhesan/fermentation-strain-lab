@@ -47,7 +47,15 @@
     "research/templates/ale_prospective_omics_links.csv"
   ],
   "github_actions": {
-    "status": "not_yet_run_for_0.1.1"
+    "status": "completed_success",
+    "workflow": "research-prototype",
+    "run_id": 38673916365,
+    "run_url": "https://github.com/wujizhesan/fermentation-strain-lab/actions/runs/38673916365",
+    "validated_commit": "13a22800f150a96b9708f89329dbbcbb32d6b0ff",
+    "jobs": {
+      "windows-latest": "success",
+      "ubuntu-latest": "success"
+    }
   },
   "scientific_scope": {
     "same_strain_closed_loop": false,
