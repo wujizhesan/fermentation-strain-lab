@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "version": "0.1.1",
+  "version": "0.1.2",
   "files": [
     {
       "path": "data/raw/ale_chassis_2021/all_supplementary.zip",

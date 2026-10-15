@@ -1,0 +1,266 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-10-15",
+  "finding": "The fumarate titer endpoint time for all nine isolated clones is reconstructable as 57 h from the source-defined end-of-growth-curve criterion and exact source-table crosswalk.",
+  "status": "endpoint_time_reconstructed_for_internal_retrospective_evaluation",
+  "species": "Saccharomyces cerevisiae",
+  "design": "F",
+  "product": "fumarate",
+  "isolate_count": 9,
+  "independent_ALE_population_count": 3,
+  "early_feature_cutoff_h": 18.0,
+  "reconstructed_endpoint_time_h": 57.0,
+  "reconstruction_basis": [
+    "Appendix Figure S3 caption specifies that target compound titer was evaluated at the end of the growth curve.",
+    "The Figure S3 growth source sheet records the nine fumarate isolate curves through 57 h; 57 h is the final recorded time for each isolate curve.",
+    "For all nine isolates, the reported ODmax value in the titer sheet exactly matches the OD600 recorded at the terminal 57 h point."
+  ],
+  "direct_lab_sample_timestamp_present": false,
+  "reconstruction_confidence": "high_source_crosswalk_not_raw_sample_log",
+  "source_ODmax_semantic_caveat": {
+    "reported_ODmax_matches_terminal_OD_count": 9,
+    "reported_ODmax_matches_observed_curve_global_max_count": 5,
+    "observed_curve_global_max_mismatch_count": 4,
+    "interpretation": "The source ODmax field matches the 57 h terminal OD for all nine, but for four isolates it does not equal the numerical maximum over the full OD time series. Endpoint timing is therefore reconstructed from the source end-of-curve criterion and terminal-row crosswalk; ODmax must not be treated as a verified global maximum."
+  },
+  "model_replay": {
+    "original_locked_protocol_reused": true,
+    "new_hyperparameter_search": false,
+    "new_selection_rule": false,
+    "independent_replay_verification_passed": true,
+    "verified_report_sha256": "2ed1f66a434155c501636ce4e192ea55fe7ffa1e87f76b196c5103d0e1a4ab62",
+    "fixed_ridge_expected_selected_titer_g_L": 0.11076665426284699,
+    "uniform_random_expected_selected_titer_g_L": 0.13797251667950813,
+    "fixed_ridge_top1_hit_probability": 0.0,
+    "random_top1_hit_probability": 0.3333333333333333,
+    "interpretation": "The reconstructed 57 h endpoint aligns the interpretation of the already locked 18 h to endpoint-titer replay. The fixed Ridge remains below the exact random-selection expectation in the three held-out population groups.",
+    "independent_replay_verification": {
+      "passed": true,
+      "method": "NumPy augmented least squares; production uses scalar normal equations",
+      "source_feature_rows_recomputed": 9,
+      "lineage_folds_independently_refitted": 3,
+      "candidate_decisions_recomputed": 36,
+      "fold_metrics_recomputed": 12,
+      "frozen_report_sha256": "2ed1f66a434155c501636ce4e192ea55fe7ffa1e87f76b196c5103d0e1a4ab62",
+      "blind_validation_created": false,
+      "prospective_selection_validated": false,
+      "productivity_scored": false
+    }
+  },
+  "evidence_scope": {
+    "retrospective_same_isolate_early_OD_to_endpoint_pairing": true,
+    "independent_external_validation": false,
+    "prospective_same_strain_closed_loop": false,
+    "wet_lab_gain_evidence": false,
+    "productivity_or_yield_established": false,
+    "publication_superiority_claim": false
+  },
+  "input_artifacts": {
+    "previous_frozen_audit_endpoints_sha256": "f9470b866916f22debc4ac9696231087aa650ff0327a175d57e6591e3d9dca3e",
+    "previous_frozen_lineage_report_sha256": "2ed1f66a434155c501636ce4e192ea55fe7ffa1e87f76b196c5103d0e1a4ab62",
+    "previous_locked_protocol_sha256": "7da7eaaf87a979741db7170d2b66ab7a8a7a3c0f5907ee33af761aaf68c9adcb",
+    "recovery_crosswalk_csv": "research/ale_endpoint_time_recovery_20261015.csv",
+    "recovery_crosswalk_csv_sha256": "0e4d7b99c0025932916ce658db63de4f27deed11df861b42256aee556998b748"
+  },
+  "records": [
+    {
+      "isolate_id": "Chassis_F_1_S",
+      "population": 1,
+      "clone": "S",
+      "product": "fumarate",
+      "titer_g_L": 0.022577364288655883,
+      "assay_collection_time_h_reconstructed": 57.0,
+      "source_reported_ODmax": 4.904,
+      "terminal_curve_OD600": 4.904,
+      "source_ODmax_equals_terminal_OD": true,
+      "observed_curve_max_OD600": 4.904,
+      "observed_curve_max_times_h": [
+        57.0
+      ],
+      "source_ODmax_equals_observed_curve_max": true,
+      "source_titer_sheet": "FigS3_E",
+      "source_titer_excel_row": 2,
+      "source_growth_sheet": "FigS3_B",
+      "source_growth_terminal_excel_row": 9,
+      "source_growth_time_header_row": 2,
+      "source_growth_isolate_column_header": "Chassis_F-1-S"
+    },
+    {
+      "isolate_id": "Chassis_F_1_M",
+      "population": 1,
+      "clone": "M",
+      "product": "fumarate",
+      "titer_g_L": 0.022551265029490564,
+      "assay_collection_time_h_reconstructed": 57.0,
+      "source_reported_ODmax": 4.824,
+      "terminal_curve_OD600": 4.824,
+      "source_ODmax_equals_terminal_OD": true,
+      "observed_curve_max_OD600": 5.104,
+      "observed_curve_max_times_h": [
+        24.0
+      ],
+      "source_ODmax_equals_observed_curve_max": false,
+      "source_titer_sheet": "FigS3_E",
+      "source_titer_excel_row": 3,
+      "source_growth_sheet": "FigS3_B",
+      "source_growth_terminal_excel_row": 9,
+      "source_growth_time_header_row": 2,
+      "source_growth_isolate_column_header": "Chassis_F-1-M"
+    },
+    {
+      "isolate_id": "Chassis_F_1_L",
+      "population": 1,
+      "clone": "L",
+      "product": "fumarate",
+      "titer_g_L": 0.022673915535752143,
+      "assay_collection_time_h_reconstructed": 57.0,
+      "source_reported_ODmax": 4.848,
+      "terminal_curve_OD600": 4.848,
+      "source_ODmax_equals_terminal_OD": true,
+      "observed_curve_max_OD600": 4.848,
+      "observed_curve_max_times_h": [
+        57.0
+      ],
+      "source_ODmax_equals_observed_curve_max": true,
+      "source_titer_sheet": "FigS3_E",
+      "source_titer_excel_row": 4,
+      "source_growth_sheet": "FigS3_B",
+      "source_growth_terminal_excel_row": 9,
+      "source_growth_time_header_row": 2,
+      "source_growth_isolate_column_header": "Chassis_F-1-L"
+    },
+    {
+      "isolate_id": "Chassis_F_2_S",
+      "population": 2,
+      "clone": "S",
+      "product": "fumarate",
+      "titer_g_L": 0.24179657052532202,
+      "assay_collection_time_h_reconstructed": 57.0,
+      "source_reported_ODmax": 3.344,
+      "terminal_curve_OD600": 3.344,
+      "source_ODmax_equals_terminal_OD": true,
+      "observed_curve_max_OD600": 3.344,
+      "observed_curve_max_times_h": [
+        57.0
+      ],
+      "source_ODmax_equals_observed_curve_max": true,
+      "source_titer_sheet": "FigS3_E",
+      "source_titer_excel_row": 5,
+      "source_growth_sheet": "FigS3_B",
+      "source_growth_terminal_excel_row": 9,
+      "source_growth_time_header_row": 2,
+      "source_growth_isolate_column_header": "Chassis_F-2-S"
+    },
+    {
+      "isolate_id": "Chassis_F_2_M",
+      "population": 2,
+      "clone": "M",
+      "product": "fumarate",
+      "titer_g_L": 0.29933342812328073,
+      "assay_collection_time_h_reconstructed": 57.0,
+      "source_reported_ODmax": 3.176,
+      "terminal_curve_OD600": 3.176,
+      "source_ODmax_equals_terminal_OD": true,
+      "observed_curve_max_OD600": 3.208,
+      "observed_curve_max_times_h": [
+        47.0
+      ],
+      "source_ODmax_equals_observed_curve_max": false,
+      "source_titer_sheet": "FigS3_E",
+      "source_titer_excel_row": 6,
+      "source_growth_sheet": "FigS3_B",
+      "source_growth_terminal_excel_row": 9,
+      "source_growth_time_header_row": 2,
+      "source_growth_isolate_column_header": "Chassis_F-2-M"
+    },
+    {
+      "isolate_id": "Chassis_F_2_L",
+      "population": 2,
+      "clone": "L",
+      "product": "fumarate",
+      "titer_g_L": 0.18806628187071806,
+      "assay_collection_time_h_reconstructed": 57.0,
+      "source_reported_ODmax": 3.424,
+      "terminal_curve_OD600": 3.424,
+      "source_ODmax_equals_terminal_OD": true,
+      "observed_curve_max_OD600": 3.672,
+      "observed_curve_max_times_h": [
+        47.0
+      ],
+      "source_ODmax_equals_observed_curve_max": false,
+      "source_titer_sheet": "FigS3_E",
+      "source_titer_excel_row": 7,
+      "source_growth_sheet": "FigS3_B",
+      "source_growth_terminal_excel_row": 9,
+      "source_growth_time_header_row": 2,
+      "source_growth_isolate_column_header": "Chassis_F-2-L"
+    },
+    {
+      "isolate_id": "Chassis_F_3_S",
+      "population": 3,
+      "clone": "S",
+      "product": "fumarate",
+      "titer_g_L": 0.17344004888087017,
+      "assay_collection_time_h_reconstructed": 57.0,
+      "source_reported_ODmax": 3.712,
+      "terminal_curve_OD600": 3.712,
+      "source_ODmax_equals_terminal_OD": true,
+      "observed_curve_max_OD600": 3.712,
+      "observed_curve_max_times_h": [
+        57.0
+      ],
+      "source_ODmax_equals_observed_curve_max": true,
+      "source_titer_sheet": "FigS3_E",
+      "source_titer_excel_row": 8,
+      "source_growth_sheet": "FigS3_B",
+      "source_growth_terminal_excel_row": 9,
+      "source_growth_time_header_row": 2,
+      "source_growth_isolate_column_header": "Chassis_F-3-S"
+    },
+    {
+      "isolate_id": "Chassis_F_3_M",
+      "population": 3,
+      "clone": "M",
+      "product": "fumarate",
+      "titer_g_L": 0.14963135997315138,
+      "assay_collection_time_h_reconstructed": 57.0,
+      "source_reported_ODmax": 4.328,
+      "terminal_curve_OD600": 4.328,
+      "source_ODmax_equals_terminal_OD": true,
+      "observed_curve_max_OD600": 4.328,
+      "observed_curve_max_times_h": [
+        57.0
+      ],
+      "source_ODmax_equals_observed_curve_max": true,
+      "source_titer_sheet": "FigS3_E",
+      "source_titer_excel_row": 9,
+      "source_growth_sheet": "FigS3_B",
+      "source_growth_terminal_excel_row": 9,
+      "source_growth_time_header_row": 2,
+      "source_growth_isolate_column_header": "Chassis_F-3-M"
+    },
+    {
+      "isolate_id": "Chassis_F_3_L",
+      "population": 3,
+      "clone": "L",
+      "product": "fumarate",
+      "titer_g_L": 0.12168241588833233,
+      "assay_collection_time_h_reconstructed": 57.0,
+      "source_reported_ODmax": 3.768,
+      "terminal_curve_OD600": 3.768,
+      "source_ODmax_equals_terminal_OD": true,
+      "observed_curve_max_OD600": 3.944,
+      "observed_curve_max_times_h": [
+        47.0
+      ],
+      "source_ODmax_equals_observed_curve_max": false,
+      "source_titer_sheet": "FigS3_E",
+      "source_titer_excel_row": 10,
+      "source_growth_sheet": "FigS3_B",
+      "source_growth_terminal_excel_row": 9,
+      "source_growth_time_header_row": 2,
+      "source_growth_isolate_column_header": "Chassis_F-3-L"
+    }
+  ],
+  "next_blocker": "A genuinely independent dataset with matched 18 h OD and 57 h terminal fumarate titer, or a blinded prospective reculture/assay, is still required for external validation."
+}

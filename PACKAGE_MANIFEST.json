@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "version": "0.1.1",
+  "version": "0.1.2",
   "mode": "source",
   "files": {
     ".github/workflows/ci.yml": {
@@ -112,12 +112,12 @@
       "sha256": "d1f780ea47b3c2892bc24807f5e67fe5a5afe94e67e4709c16ed242ae600c752"
     },
     "README.md": {
-      "bytes": 7289,
-      "sha256": "333b6d7af8471a9ad4285afe503b161fc5fd8e68f81441ec77b4e5eb330e281b"
+      "bytes": 7390,
+      "sha256": "272379569ed6801508e317340ecf52f9fc871df26619032cf9fb532279f463b6"
     },
     "RELEASE_SOURCES.json": {
       "bytes": 10497,
-      "sha256": "eb8d83628f31ae7c74cb1c1a893c8df429774d264f719cafd7aeb60321594362"
+      "sha256": "16f8d227369dab7c4929245403e383ba76e0376c457774e0317aa0b3014504b7"
     },
     "requirements-ambr.txt": {
       "bytes": 47,
@@ -134,6 +134,18 @@
     "requirements-project.txt": {
       "bytes": 187,
       "sha256": "de90e018442b457f6200c1b3ea9d96683c80d71c2923d3c78e571ad6b870e870"
+    },
+    "research/ale_endpoint_time_recovery_20261015.csv": {
+      "bytes": 1539,
+      "sha256": "0e4d7b99c0025932916ce658db63de4f27deed11df861b42256aee556998b748"
+    },
+    "research/ale_endpoint_time_recovery_20261015.json": {
+      "bytes": 11139,
+      "sha256": "9a01aee6a0ce70f8f0520f499cc701ccf6db7de4db3afbda8ca1a06d73471985"
+    },
+    "research/ale_endpoint_time_recovery_20261015.md": {
+      "bytes": 3218,
+      "sha256": "5cc090b9f2f107de5742cd3d3b172cb74ef2b9477219c826ac51e97fe0a6d3dd"
     },
     "research/ale_external_screen_protocol_20261015.json": {
       "bytes": 8425,
