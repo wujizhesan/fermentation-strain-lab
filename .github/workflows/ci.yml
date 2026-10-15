@@ -24,6 +24,7 @@ jobs:
         shell: bash
         run: |
           git config core.autocrlf false
+          git ls-files -z | while IFS= read -r -d '' path; do rm -f -- "$path"; done
           git checkout-index --force --all
       - uses: actions/setup-python@v5
         with:

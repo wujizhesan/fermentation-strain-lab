@@ -6,20 +6,20 @@
     "source": {
       "archive": "fermentation-strain-lab-0.1.3.zip",
       "members": 153,
-      "bytes": 1898856,
-      "sha256": "58c85f9ce56d4337102ae57eb03b6bb98c293984dfc9f6eacdfee7bff2776efb",
+      "bytes": 1897986,
+      "sha256": "fd7d8da61208c7e259aa498f2916dce34f24153b6543482e3cb9fc750613f8bc",
       "crc_passed": true,
       "manifest_files": 152,
-      "manifest_sha256": "d35138d751d71ae78800e1aeea08e73d24f8d25b5fbccf7b1f20b50eecda1eb1"
+      "manifest_sha256": "7e964e64f17763254df11e93acf589da23167b4f5b9f2242473aa6a42e1d1393"
     },
     "offline": {
       "archive": "fermentation-strain-lab-0.1.3-offline.zip",
       "members": 173,
-      "bytes": 35428298,
-      "sha256": "deec827da1ed2f4e9777dee39d40efe9c4f6b1bbcee7f5fa967e06cc96567cc8",
+      "bytes": 35427311,
+      "sha256": "659d662e83ac4e98ceace0a53588a44c1134dd5838a4ec2db3fb5b0ec24c02db",
       "crc_passed": true,
       "manifest_files": 172,
-      "manifest_sha256": "5c3031b5d8b7c4d7595a93f940a95482e98fcded294e6cae7c203956d709dd0e"
+      "manifest_sha256": "211d1ad785889dc299292aabc1ebb2b65c7789e9ede7f179fc082498e20979b3"
     }
   },
   "local_checks": {
